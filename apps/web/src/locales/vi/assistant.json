@@ -1,0 +1,18 @@
+{
+  "title": "AMA AI User Guide",
+  "welcome": "Cung cấp hướng dẫn sử dụng, cải tiến tính năng và yêu cầu tính năng mới.",
+  "todayTodos": "Công việc hôm nay",
+  "noTodos": "Không có công việc nào được lên lịch hôm nay.",
+  "viewAllTodos": "Xem tất cả",
+  "myIssues": "Vấn đề của tôi",
+  "noIssues": "Không có vấn đề liên quan.",
+  "viewAllIssues": "Xem tất cả vấn đề",
+  "selectAgent": "IT Support Agent",
+  "userGuideHighlight": "Hướng dẫn sử dụng, cải tiến tính năng và yêu cầu tính năng mới",
+  "userGuidePrompt": "Hãy hỏi bất cứ điều gì với IT Support Agent!",
+  "itOnlyDescription": "Chỉ hiển thị IT Support Agent",
+  "back": "Quay lại chọn trợ lý",
+  "close": "Đóng",
+  "minimize": "Thu nhỏ",
+  "startChat": "Bắt đầu trò chuyện"
+}

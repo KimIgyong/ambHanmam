@@ -1,0 +1,19 @@
+{
+  "notifications": "알림",
+  "markAllRead": "모두 읽음",
+  "noNotifications": "알림이 없습니다",
+  "justNow": "방금 전",
+  "minutesAgo": "{{count}}분 전",
+  "hoursAgo": "{{count}}시간 전",
+  "daysAgo": "{{count}}일 전",
+  "todoAssigned": "{{sender}}님이 할일의 참여자로 지정했습니다.",
+  "issueAssigned": "{{sender}}님이 이슈의 담당자로 지정했습니다.",
+  "noteAssigned": "{{sender}}님이 회의록의 참여자로 지정했습니다.",
+  "calendarInvited": "{{sender}}님이 일정에 초대했습니다.",
+  "commentMention": "{{sender}}님이 코멘트에서 회원님을 멘션했습니다.",
+  "goTo": "바로가기",
+  "dismiss": "닫기",
+  "talkMessage": "{{sender}}님의 새 메시지",
+  "issueStatusChanged": "이슈 상태가 변경되었습니다",
+  "viewAll": "전체 알림보기"
+}

@@ -1,0 +1,19 @@
+{
+  "notifications": "Notifications",
+  "markAllRead": "Mark all as read",
+  "noNotifications": "No notifications",
+  "justNow": "Just now",
+  "minutesAgo": "{{count}} min ago",
+  "hoursAgo": "{{count}} hr ago",
+  "daysAgo": "{{count}} day ago",
+  "todoAssigned": "{{sender}} assigned you as a participant in a todo.",
+  "issueAssigned": "{{sender}} assigned you as the assignee of an issue.",
+  "noteAssigned": "{{sender}} assigned you as a participant in a meeting note.",
+  "calendarInvited": "{{sender}} invited you to a calendar event.",
+  "commentMention": "{{sender}} mentioned you in a comment.",
+  "goTo": "Go to",
+  "dismiss": "Dismiss",
+  "talkMessage": "New message from {{sender}}",
+  "issueStatusChanged": "Issue status has been changed",
+  "viewAll": "View all notifications"
+}

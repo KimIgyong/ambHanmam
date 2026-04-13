@@ -1,0 +1,7 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="150,30 254,90 254,210 150,270 46,210 46,90"
+    fill="white" stroke="#666666" stroke-width="25" stroke-linejoin="round" />
+  <text x="50%" y="45%" dominant-baseline="middle" text-anchor="middle"
+    font-family="Arial, sans-serif" font-size="150" font-weight="900"
+    fill="#666666">ạ</text>
+</svg>

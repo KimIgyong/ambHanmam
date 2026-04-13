@@ -1,0 +1,21 @@
+{
+  "welcome": "안녕하세요, {{name}}님",
+  "welcomeDefault": "안녕하세요",
+  "subtitle": "AI 전문 어시스턴트와 함께 업무를 시작하세요.",
+  "startChat": "대화 시작하기",
+  "yesterdayCompleted": "어제 완료한 일",
+  "todayTasks": "오늘 할일",
+  "announcements": "공지사항",
+  "recentTalk": "최근 아메바톡",
+  "viewAll": "전체 보기",
+  "comingSoon": "준비 중",
+  "noTasks": "할일이 없습니다",
+  "noAnnouncements": "공지사항이 없습니다",
+  "bankBalance": "은행 잔고",
+  "totalByCurrency": "통화별 합계",
+  "viewAccounting": "회계 바로가기",
+  "recentMeetingNotes": "최근 회의록",
+  "noMeetingNotes": "최근 회의록이 없습니다",
+  "recentIssues": "나의 이슈",
+  "noRecentIssues": "진행 중인 이슈가 없습니다"
+}

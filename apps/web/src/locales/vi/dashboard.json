@@ -1,0 +1,21 @@
+{
+  "welcome": "Xin chào, {{name}}",
+  "welcomeDefault": "Xin chào",
+  "subtitle": "Bắt đầu làm việc cùng trợ lý AI chuyên nghiệp.",
+  "startChat": "Bắt đầu trò chuyện",
+  "yesterdayCompleted": "Hoàn thành hôm qua",
+  "todayTasks": "Việc hôm nay",
+  "announcements": "Thông báo",
+  "recentTalk": "Amoeba Talk gần đây",
+  "viewAll": "Xem tất cả",
+  "comingSoon": "Sắp ra mắt",
+  "noTasks": "Không có việc cần làm",
+  "noAnnouncements": "Không có thông báo",
+  "bankBalance": "Số dư ngân hàng",
+  "totalByCurrency": "Tổng theo tiền tệ",
+  "viewAccounting": "Xem kế toán",
+  "recentMeetingNotes": "Biên bản họp gần đây",
+  "noMeetingNotes": "Không có biên bản họp gần đây",
+  "recentIssues": "Vấn đề của tôi",
+  "noRecentIssues": "Không có vấn đề đang xử lý"
+}

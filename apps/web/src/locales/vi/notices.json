@@ -1,0 +1,40 @@
+{
+  "title": "Thông báo",
+  "subtitle": "Kiểm tra tin tức và thông báo công ty.",
+  "createNotice": "Tạo thông báo",
+  "editNotice": "Sửa thông báo",
+  "noNotices": "Không có thông báo nào.",
+  "pinned": "Ghim",
+  "new": "MỚI",
+  "visibility": {
+    "PUBLIC": "Công khai",
+    "CELL": "Cell",
+    "UNIT": "Unit"
+  },
+  "form": {
+    "title": "Tiêu đề",
+    "titlePlaceholder": "Nhập tiêu đề thông báo",
+    "content": "Nội dung",
+    "visibility": "Phạm vi",
+    "unit": "Unit",
+    "pinned": "Ghim lên đầu",
+    "attachments": "Tệp đính kèm",
+    "addFile": "Thêm tệp",
+    "maxFileSize": "Tối đa 10MB"
+  },
+  "detail": {
+    "author": "Tác giả",
+    "createdAt": "Ngày tạo",
+    "views": "Lượt xem",
+    "attachments": "Tệp đính kèm"
+  },
+  "deleteConfirm": {
+    "title": "Xóa thông báo",
+    "message": "Bạn có chắc muốn xóa thông báo này?",
+    "confirm": "Xóa"
+  },
+  "filter": {
+    "all": "Tất cả",
+    "pinned": "Đã ghim"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "title": "Quản lý người dùng",
+  "subtitle": "Quản lý tình trạng người dùng, đăng ký dịch vụ và sử dụng AI theo pháp nhân",
+  "search": "Tìm theo tên pháp nhân, tên MASTER hoặc email...",
+  "allStatus": "Tất cả trạng thái",
+  "noEntities": "Chưa có pháp nhân nào",
+  "noMaster": "Chưa chỉ định",
+  "pagination": "Tổng {{total}} (Trang {{page}} / {{totalPages}})",
+  "back": "Quay lại danh sách",
+  "col": {
+    "no": "STT",
+    "entityCode": "Mã pháp nhân",
+    "entityName": "Tên pháp nhân",
+    "level": "Loại",
+    "master": "MASTER",
+    "members": "Thành viên",
+    "signupDate": "Ngày đăng ký",
+    "status": "Trạng thái"
+  },
+  "level": {
+    "ROOT": "Trụ sở",
+    "SUBSIDIARY": "Chi nhánh"
+  },
+  "tabs": {
+    "summary": "Tổng quan",
+    "services": "Sử dụng dịch vụ",
+    "aiUsage": "Sử dụng AI"
+  },
+  "edit": "Sửa",
+  "save": "Lưu",
+  "cancel": "Hủy",
+  "member": {
+    "name": "Tên",
+    "email": "Email",
+    "role": "Vai trò",
+    "status": "Trạng thái"
+  },
+  "summary": {
+    "basicInfo": "Thông tin cơ bản",
+    "orgStructure": "Cấu trúc tổ chức",
+    "memberStatus": "Tình trạng thành viên",
+    "orgUnits": "Đơn vị tổ chức",
+    "entityCode": "Mã pháp nhân",
+    "entityName": "Tên pháp nhân",
+    "entityNameEn": "Tên pháp nhân (EN)",
+    "country": "Quốc gia",
+    "currency": "Tiền tệ",
+    "regNo": "Mã số thuế",
+    "representative": "Đại diện",
+    "phone": "Điện thoại",
+    "email": "Email",
+    "address": "Địa chỉ",
+    "parentEntity": "Pháp nhân cấp trên",
+    "isHq": "Trụ sở chính",
+    "totalMembers": "thành viên",
+    "units": "Unit",
+    "cells": "Cell"
+  },
+  "service": {
+    "linkedClient": "Khách hàng liên kết",
+    "noClient": "Chưa có khách hàng liên kết",
+    "subscriptions": "Đăng ký dịch vụ",
+    "noSubscriptions": "Chưa có đăng ký dịch vụ",
+    "serviceName": "Dịch vụ",
+    "plan": "Gói",
+    "period": "Thời gian",
+    "price": "Giá",
+    "users": "Người dùng"
+  },
+  "aiUsage": {
+    "quota": "Cài đặt hạn mức",
+    "noQuota": "Chưa cài đặt hạn mức",
+    "monthlyUsage": "Sử dụng tháng này",
+    "dailyLimit": "Giới hạn ngày",
+    "monthlyLimit": "Giới hạn tháng",
+    "actionOnExceed": "Khi vượt",
+    "totalTokens": "Tổng token",
+    "inputTokens": "Token đầu vào",
+    "outputTokens": "Token đầu ra",
+    "requests": "Yêu cầu",
+    "usage": "Tỷ lệ sử dụng",
+    "topUsers": "Người dùng hàng đầu (Tháng này)",
+    "WARN": "Cảnh báo",
+    "BLOCK": "Chặn"
+  }
+}

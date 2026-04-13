@@ -1,0 +1,196 @@
+{
+  "title": "My Tasks",
+  "addTodo": "Add Task",
+  "editTodo": "Edit Task",
+  "deleteTodo": "Delete Task",
+  "completeTodo": "Mark as Complete",
+  "reopenTodo": "Reopen",
+  "overdue": "Overdue",
+  "todayTasks": "Today's Tasks",
+  "overdueTasksTitle": "Overdue Tasks",
+  "noTodos": "No tasks yet",
+  "noOverdue": "No overdue tasks",
+  "visibility": {
+    "PRIVATE": "Private",
+    "CELL": "Cell",
+    "ENTITY": "All Members"
+  },
+  "columns": {
+    "todo": "Todo",
+    "inProgress": "In Progress",
+    "done": "Done",
+    "scheduled": "Scheduled",
+    "overdue": "Overdue",
+    "completed": "Completed",
+    "today": "Today",
+    "scheduledInProgress": "Scheduled",
+    "noDueDate": "No deadline"
+  },
+  "datePicker": {
+    "today": "Today",
+    "prevDay": "Previous day",
+    "nextDay": "Next day"
+  },
+  "tabs": {
+    "mine": "My Tasks",
+    "cell": "My Cell",
+    "company": "Company"
+  },
+  "cell": {
+    "title": "My Cell Tasks",
+    "noResults": "No cell tasks found",
+    "author": "Author"
+  },
+  "company": {
+    "title": "Company Tasks",
+    "noResults": "No company tasks found"
+  },
+  "detail": {
+    "title": "Task Detail",
+    "author": "Author",
+    "description": "Description",
+    "linkedIssue": "Linked Issue",
+    "participants": "Participants",
+    "markComplete": "Mark Complete"
+  },
+  "comments": {
+    "title": "Comments",
+    "placeholder": "Enter a comment...",
+    "submit": "Submit",
+    "noComments": "No comments yet",
+    "deleteConfirm": "Are you sure you want to delete this comment?",
+    "added": "Comment added successfully",
+    "deleted": "Comment deleted successfully"
+  },
+  "form": {
+    "title": "Title",
+    "titlePlaceholder": "Enter task title",
+    "description": "Description",
+    "descriptionPlaceholder": "Enter description (optional)",
+    "status": "Status",
+    "dueDate": "Expected Due Date",
+    "startDate": "Start Date",
+    "startDatePlaceholder": "Leave empty = start now",
+    "dueDatePlaceholder": "Leave empty = no deadline",
+    "tags": "Tags",
+    "tagsPlaceholder": "Enter tags separated by commas",
+    "linkedIssue": "Linked Issue",
+    "selectIssue": "Select an issue",
+    "noIssue": "No issue",
+    "searchIssuePlaceholder": "Search issues...",
+    "project": "Project",
+    "noProject": "No project",
+    "searchProjectPlaceholder": "Search projects...",
+    "unassignedProject": "[Unassigned]",
+    "participants": "Participants",
+    "participantsPlaceholder": "Search by name or email",
+    "recurrence": "Recurrence",
+    "noRecurrence": "No recurrence",
+    "recurrenceDay": "Day of week",
+    "recurrenceDayOfMonth": "Day of month",
+    "dueDateChangeNote": "Reason for due date change",
+    "dueDateChangeNotePlaceholder": "Enter reason for change",
+    "rating": "Rating"
+  },
+  "recurrence": {
+    "label": "Recurrence",
+    "DAILY": "Daily",
+    "WEEKLY": "Weekly",
+    "MONTHLY": "Monthly",
+    "YEARLY": "Yearly"
+  },
+  "weekdays": {
+    "0": "Sunday",
+    "1": "Monday",
+    "2": "Tuesday",
+    "3": "Wednesday",
+    "4": "Thursday",
+    "5": "Friday",
+    "6": "Saturday"
+  },
+  "status": {
+    "SCHEDULED": "Scheduled",
+    "IN_PROGRESS": "In Progress",
+    "COMPLETED": "Completed"
+  },
+  "computedStatus": {
+    "COMPLETED": "Completed",
+    "OVERDUE": "Overdue",
+    "DUE_TODAY": "Due today",
+    "IN_PROGRESS": "In progress",
+    "UPCOMING_SOON": "Starting soon",
+    "UPCOMING": "Upcoming"
+  },
+  "badge": {
+    "overdueDays": "D+{{n}}",
+    "dday": "D-Day",
+    "remainingDays": "D-{{n}}",
+    "startsInDays": "Starts in {{n}} days"
+  },
+  "section": {
+    "overdue": "Overdue",
+    "dueToday": "Due Today",
+    "inProgress": "In Progress",
+    "upcomingSoon": "Starting Soon",
+    "upcoming": "Upcoming",
+    "completed": "Completed"
+  },
+  "deleteConfirm": {
+    "title": "Delete Task",
+    "message": "Are you sure you want to delete this task?",
+    "confirm": "Delete"
+  },
+  "completedAt": "Actual End Date",
+  "startedAt": "Started",
+  "delayedDays": "Completed {{days}} days late",
+  "statusHistory": "Change History",
+  "statusChange": "{{from}} → {{to}}",
+  "noStatusLogs": "No change history",
+  "changeHistory": {
+    "dueDate": "Due date change"
+  },
+  "filter": {
+    "searchPlaceholder": "Search by name or title...",
+    "allProjects": "All Projects",
+    "noProject": "No Project",
+    "today": "Today",
+    "lastWeek": "Last week",
+    "lastMonth": "Last month",
+    "all": "All",
+    "customRange": "Custom range"
+  },
+  "completedTodos": "Completed Tasks",
+  "backToTodos": "Back to Todos",
+  "noCompletedTodos": "No completed tasks",
+  "completed": {
+    "sortByCompletedAt": "By completion date",
+    "sortByDueDate": "By due date",
+    "sortByTitle": "By title",
+    "pageInfo": "{{current}} / {{total}}",
+    "perPage": "{{n}} per page"
+  },
+  "scope": {
+    "mine": "My Tasks",
+    "unit": "Unit",
+    "cell": "Cell",
+    "all": "All"
+  },
+  "messages": {
+    "created": "Task created successfully",
+    "updated": "Task updated successfully",
+    "deleted": "Task deleted successfully",
+    "convertedToIssue": "Converted to issue successfully"
+  },
+  "confirm": {
+    "complete": "Do you want to complete this task?",
+    "convertToIssue": "Do you want to convert this task to an issue?"
+  },
+  "convertToIssue": "Convert to Issue",
+  "kanban": {
+    "title": "Kanban View",
+    "dueToday": "Due Today / Overdue",
+    "inProgress": "In Progress",
+    "completed": "Completed",
+    "empty": "No items"
+  }
+}

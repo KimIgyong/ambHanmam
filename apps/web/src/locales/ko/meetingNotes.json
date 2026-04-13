@@ -1,0 +1,134 @@
+{
+  "title": "노트",
+  "newNote": "새 노트",
+  "editNote": "노트 수정",
+  "deleteNote": "노트 삭제",
+  "noNotes": "노트가 없습니다",
+  "backToList": "목록으로",
+  "type": {
+    "MEETING_NOTE": "회의록",
+    "MEMO": "메모",
+    "DAILY_NOTE": "일지"
+  },
+  "typeChangeConfirm": "유형을 변경하면 내용이 초기화됩니다. 계속하시겠습니까?",
+  "template": {
+    "meetingInfo": "회의 정보",
+    "meetingTitle": "회의제목",
+    "attendees": "참석자",
+    "topic": "주제",
+    "meetingContent": "회의 내용",
+    "decisions": "결정 사항",
+    "actionItems": "Action Items"
+  },
+  "form": {
+    "title": "제목",
+    "titlePlaceholder": "제목을 입력하세요",
+    "content": "내용",
+    "meetingDate": "회의일",
+    "visibility": "공개 범위",
+    "cell": "셀",
+    "cellPlaceholder": "셀을 선택하세요",
+    "unit": "Unit",
+    "departmentPlaceholder": "Unit을 선택하세요",
+    "assignee": "담당자",
+    "assigneePlaceholder": "담당자를 선택하세요",
+    "participants": "관련자",
+    "participantsPlaceholder": "관련자를 선택하세요",
+    "projects": "관련 프로젝트",
+    "projectsPlaceholder": "프로젝트를 선택하세요",
+    "issues": "관련 이슈",
+    "issuesPlaceholder": "이슈를 선택하세요",
+    "createIssue": "이슈로 등록",
+    "createIssueDesc": "이 노트를 이슈로 등록합니다",
+    "createIssueProject": "이슈 프로젝트",
+    "createIssueProjectPlaceholder": "프로젝트를 선택하세요",
+    "createIssueType": "이슈 타입",
+    "createIssueSeverity": "심각도"
+  },
+  "visibility": {
+    "PRIVATE": "나만보기",
+    "CELL": "내 셀",
+    "GROUP": "내 셀",
+    "ENTITY": "회사",
+    "UNIT": "Unit"
+  },
+  "deleteConfirm": {
+    "title": "노트 삭제",
+    "message": "이 노트를 삭제하시겠습니까?",
+    "confirm": "삭제"
+  },
+  "messages": {
+    "created": "노트가 저장되었습니다",
+    "updated": "노트가 수정되었습니다",
+    "deleted": "노트가 삭제되었습니다"
+  },
+  "detail": {
+    "author": "작성자",
+    "meetingDate": "회의일",
+    "visibility": "공개 범위",
+    "createdAt": "작성일",
+    "updatedAt": "수정일",
+    "assignee": "담당자",
+    "participants": "관련자",
+    "relatedProjects": "관련 프로젝트",
+    "relatedIssues": "관련 이슈",
+    "noAssignee": "미지정"
+  },
+  "filter": {
+    "all": "전체",
+    "visibility": "공개 범위",
+    "dateFrom": "시작일",
+    "dateTo": "종료일",
+    "searchPlaceholder": "노트 검색..."
+  },
+  "comment": {
+    "title": "코멘트",
+    "placeholder": "코멘트를 입력하세요...",
+    "submit": "등록",
+    "noComments": "코멘트가 없습니다",
+    "deleteConfirm": "이 코멘트를 삭제하시겠습니까?",
+    "count": "{{count}}개",
+    "reply": "답글",
+    "replyTo": "{{name}}에게 답글",
+    "replyPlaceholder": "답글을 입력하세요..."
+  },
+  "rating": {
+    "title": "평점",
+    "myRating": "내 평점",
+    "avgRating": "평균",
+    "count": "{{count}}명 평가",
+    "noRating": "평가 없음"
+  },
+  "pagination": {
+    "showing": "{{total}}건 중 {{from}}-{{to}}",
+    "prev": "이전",
+    "next": "다음"
+  },
+  "folder": {
+    "title": "폴더",
+    "all": "전체",
+    "uncategorized": "미분류",
+    "newFolder": "새 폴더",
+    "namePlaceholder": "폴더명 입력",
+    "label": "폴더",
+    "addFolder": "폴더 추가",
+    "deleteConfirm": "이 폴더를 삭제하시겠습니까? 폴더 내 노트는 미분류로 이동됩니다."
+  },
+  "backlinks": {
+    "title": "이 노트를 참조하는 문서"
+  },
+  "search": {
+    "button": "검색",
+    "placeholder": "노트, 회의록, 메모 검색...",
+    "noResults": "검색 결과가 없습니다",
+    "moreResults": "{{count}}건의 결과가 더 있습니다"
+  },
+  "graph": {
+    "title": "관계 그래프",
+    "scopeMy": "내 노트",
+    "scopeAll": "전체",
+    "noData": "그래프 데이터가 없습니다",
+    "nodes": "노드",
+    "edges": "연결"
+  }
+}

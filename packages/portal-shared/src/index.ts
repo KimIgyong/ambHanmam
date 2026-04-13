@@ -1,0 +1,41 @@
+// Portal Shared - 공유 상수, 유틸리티
+// 엔티티는 Phase 1 이후 단계적으로 추가
+
+export const PORTAL_CONSTANTS = {
+  JWT_ACCESS_EXPIRATION: '30m',
+  JWT_REFRESH_EXPIRATION: '14d',
+  BCRYPT_SALT_ROUNDS: 12,
+  API_KEY_PREFIX_LIVE: 'amb_live_',
+  API_KEY_PREFIX_TEST: 'amb_test_',
+  EMAIL_VERIFY_TOKEN_EXPIRATION: 24 * 60 * 60 * 1000, // 24h
+  PASSWORD_RESET_TOKEN_EXPIRATION: 60 * 60 * 1000, // 1h
+  FREE_TRIAL_DAYS: 14,
+} as const;
+
+export const PORTAL_SUBSCRIPTION_STATUS = {
+  TRIAL: 'TRIAL',
+  ACTIVE: 'ACTIVE',
+  PAST_DUE: 'PAST_DUE',
+  SUSPENDED: 'SUSPENDED',
+  EXPIRING: 'EXPIRING',
+  EXPIRED: 'EXPIRED',
+  CANCELLED: 'CANCELLED',
+} as const;
+
+export const PORTAL_CUSTOMER_STATUS = {
+  ACTIVE: 'ACTIVE',
+  SUSPENDED: 'SUSPENDED',
+  DELETED: 'DELETED',
+} as const;
+
+export const PORTAL_TEAM_ROLE = {
+  OWNER: 'OWNER',
+  ADMIN: 'ADMIN',
+  DEVELOPER: 'DEVELOPER',
+  VIEWER: 'VIEWER',
+} as const;
+
+export const PORTAL_API_KEY_STATUS = {
+  ACTIVE: 'ACTIVE',
+  REVOKED: 'REVOKED',
+} as const;

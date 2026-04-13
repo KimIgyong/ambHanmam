@@ -1,0 +1,210 @@
+{
+  "tab": {
+    "management": "Management",
+    "sales": "Sales",
+    "service": "Service",
+    "support": "Support",
+    "notice": "Notices",
+    "finance": "Finance"
+  },
+  "lnb": {
+    "subMenu": "Sub Menu",
+    "fixedMenu": "Personal",
+    "myWork": "My Work",
+    "workContact": "Work Contact",
+    "approval": "E-Approval",
+    "message": "Messages",
+    "myMenu": "My Menu"
+  },
+  "menu": {
+    "management": {
+      "dashboard": "Dashboard",
+      "meetings": "Meeting Management",
+      "projects": "Project Management",
+      "annualPlan": "Annual Business Plan",
+      "performance": "Performance Analysis",
+      "collection": "Collection Status",
+      "budget": "Expense Budget",
+      "products": "Product Management",
+      "overview": "General Management"
+    },
+    "sales": {
+      "clients": "Client Management",
+      "contracts": "Contract Management",
+      "invoiceRequest": "Invoice Request",
+      "externalSales": "External Sales",
+      "internalSales": "Internal Sales",
+      "internalPurchases": "Internal Purchases",
+      "collectionAnalysis": "Collection Analysis",
+      "laborCost": "Labor Cost",
+      "expenseBudget": "Expense Budget Mgmt",
+      "expense": "Expense Management"
+    },
+    "finance": {
+      "invoiceIssue": "Invoice Issuance",
+      "expensePayment": "Expense Payment",
+      "cardUsage": "Card Usage",
+      "bankTransaction": "Bank Transactions",
+      "pendingExpense": "Pending Expenses",
+      "pendingCollection": "Pending Collections"
+    },
+    "service": {
+      "consultationReceipt": "Consultation Receipt",
+      "consultationManagement": "Consultation Mgmt",
+      "consultationStats": "Consultation Stats",
+      "ipManagement": "IP Management"
+    },
+    "support": {
+      "companyLife": "Company Life",
+      "devBoard": "Dev Board",
+      "companyDocs": "Company Docs",
+      "designDocs": "Design Docs Mgmt",
+      "designDocsView": "Design Docs View",
+      "docSendLog": "Doc Send Log",
+      "docReceiveLog": "Doc Receive Log"
+    },
+    "notice": {
+      "schedule": "Schedule Sharing",
+      "reservation": "Reservation"
+    }
+  },
+  "column": {
+    "no": "No.",
+    "title": "Title",
+    "status": "Status",
+    "date": "Date",
+    "author": "Author",
+    "regDate": "Reg. Date",
+    "category": "Category",
+    "company": "Company",
+    "companyName": "Company Name",
+    "representative": "Representative",
+    "contractName": "Contract",
+    "manager": "Manager",
+    "assignee": "Assignee",
+    "requestDate": "Request Date",
+    "completionDate": "Due Date",
+    "amount": "Amount",
+    "invoiceAmount": "Invoice Amt",
+    "collectionAmount": "Collection Amt",
+    "type": "Type",
+    "project": "Project",
+    "customer": "Customer",
+    "requestor": "Requestor",
+    "reportDate": "Report Date",
+    "plan": "Plan",
+    "result": "Result",
+    "content": "Content",
+    "businessRegNo": "Business Reg. No.",
+    "urgency": "Urgency",
+    "period": "Period",
+    "item": "Item",
+    "ip": "IP Address",
+    "description": "Description",
+    "sender": "Sender",
+    "receiver": "Receiver",
+    "docNo": "Doc. No.",
+    "sendDate": "Send Date",
+    "receiveDate": "Receive Date",
+    "consultType": "Type",
+    "consultStatus": "Status",
+    "productName": "Product",
+    "unitPrice": "Unit Price",
+    "quantity": "Qty",
+    "totalAmount": "Total",
+    "budget": "Budget",
+    "actual": "Actual",
+    "difference": "Diff",
+    "rate": "Rate",
+    "month": "Month",
+    "cardName": "Card",
+    "usageDate": "Usage Date",
+    "storeName": "Store",
+    "bankName": "Bank",
+    "deposit": "Deposit",
+    "withdrawal": "Withdrawal",
+    "balance": "Balance",
+    "expenseType": "Type",
+    "paymentDate": "Payment Date",
+    "approver": "Approver",
+    "docStatus": "Doc Status",
+    "approvalDate": "Approval Date",
+    "draftDate": "Draft Date"
+  },
+  "button": {
+    "search": "Search",
+    "reset": "Reset",
+    "register": "Register",
+    "delete": "Delete",
+    "excel": "Export Excel",
+    "print": "Print",
+    "inquiry": "Inquiry",
+    "selectedInquiry": "Selected Inquiry",
+    "new": "New",
+    "fileSelect": "Select File",
+    "prev": "Prev",
+    "next": "Next",
+    "today": "Today",
+    "write": "Write",
+    "reply": "Reply",
+    "send": "Send",
+    "approve": "Approve",
+    "reject": "Reject",
+    "save": "Save"
+  },
+  "status": {
+    "completed": "Completed",
+    "inProgress": "In Progress",
+    "pending": "Pending",
+    "cancelled": "Cancelled",
+    "draft": "Draft",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "waiting": "Waiting",
+    "urgent": "Urgent",
+    "normal": "Normal"
+  },
+  "workContact": {
+    "processing": "In Progress",
+    "assigned": "Assigned",
+    "interest": "Interest"
+  },
+  "approval": {
+    "toApprove": "To Approve",
+    "inProgress": "In Progress",
+    "notSubmitted": "Not Submitted"
+  },
+  "message": {
+    "inbox": "Inbox",
+    "sent": "Sent"
+  },
+  "reservation": {
+    "meetingRoom": "Meeting Room",
+    "vehicle": "Vehicle"
+  },
+  "dashboard": {
+    "notices": "Notices",
+    "recentPosts": "Recent Posts",
+    "schedule": "Schedule",
+    "attendance": "Attendance",
+    "anniversary": "Anniversary"
+  },
+  "common": {
+    "totalCount": "Total {{count}} items",
+    "noData": "No data available.",
+    "mockData": "Mock Data",
+    "page": "Page",
+    "rowsPerPage": "Rows/page",
+    "all": "All",
+    "mySchedule": "My Schedule",
+    "teamSchedule": "Team Schedule",
+    "year": "Year",
+    "month": "Month",
+    "consultation": {
+      "immediate": "Immediate",
+      "tenMin": "10 min",
+      "oneHour": "1 hour",
+      "today": "Today"
+    }
+  }
+}

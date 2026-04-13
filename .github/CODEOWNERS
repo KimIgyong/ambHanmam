@@ -1,0 +1,28 @@
+# ============================================
+# AMB Management - Code Owners
+# ============================================
+# PR 생성 시 자동으로 리뷰어가 지정됩니다.
+# 최소 1명의 CODEOWNER 승인이 필요합니다.
+#
+# 형식: <패턴> <@사용자 또는 @팀>
+# 참고: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# ── 전체 프로젝트 기본 리뷰어 ──
+*                                   @KimIgyong
+
+# ── 백엔드 (NestJS) ──
+apps/api/                           @KimIgyong
+
+# ── 프론트엔드 (React) ──
+apps/web/                           @KimIgyong
+
+# ── 공유 패키지 ──
+packages/                           @KimIgyong
+
+# ── 인프라/배포 ──
+docker/                             @KimIgyong
+.github/                            @KimIgyong
+
+# ── 환경 변수 템플릿 ──
+*.env.example                       @KimIgyong
+*.env.*.example                     @KimIgyong

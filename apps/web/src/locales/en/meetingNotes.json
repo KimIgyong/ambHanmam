@@ -1,0 +1,134 @@
+{
+  "title": "Notes",
+  "newNote": "New Note",
+  "editNote": "Edit Note",
+  "deleteNote": "Delete Note",
+  "noNotes": "No notes yet",
+  "backToList": "Back to list",
+  "type": {
+    "MEETING_NOTE": "Meeting",
+    "MEMO": "Memo",
+    "DAILY_NOTE": "Daily Note"
+  },
+  "typeChangeConfirm": "Changing the type will reset the content. Continue?",
+  "template": {
+    "meetingInfo": "Meeting Information",
+    "meetingTitle": "Meeting Title",
+    "attendees": "Attendees",
+    "topic": "Topic",
+    "meetingContent": "Meeting Content",
+    "decisions": "Decisions",
+    "actionItems": "Action Items"
+  },
+  "form": {
+    "title": "Title",
+    "titlePlaceholder": "Enter title",
+    "content": "Content",
+    "meetingDate": "Meeting Date",
+    "visibility": "Visibility",
+    "cell": "Cell",
+    "cellPlaceholder": "Select a cell",
+    "unit": "Unit",
+    "unitPlaceholder": "Select unit",
+    "assignee": "Assignee",
+    "assigneePlaceholder": "Select assignee",
+    "participants": "Participants",
+    "participantsPlaceholder": "Select participants",
+    "projects": "Related Projects",
+    "projectsPlaceholder": "Select projects",
+    "issues": "Related Issues",
+    "issuesPlaceholder": "Select issues",
+    "createIssue": "Register as Issue",
+    "createIssueDesc": "Register this note as an issue",
+    "createIssueProject": "Issue Project",
+    "createIssueProjectPlaceholder": "Select a project",
+    "createIssueType": "Issue Type",
+    "createIssueSeverity": "Severity"
+  },
+  "visibility": {
+    "PRIVATE": "Private",
+    "CELL": "My Cell",
+    "GROUP": "My Cell",
+    "ENTITY": "Company",
+    "UNIT": "Unit"
+  },
+  "deleteConfirm": {
+    "title": "Delete Note",
+    "message": "Are you sure you want to delete this note?",
+    "confirm": "Delete"
+  },
+  "messages": {
+    "created": "Note saved successfully",
+    "updated": "Note updated successfully",
+    "deleted": "Note deleted successfully"
+  },
+  "detail": {
+    "author": "Author",
+    "meetingDate": "Meeting Date",
+    "visibility": "Visibility",
+    "createdAt": "Created",
+    "updatedAt": "Updated",
+    "assignee": "Assignee",
+    "participants": "Participants",
+    "relatedProjects": "Related Projects",
+    "relatedIssues": "Related Issues",
+    "noAssignee": "Unassigned"
+  },
+  "filter": {
+    "all": "All",
+    "visibility": "Visibility",
+    "dateFrom": "From",
+    "dateTo": "To",
+    "searchPlaceholder": "Search notes..."
+  },
+  "comment": {
+    "title": "Comments",
+    "placeholder": "Write a comment...",
+    "submit": "Submit",
+    "noComments": "No comments yet",
+    "deleteConfirm": "Are you sure you want to delete this comment?",
+    "count": "{{count}}",
+    "reply": "Reply",
+    "replyTo": "Reply to {{name}}",
+    "replyPlaceholder": "Write a reply..."
+  },
+  "rating": {
+    "title": "Rating",
+    "myRating": "My Rating",
+    "avgRating": "Average",
+    "count": "{{count}} ratings",
+    "noRating": "No ratings"
+  },
+  "pagination": {
+    "showing": "Showing {{from}}-{{to}} of {{total}}",
+    "prev": "Previous",
+    "next": "Next"
+  },
+  "folder": {
+    "title": "Folders",
+    "all": "All",
+    "uncategorized": "Uncategorized",
+    "newFolder": "New Folder",
+    "namePlaceholder": "Enter folder name",
+    "label": "Folder",
+    "deleteConfirm": "Delete this folder? Notes in this folder will be moved to Uncategorized.",
+    "addFolder": "Add Folder"
+  },
+  "backlinks": {
+    "title": "Referenced by"
+  },
+  "search": {
+    "button": "Search",
+    "placeholder": "Search notes, meetings, memos...",
+    "noResults": "No results found",
+    "moreResults": "{{count}} more results"
+  },
+  "graph": {
+    "title": "Knowledge Graph",
+    "scopeMy": "My Notes",
+    "scopeAll": "All",
+    "noData": "No graph data available",
+    "nodes": "nodes",
+    "edges": "links"
+  }
+}

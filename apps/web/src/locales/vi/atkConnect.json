@@ -1,0 +1,60 @@
+{
+  "connected": "Đã kết nối",
+  "openNewTab": "Mở trong tab mới",
+  "banner": {
+    "title": "AmoebaTalk",
+    "desc": "Quản lý tin nhắn khách hàng từ Facebook, Zalo, LINE... tại một nơi",
+    "cta": "Bắt đầu sử dụng",
+    "badges": "Miễn phí · Cài đặt 1 phút · Không cần xác minh email"
+  },
+  "hero": {
+    "headline": "Mọi tin nhắn khách hàng, một cuộc trò chuyện.",
+    "sub": "Facebook, Zalo, LINE, KakaoTalk, WhatsApp, Instagram — tất cả kênh trong một nơi",
+    "cta": "Bắt đầu miễn phí ngay",
+    "connecting": "Đang kết nối...",
+    "badges": "Cài đặt 1 phút · Không cần thẻ · Dùng ngay"
+  },
+  "channels": {
+    "title": "Trò chuyện ở bất cứ nơi nào có khách hàng",
+    "sub": "Quản lý hơn 7 kênh nhắn tin trong một hộp thư tập trung",
+    "ecommerce": "+ Shopify · Odoo · WooCommerce tích hợp thương mại điện tử"
+  },
+  "features": {
+    "title": "Tại sao chọn AmoebaTalk?",
+    "inbox": "Hộp thư tập trung",
+    "inboxDesc": "Xem và trả lời tin nhắn từ tất cả kênh tại một nơi",
+    "ai": "Hỗ trợ AI thông minh",
+    "aiDesc": "AI phân tích ý định khách hàng và tự đề xuất câu trả lời tối ưu",
+    "analytics": "Phân tích thời gian thực",
+    "analyticsDesc": "Theo dõi lượng tin nhắn, thời gian phản hồi, mức hài lòng theo thời gian thực",
+    "team": "Cộng tác nhóm",
+    "teamDesc": "Phân công, ghi chú nội bộ, tag để cộng tác hiệu quả",
+    "ecommerce": "Tích hợp thương mại điện tử",
+    "ecommerceDesc": "Tự động kết nối đơn hàng Shopify, Odoo với cuộc trò chuyện",
+    "security": "Bảo mật doanh nghiệp",
+    "securityDesc": "Mã hoá dữ liệu, kiểm soát truy cập theo vai trò để vận hành an toàn"
+  },
+  "howItWorks": {
+    "title": "Bắt đầu chỉ trong 3 bước",
+    "step1": "Kết nối tài khoản",
+    "step1Desc": "Đăng ký 1 click bằng thông tin AMB",
+    "step2": "Thêm kênh",
+    "step2Desc": "Kết nối kênh MXH qua OAuth",
+    "step3": "Bắt đầu trò chuyện",
+    "step3Desc": "Tin nhắn khách hàng đến ngay"
+  },
+  "stats": {
+    "channels": "Kênh hỗ trợ",
+    "responseTime": "Giảm thời gian phản hồi",
+    "ai": "AI tự động trả lời",
+    "setup": "Thời gian cài đặt"
+  },
+  "cta": {
+    "title": "Bắt đầu ngay bây giờ",
+    "sub": "Đăng ký ngay lập tức bằng thông tin pháp nhân hiện tại",
+    "button": "Bắt đầu sử dụng dịch vụ AmoebaTalk",
+    "noVerify": "Sử dụng ngay không cần xác minh email",
+    "autoLink": "Tự động liên kết với tổ chức AMB Management",
+    "passwordOnly": "Chỉ cần đặt mật khẩu là dùng ngay"
+  }
+}

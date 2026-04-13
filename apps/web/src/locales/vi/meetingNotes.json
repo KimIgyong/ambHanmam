@@ -1,0 +1,134 @@
+{
+  "title": "Ghi chú",
+  "newNote": "Ghi chú mới",
+  "editNote": "Sửa ghi chú",
+  "deleteNote": "Xóa ghi chú",
+  "noNotes": "Chưa có ghi chú nào",
+  "backToList": "Quay lại danh sách",
+  "type": {
+    "MEETING_NOTE": "Biên bản họp",
+    "MEMO": "Ghi nhớ",
+    "DAILY_NOTE": "Ghi chú hàng ngày"
+  },
+  "typeChangeConfirm": "Thay đổi loại sẽ xóa nội dung hiện tại. Tiếp tục?",
+  "template": {
+    "meetingInfo": "Thông tin cuộc họp",
+    "meetingTitle": "Tiêu đề cuộc họp",
+    "attendees": "Người tham dự",
+    "topic": "Chủ đề",
+    "meetingContent": "Nội dung cuộc họp",
+    "decisions": "Quyết định",
+    "actionItems": "Hành động cần thực hiện"
+  },
+  "form": {
+    "title": "Tiêu đề",
+    "titlePlaceholder": "Nhập tiêu đề",
+    "content": "Nội dung",
+    "meetingDate": "Ngày họp",
+    "visibility": "Phạm vi hiển thị",
+    "cell": "Cell",
+    "cellPlaceholder": "Chọn Cell",
+    "unit": "Unit",
+    "unitPlaceholder": "Chọn Unit",
+    "assignee": "Người phụ trách",
+    "assigneePlaceholder": "Chọn người phụ trách",
+    "participants": "Người liên quan",
+    "participantsPlaceholder": "Chọn người liên quan",
+    "projects": "Dự án liên quan",
+    "projectsPlaceholder": "Chọn dự án",
+    "issues": "Vấn đề liên quan",
+    "issuesPlaceholder": "Chọn vấn đề",
+    "createIssue": "Đăng ký Issue",
+    "createIssueDesc": "Đăng ký ghi chú này thành issue",
+    "createIssueProject": "Dự án Issue",
+    "createIssueProjectPlaceholder": "Chọn dự án",
+    "createIssueType": "Loại Issue",
+    "createIssueSeverity": "Mức độ"
+  },
+  "visibility": {
+    "PRIVATE": "Riêng tư",
+    "CELL": "Cell của tôi",
+    "GROUP": "Cell của tôi",
+    "ENTITY": "Công ty",
+    "UNIT": "Unit"
+  },
+  "deleteConfirm": {
+    "title": "Xóa ghi chú",
+    "message": "Bạn có chắc chắn muốn xóa ghi chú này?",
+    "confirm": "Xóa"
+  },
+  "messages": {
+    "created": "Đã lưu ghi chú",
+    "updated": "Đã cập nhật ghi chú",
+    "deleted": "Đã xóa ghi chú"
+  },
+  "detail": {
+    "author": "Tác giả",
+    "meetingDate": "Ngày họp",
+    "visibility": "Phạm vi",
+    "createdAt": "Ngày tạo",
+    "updatedAt": "Ngày cập nhật",
+    "assignee": "Người phụ trách",
+    "participants": "Người liên quan",
+    "relatedProjects": "Dự án liên quan",
+    "relatedIssues": "Vấn đề liên quan",
+    "noAssignee": "Chưa chỉ định"
+  },
+  "filter": {
+    "all": "Tất cả",
+    "visibility": "Phạm vi",
+    "dateFrom": "Từ ngày",
+    "dateTo": "Đến ngày",
+    "searchPlaceholder": "Tìm kiếm ghi chú..."
+  },
+  "comment": {
+    "title": "Bình luận",
+    "placeholder": "Viết bình luận...",
+    "submit": "Gửi",
+    "noComments": "Chưa có bình luận",
+    "deleteConfirm": "Bạn có chắc muốn xóa bình luận này?",
+    "count": "{{count}}",
+    "reply": "Trả lời",
+    "replyTo": "Trả lời {{name}}",
+    "replyPlaceholder": "Viết câu trả lời..."
+  },
+  "rating": {
+    "title": "Đánh giá",
+    "myRating": "Đánh giá của tôi",
+    "avgRating": "Trung bình",
+    "count": "{{count}} đánh giá",
+    "noRating": "Chưa có đánh giá"
+  },
+  "pagination": {
+    "showing": "Hiển thị {{from}}-{{to}} trên {{total}}",
+    "prev": "Trước",
+    "next": "Sau"
+  },
+  "folder": {
+    "title": "Thư mục",
+    "all": "Tất cả",
+    "uncategorized": "Chưa phân loại",
+    "newFolder": "Thư mục mới",
+    "namePlaceholder": "Nhập tên thư mục",
+    "label": "Thư mục",
+    "deleteConfirm": "Xóa thư mục này? Ghi chú trong thư mục sẽ chuyển sang Chưa phân loại.",
+    "addFolder": "Thêm thư mục"
+  },
+  "backlinks": {
+    "title": "Được tham chiếu bởi"
+  },
+  "search": {
+    "button": "Tìm kiếm",
+    "placeholder": "Tìm kiếm ghi chú, cuộc họp, bản ghi nhớ...",
+    "noResults": "Không tìm thấy kết quả",
+    "moreResults": "Còn {{count}} kết quả nữa"
+  },
+  "graph": {
+    "title": "Biểu đồ quan hệ",
+    "scopeMy": "Ghi chú của tôi",
+    "scopeAll": "Tất cả",
+    "noData": "Không có dữ liệu biểu đồ",
+    "nodes": "nút",
+    "edges": "liên kết"
+  }
+}

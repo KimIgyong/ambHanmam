@@ -1,0 +1,60 @@
+{
+  "connected": "Connected",
+  "openNewTab": "Open in new tab",
+  "banner": {
+    "title": "AmoebaTalk",
+    "desc": "Manage customer messages from Facebook, Zalo, LINE... in one place",
+    "cta": "Start using",
+    "badges": "Free · 1-min setup · No email verification"
+  },
+  "hero": {
+    "headline": "Every customer message, one conversation.",
+    "sub": "Facebook, Zalo, LINE, KakaoTalk, WhatsApp, Instagram — all channels in one place",
+    "cta": "Start Free Now",
+    "connecting": "Connecting...",
+    "badges": "1-min setup · No credit card · Instant access"
+  },
+  "channels": {
+    "title": "Chat wherever your customers are",
+    "sub": "Manage 7+ messaging channels in one unified inbox",
+    "ecommerce": "+ Shopify · Odoo · WooCommerce e-commerce integration"
+  },
+  "features": {
+    "title": "Why AmoebaTalk?",
+    "inbox": "Unified Inbox",
+    "inboxDesc": "View and respond to messages from all channels in one place",
+    "ai": "AI Smart Assistant",
+    "aiDesc": "AI analyzes customer intent and suggests optimal responses automatically",
+    "analytics": "Real-time Analytics",
+    "analyticsDesc": "Monitor conversation volume, response time, and satisfaction in real-time",
+    "team": "Team Collaboration",
+    "teamDesc": "Assign conversations, internal notes, and tags for efficient teamwork",
+    "ecommerce": "E-commerce Integration",
+    "ecommerceDesc": "Automatically link Shopify, Odoo orders with customer conversations",
+    "security": "Enterprise Security",
+    "securityDesc": "Data encryption and role-based access control for safe operation"
+  },
+  "howItWorks": {
+    "title": "Start in 3 steps",
+    "step1": "Connect Account",
+    "step1Desc": "One-click signup with your AMB info",
+    "step2": "Add Channels",
+    "step2Desc": "Connect social channels via OAuth",
+    "step3": "Start Chatting",
+    "step3Desc": "Customer messages arrive instantly"
+  },
+  "stats": {
+    "channels": "Supported channels",
+    "responseTime": "Response time reduced",
+    "ai": "AI auto-response",
+    "setup": "Setup time"
+  },
+  "cta": {
+    "title": "Start right now",
+    "sub": "Register instantly with your current organization info",
+    "button": "Start AmoebaTalk Service",
+    "noVerify": "No email verification required",
+    "autoLink": "Automatically linked to your AMB organization",
+    "passwordOnly": "Just set a password and start using"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "title": "Subscription",
+  "plan": {
+    "title": "Subscription Plan",
+    "currentPlan": "Current Plan",
+    "freePlan": "FREE",
+    "basicPlan": "BASIC",
+    "premiumPlan": "PREMIUM",
+    "upgrade": "Upgrade",
+    "cancel": "Cancel Subscription",
+    "cancelConfirm": "Are you sure you want to cancel your subscription?",
+    "cancelSuccess": "Subscription cancelled successfully.",
+    "status": "Status",
+    "billingCycle": "Billing Cycle",
+    "monthly": "Monthly",
+    "annual": "Annual",
+    "userCount": "User Count",
+    "perUser": "per user/month",
+    "nextBilling": "Next Billing Date",
+    "startDate": "Start Date",
+    "noPlan": "No active subscription. Start with the FREE plan."
+  },
+  "token": {
+    "title": "Token Wallet",
+    "totalBalance": "Total Balance",
+    "base": "Base Tokens",
+    "addon": "Add-on Tokens",
+    "referral": "Referral Tokens",
+    "purchase": "Purchase Tokens",
+    "purchaseAmount": "Token Amount",
+    "purchaseSuccess": "Token purchase checkout created.",
+    "history": "Token History",
+    "noHistory": "No token usage history.",
+    "credit": "Credit",
+    "debit": "Debit",
+    "reason": {
+      "ONETIME_GRANT": "One-time Grant",
+      "MONTHLY_GRANT": "Monthly Grant",
+      "ADDON_PURCHASE": "Add-on Purchase",
+      "REFERRAL_REWARD": "Referral Reward",
+      "AI_USAGE": "AI Usage",
+      "RESET": "Monthly Reset",
+      "ADMIN_ADJUST": "Admin Adjustment",
+      "REFUND": "Refund"
+    }
+  },
+  "storage": {
+    "title": "Storage",
+    "usage": "Usage",
+    "totalQuota": "Total Quota",
+    "baseStorage": "Base Storage",
+    "addonStorage": "Add-on Storage",
+    "usedPercent": "Used",
+    "purchase": "Purchase Storage",
+    "purchaseGb": "Storage (GB)",
+    "purchaseSuccess": "Storage purchase checkout created.",
+    "warning": "Storage usage exceeds 100%. Please purchase additional storage.",
+    "blocked": "Upload blocked. Storage usage exceeds 120%. Please purchase additional storage."
+  },
+  "checkout": {
+    "title": "Checkout",
+    "processing": "Processing payment...",
+    "success": "Payment completed successfully!",
+    "redirecting": "Redirecting to payment page...",
+    "returnMessage": "Your subscription has been updated."
+  },
+  "pricing": {
+    "title": "Pricing Plans",
+    "currentPlan": "Current Plan",
+    "upgradeBtn": "Upgrade to {{plan}}",
+    "freeTier": "Free",
+    "contactUs": "Contact Us",
+    "perUserMonth": "per user/month",
+    "tokenOnetime": "One-time Tokens",
+    "tokenMonthly": "Monthly Tokens/User",
+    "storageBase": "Base Storage",
+    "maxUsers": "Max Users",
+    "comingSoon": "Coming Soon"
+  },
+  "payment": {
+    "selectMethod": "Select Payment Method",
+    "polar": "Polar (Credit Card / PayPal)",
+    "polarDesc": "Global payment gateway",
+    "toss": "Toss Payments",
+    "tossDesc": "Korean payment (Card / Bank Transfer)",
+    "megapay": "MegaPay (VNPAY)",
+    "megapayDesc": "Vietnamese payment (QR / ATM / E-Wallet)",
+    "comingSoon": "Coming Soon"
+  },
+  "errors": {
+    "loadFailed": "Failed to load subscription data.",
+    "checkoutFailed": "Failed to create checkout session.",
+    "cancelFailed": "Failed to cancel subscription."
+  }
+}

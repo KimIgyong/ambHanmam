@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: pgvector/pgvector:pg15
+    container_name: amb-postgres
+    restart: unless-stopped
+    ports:
+      - '5442:5432'
+    environment:
+      POSTGRES_DB: db_amb_hanmam
+      POSTGRES_USER: amb_user
+      POSTGRES_PASSWORD: amb_password
+      TZ: UTC
+      PGTZ: UTC
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init-sql:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U amb_user -d db_amb_hanmam']
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  adminer:
+    image: adminer:latest
+    container_name: amb-adminer
+    restart: unless-stopped
+    ports:
+      - '8099:8080'
+    depends_on:
+      - postgres
+
+volumes:
+  postgres_data:

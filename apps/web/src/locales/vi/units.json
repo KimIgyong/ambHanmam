@@ -1,0 +1,50 @@
+{
+  "MANAGEMENT": {
+    "name": "Quản lý",
+    "description": "Phân tích SWOT, KPI, hỗ trợ ra quyết định"
+  },
+  "ACCOUNTING": {
+    "name": "Kế toán",
+    "description": "K-IFRS, thuế, ngân sách, quyết toán"
+  },
+  "HR": {
+    "name": "Nhân sự",
+    "description": "Luật lao động, tuyển dụng, đánh giá, đãi ngộ"
+  },
+  "LEGAL": {
+    "name": "Pháp lý",
+    "description": "Xem xét hợp đồng, quyền riêng tư, tuân thủ"
+  },
+  "SALES": {
+    "name": "Kinh doanh",
+    "description": "CRM, B2B/B2G, đề xuất, phân tích doanh thu"
+  },
+  "IT": {
+    "name": "CNTT",
+    "description": "ISMS-P, quản lý hệ thống, chiến lược DX"
+  },
+  "MARKETING": {
+    "name": "Marketing",
+    "description": "STP, marketing số, ROI chiến dịch"
+  },
+  "GENERAL_AFFAIRS": {
+    "name": "Hành chính",
+    "description": "Mua sắm, tài sản, cơ sở vật chất, an toàn"
+  },
+  "PLANNING": {
+    "name": "Kế hoạch",
+    "description": "Kế hoạch kinh doanh, dự án mới, PM/WBS"
+  },
+  "TRANSLATION": {
+    "name": "Dịch thuật",
+    "description": "Dịch đa ngôn ngữ, thuật ngữ, bản địa hóa"
+  },
+  "PM": {
+    "name": "Quản lý dự án",
+    "description": "Quản lý dự án, WBS, lịch trình/rủi ro"
+  },
+  "DEVELOPMENT": {
+    "name": "Phát triển",
+    "description": "Phát triển phần mềm, review code, tư vấn kỹ thuật"
+  }
+}

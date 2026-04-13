@@ -1,0 +1,18 @@
+{
+  "title": "AMA AI User Guide",
+  "welcome": "Get usage guidance, feature improvement tips, and new feature request support.",
+  "todayTodos": "Today's Tasks",
+  "noTodos": "No tasks scheduled for today.",
+  "viewAllTodos": "View All",
+  "myIssues": "My Issues",
+  "noIssues": "No related issues found.",
+  "viewAllIssues": "View All Issues",
+  "selectAgent": "IT Support Agent",
+  "userGuideHighlight": "Usage Guide, Feature Improvement, and New Feature Requests",
+  "userGuidePrompt": "Ask anything to the IT Support Agent!",
+  "itOnlyDescription": "Only IT Support Agent is available",
+  "back": "Back to agent selection",
+  "close": "Close",
+  "minimize": "Minimize",
+  "startChat": "Start chat"
+}

@@ -1,0 +1,50 @@
+# ============================================
+# AMB Management Web - Staging Dockerfile
+# ============================================
+
+# Stage 1: Install dependencies
+FROM node:20-alpine AS deps
+
+WORKDIR /app
+
+COPY package.json package-lock.json ./
+COPY apps/api/package.json ./apps/api/
+COPY apps/web/package.json ./apps/web/
+COPY packages/types/package.json ./packages/types/
+COPY packages/common/package.json ./packages/common/
+
+RUN npm ci
+
+# Stage 2: Build
+FROM deps AS builder
+
+WORKDIR /app
+
+ARG VITE_API_BASE_URL=http://localhost/api/v1
+ARG VITE_VAPID_PUBLIC_KEY=
+ARG VITE_ATK_ORIGIN=
+ARG VITE_ATK_URL=
+
+COPY . .
+
+# Vite reads env from ../../env/frontend/ relative to apps/web
+RUN mkdir -p env/frontend && \
+    echo "VITE_API_BASE_URL=${VITE_API_BASE_URL}" > env/frontend/.env.production && \
+    echo "VITE_VAPID_PUBLIC_KEY=${VITE_VAPID_PUBLIC_KEY}" >> env/frontend/.env.production && \
+    echo "VITE_ATK_ORIGIN=${VITE_ATK_ORIGIN}" >> env/frontend/.env.production && \
+    echo "VITE_ATK_URL=${VITE_ATK_URL}" >> env/frontend/.env.production
+
+RUN npx turbo run build --filter=@amb/web
+
+# Stage 3: Serve with Nginx
+FROM nginx:alpine AS production
+
+RUN rm /etc/nginx/conf.d/default.conf
+
+COPY docker/staging/nginx.conf /etc/nginx/conf.d/default.conf
+COPY --from=builder /app/apps/web/dist /usr/share/nginx/html
+
+EXPOSE 80
+
+# nginx:alpine already runs as non-root via master process
+CMD ["nginx", "-g", "daemon off;"]

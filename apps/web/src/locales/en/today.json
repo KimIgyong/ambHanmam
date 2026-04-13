@@ -1,0 +1,170 @@
+{
+  "title": "Today",
+  "tabs": {
+    "my": "My Today",
+    "team": "Unit Today",
+    "all": "Everyone's Today"
+  },
+  "summary": {
+    "todayDue": "Due Today",
+    "inProgress": "In Progress",
+    "overdue": "Overdue",
+    "issues": "Issues",
+    "completedToday": "Completed Today"
+  },
+  "sections": {
+    "overdue": "Overdue",
+    "todayDue": "Due Today",
+    "inProgress": "In Progress",
+    "calendar": "Today's Schedule"
+  },
+  "empty": {
+    "todayDue": "No tasks due today.",
+    "overdue": "No overdue tasks.",
+    "inProgress": "No tasks in progress.",
+    "noData": "No data to display.",
+    "issues": "No open issues.",
+    "calendar": "No scheduled events today.",
+    "meetingNotes": "No recent meeting notes."
+  },
+  "viewAll": "View All",
+  "all": {
+    "title": "Everyone's Today",
+    "totalMembers": "Total Members",
+    "cardView": "Card View",
+    "listView": "List View",
+    "filterByDept": "Filter by Dept",
+    "allDepts": "All",
+    "todoCount": "Todos",
+    "overdueCount": "Overdue",
+    "issueCount": "Issues",
+    "sendDm": "Message",
+    "noMembers": "No members found.",
+    "hide": "Hide from Today",
+    "unhide": "Show in Today",
+    "hidden": "Hidden",
+    "showAllIncludingHidden": "Show All (incl. Hidden)",
+    "showActiveOnly": "Active Only"
+  },
+  "team": {
+    "title": "Unit Today",
+    "noMembers": "No unit members found.",
+    "unitLabel": "Unit"
+  },
+  "ai": {
+    "generate": "AI Coaching",
+    "generateMy": "AI Coaching",
+    "generating": "Analyzing...",
+    "save": "Save Report",
+    "saved": "Report saved",
+    "reportTitle": "Report title",
+    "savedReports": "My Reports",
+    "workReport": "Work Report",
+    "regenerate": "Re-analyze",
+    "noReports": "No saved reports",
+    "deleteConfirm": "Delete this report?",
+    "translate": "Translate",
+    "translating": "Translating...",
+    "sourceLang": "Source language",
+    "targetLang": "Translate to",
+    "translateResult": "Translation result"
+  },
+  "close": "Close",
+  "mission": {
+    "title": "Today's Mission",
+    "prompt": "Write your mission for today",
+    "placeholder": "What's your key focus today...",
+    "save": "Save",
+    "edit": "Edit",
+    "skip": "Skip today",
+    "skipped": "Mission skipped for today",
+    "yesterdayCheck": "Rate your yesterday's mission achievement",
+    "checkScore": "Achievement",
+    "checkTitle": "Yesterday's Mission Check",
+    "uncheckedTitle": "Pending Mission Check",
+    "lineStateDone": "Done",
+    "lineStateIncomplete": "Incomplete",
+    "lineStateNa": "N/A",
+    "subChoiceMission": "Carry to today",
+    "subChoiceTask": "Create Task",
+    "doneBadge": "Saved as completed Task",
+    "taskBadge": "Registered as Task",
+    "missionBadge": "Carried to today's mission",
+    "naBadge": "Excluded",
+    "carryOverTitle": "Carry over to today's mission",
+    "progressEval": "{{eval}} evaluated",
+    "progressExclude": "{{exclude}} excluded",
+    "saveCheck": "Save",
+    "remainHint": "{{count}} remaining — Choose follow-up for incomplete items",
+    "allEvaluated": "All items evaluated",
+    "subChoicePrompt": "Continue:",
+    "changeChoice": "Change"
+  },
+  "history": {
+    "title": "History",
+    "backToToday": "Back to Today",
+    "backToCalendar": "Calendar",
+    "noSnapshot": "No snapshot for this date.",
+    "stats": "{{days}} days recorded · Avg {{avg}}%",
+    "weekView": "Week",
+    "monthView": "Month"
+  },
+  "snapshot": {
+    "readonly": "Read only",
+    "todos": "Todos",
+    "overdue": "Overdue",
+    "todayDue": "Due Today",
+    "inProgress": "In Progress",
+    "scheduled": "Scheduled",
+    "completed": "Completed",
+    "issues": "Issues",
+    "issueTotal": "Total",
+    "issueCount": "{{count}}",
+    "issueResolved": "{{count}} resolved",
+    "reported": "Reported by me",
+    "assigned": "Assigned to me",
+    "issueTab": {
+      "open": "To Review",
+      "working": "In Progress",
+      "watching": "Watching"
+    },
+    "schedules": "Schedules",
+    "allDay": "All day",
+    "last4weeks": "Last 4 weeks"
+  },
+  "memo": {
+    "title": "Memos",
+    "placeholder": "Add a memo...",
+    "save": "Save",
+    "deleteConfirm": "Delete this memo?"
+  },
+  "attendance": {
+    "approve": "Approve WFH",
+    "reject": "Reject (Absent)",
+    "approved": "WFH Approved",
+    "rejected": "WFH Rejected (Marked Absent)",
+    "absent": "Absent",
+    "pendingWfh": "Pending Approval"
+  },
+  "sidebar": {
+    "notices": "Notices",
+    "recentNotes": "Recent Shared Notes",
+    "inProgressIssues": "In-Progress Issues",
+    "viewMore": "More",
+    "noNotices": "No notices.",
+    "noNotes": "No shared notes.",
+    "noIssues": "No in-progress issues."
+  },
+  "cell": {
+    "myCells": "My Cells",
+    "showAll": "Show All"
+  },
+  "org": {
+    "unitTab": "Units",
+    "cellTab": "Cells",
+    "allUnits": "All Units",
+    "allCells": "All Cells",
+    "manager": "Manager",
+    "members": "Members"
+  }
+}

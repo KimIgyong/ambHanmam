@@ -1,0 +1,102 @@
+{
+  "unit": {
+    "title": "Unit Management",
+    "addNew": "Add Unit",
+    "addTeam": "Add Team",
+    "editTitle": "Edit Unit",
+    "createTitle": "New Unit",
+    "deleteConfirm": "Are you sure you want to delete this unit?",
+    "deleteSuccess": "Unit has been deleted.",
+    "saveSuccess": "Unit has been saved.",
+    "searchPlaceholder": "Search units...",
+    "noResults": "No units found.",
+    "name": "Unit Name",
+    "nameLocal": "Local Name",
+    "parent": "Parent Unit",
+    "level": "Level",
+    "levelDepartment": "Unit",
+    "levelTeam": "Team",
+    "active": "Active",
+    "inactive": "Inactive",
+    "sortOrder": "Sort Order",
+    "members": "Members",
+    "noMembers": "No members assigned."
+  },
+  "role": {
+    "assign": "Assign Role",
+    "assignTitle": "Assign User to Unit",
+    "removeConfirm": "Are you sure you want to remove this user from the unit?",
+    "MEMBER": "Member",
+    "TEAM_LEAD": "Team Lead",
+    "UNIT_HEAD": "Unit Head",
+    "primary": "Primary",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "selectUser": "Select User",
+    "selectUnit": "Select Unit",
+    "selectRole": "Select Role"
+  },
+  "visibility": {
+    "PRIVATE": "Private",
+    "SHARED": "Shared",
+    "CELL": "Cell",
+    "UNIT": "Unit",
+    "ENTITY": "Organization",
+    "PUBLIC": "Public"
+  },
+  "permission": {
+    "VIEW": "View",
+    "COMMENT": "Comment",
+    "EDIT": "Edit",
+    "ADMIN": "Admin"
+  },
+  "workItem": {
+    "title": "My Work Items",
+    "createTitle": "New Work Item",
+    "type": {
+      "DOC": "Document",
+      "REPORT": "Report",
+      "TODO": "Todo",
+      "NOTE": "Note",
+      "EMAIL": "Email",
+      "ANALYSIS": "Analysis"
+    },
+    "filter": {
+      "myItems": "My Items",
+      "shared": "Shared with Me",
+      "team": "Team",
+      "all": "All"
+    }
+  },
+  "share": {
+    "title": "Share",
+    "shareWith": "Share with...",
+    "permission": "Permission",
+    "expiresAt": "Expires At",
+    "noExpiry": "No expiry",
+    "shareSuccess": "Shared successfully.",
+    "unshareSuccess": "Sharing removed."
+  },
+  "comment": {
+    "title": "Comments",
+    "placeholder": "Write a comment...",
+    "send": "Send",
+    "edit": "Edit",
+    "delete": "Delete",
+    "reply": "Reply",
+    "edited": "edited",
+    "deleteConfirm": "Are you sure you want to delete this comment?",
+    "type": {
+      "COMMENT": "Comment",
+      "FEEDBACK": "Feedback",
+      "APPROVAL": "Approval",
+      "REQUEST": "Request",
+      "MENTION": "Mention"
+    }
+  },
+  "teamDashboard": {
+    "title": "Team Dashboard",
+    "activity": "Team Activity",
+    "noActivity": "No recent activity."
+  }
+}

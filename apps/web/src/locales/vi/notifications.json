@@ -1,0 +1,19 @@
+{
+  "notifications": "Thông báo",
+  "markAllRead": "Đánh dấu đã đọc tất cả",
+  "noNotifications": "Không có thông báo",
+  "justNow": "Vừa xong",
+  "minutesAgo": "{{count}} phút trước",
+  "hoursAgo": "{{count}} giờ trước",
+  "daysAgo": "{{count}} ngày trước",
+  "todoAssigned": "{{sender}} đã chỉ định bạn là người tham gia trong một công việc.",
+  "issueAssigned": "{{sender}} đã chỉ định bạn là người phụ trách vấn đề.",
+  "noteAssigned": "{{sender}} đã chỉ định bạn là người tham gia trong biên bản họp.",
+  "calendarInvited": "{{sender}} đã mời bạn tham gia sự kiện lịch.",
+  "commentMention": "{{sender}} đã nhắc đến bạn trong bình luận.",
+  "goTo": "Đi tới",
+  "dismiss": "Đóng",
+  "talkMessage": "Tin nhắn mới từ {{sender}}",
+  "issueStatusChanged": "Trạng thái vấn đề đã thay đổi",
+  "viewAll": "Xem tất cả thông báo"
+}

@@ -1,0 +1,138 @@
+{
+  "title": "Lịch biểu",
+  "subtitle": "Quản lý lịch trình trên lịch",
+  "newSchedule": "Thêm lịch trình",
+  "editSchedule": "Sửa lịch trình",
+  "deleteSchedule": "Xóa lịch trình",
+  "today": "Hôm nay",
+  "noSchedules": "Không có lịch trình",
+  "view": {
+    "month": "Tháng",
+    "week": "Tuần",
+    "day": "Ngày"
+  },
+  "category": {
+    "WORK": "Công việc",
+    "MEETING": "Cuộc họp",
+    "PERSONAL": "Cá nhân",
+    "PROJECT": "Dự án",
+    "HOLIDAY": "Nghỉ lễ",
+    "ETC": "Khác"
+  },
+  "visibility": {
+    "PRIVATE": "Chỉ tôi",
+    "SHARED": "Cell",
+    "UNIT": "Unit",
+    "ENTITY": "Tất cả"
+  },
+  "priority": {
+    "LOW": "Thấp",
+    "NORMAL": "Bình thường",
+    "HIGH": "Cao",
+    "URGENT": "Khẩn cấp"
+  },
+  "recurrence": {
+    "NONE": "Không lặp",
+    "DAILY": "Hàng ngày",
+    "WEEKLY": "Hàng tuần",
+    "BIWEEKLY": "2 tuần một lần",
+    "MONTHLY": "Hàng tháng",
+    "YEARLY": "Hàng năm",
+    "CUSTOM": "Tùy chỉnh",
+    "RECURRING": "Lặp lại"
+  },
+  "recurrenceForm": {
+    "frequency": "Tần suất",
+    "interval": "Khoảng cách",
+    "weekdays": "Ngày trong tuần",
+    "monthDay": "Ngày trong tháng",
+    "endType": "Loại kết thúc",
+    "endDate": "Ngày kết thúc",
+    "endCount": "Số lần lặp",
+    "endNever": "Không kết thúc",
+    "endByDate": "Theo ngày",
+    "endByCount": "Theo số lần"
+  },
+  "participant": {
+    "title": "Người tham gia",
+    "add": "Thêm người tham gia",
+    "remove": "Xóa người tham gia",
+    "response": "Phản hồi",
+    "comment": "Nhận xét"
+  },
+  "response": {
+    "NONE": "Chưa phản hồi",
+    "ACCEPTED": "Chấp nhận",
+    "DECLINED": "Từ chối",
+    "TENTATIVE": "Chưa chắc"
+  },
+  "reminder": {
+    "title": "Nhắc nhở",
+    "add": "Thêm nhắc nhở",
+    "remove": "Xóa nhắc nhở",
+    "minutesBefore": "{{minutes}} phút trước",
+    "hoursBefore": "{{hours}} giờ trước",
+    "daysBefore": "{{days}} ngày trước"
+  },
+  "form": {
+    "title": "Tiêu đề",
+    "titlePlaceholder": "Nhập tiêu đề lịch trình",
+    "description": "Mô tả",
+    "descriptionPlaceholder": "Nhập mô tả lịch trình",
+    "category": "Danh mục",
+    "startDate": "Bắt đầu",
+    "endDate": "Kết thúc",
+    "allDay": "Cả ngày",
+    "location": "Địa điểm",
+    "locationPlaceholder": "Nhập link họp trực tuyến nếu online",
+    "color": "Màu sắc",
+    "visibility": "Hiển thị",
+    "recurrence": "Lặp lại",
+    "priority": "Ưu tiên",
+    "save": "Lưu",
+    "cancel": "Hủy"
+  },
+  "deleteConfirm": {
+    "title": "Xóa lịch trình",
+    "message": "Bạn có chắc muốn xóa lịch trình này?",
+    "recurrenceMessage": "Đây là lịch trình lặp lại. Xóa tất cả?",
+    "confirm": "Xóa"
+  },
+  "exception": {
+    "title": "Ngoại lệ lặp lại",
+    "cancel": "Hủy lần này",
+    "reschedule": "Đổi lịch",
+    "reason": "Lý do"
+  },
+  "filter": {
+    "all": "Tất cả",
+    "my": "Lịch trình của tôi",
+    "unit": "Unit",
+    "shared": "Chia sẻ"
+  },
+  "google": {
+    "connect": "Kết nối Google Calendar",
+    "disconnect": "Ngắt kết nối Google Calendar",
+    "sync": "Đồng bộ",
+    "synced": "Đã đồng bộ",
+    "notSynced": "Chưa đồng bộ",
+    "syncFailed": "Đồng bộ thất bại"
+  },
+  "weekdays": {
+    "SUN": "CN",
+    "MON": "T2",
+    "TUE": "T3",
+    "WED": "T4",
+    "THU": "T5",
+    "FRI": "T6",
+    "SAT": "T7"
+  },
+  "error": {
+    "notFound": "Không tìm thấy lịch trình",
+    "accessDenied": "Không có quyền truy cập",
+    "conflict": "Đã được sửa bởi người khác. Vui lòng tải lại và thử lại.",
+    "invalidDateRange": "Thời gian kết thúc không thể trước thời gian bắt đầu",
+    "syncFailed": "Đồng bộ Google Calendar thất bại"
+  },
+  "collapse": "Thu gọn"
+}

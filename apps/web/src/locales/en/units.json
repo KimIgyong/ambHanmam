@@ -1,0 +1,50 @@
+{
+  "MANAGEMENT": {
+    "name": "Management",
+    "description": "SWOT analysis, KPI, decision support"
+  },
+  "ACCOUNTING": {
+    "name": "Accounting",
+    "description": "K-IFRS, tax, budget, closing"
+  },
+  "HR": {
+    "name": "HR",
+    "description": "Labor law, recruitment, evaluation, compensation"
+  },
+  "LEGAL": {
+    "name": "Legal",
+    "description": "Contract review, privacy, compliance"
+  },
+  "SALES": {
+    "name": "Sales",
+    "description": "CRM, B2B/B2G, proposals, revenue analysis"
+  },
+  "IT": {
+    "name": "IT",
+    "description": "ISMS-P, system management, DX strategy"
+  },
+  "MARKETING": {
+    "name": "Marketing",
+    "description": "STP, digital marketing, campaign ROI"
+  },
+  "GENERAL_AFFAIRS": {
+    "name": "General Affairs",
+    "description": "Procurement, assets, facilities, safety"
+  },
+  "PLANNING": {
+    "name": "Planning",
+    "description": "Business planning, new business, PM/WBS"
+  },
+  "TRANSLATION": {
+    "name": "Translation",
+    "description": "Multilingual translation, terminology, localization"
+  },
+  "PM": {
+    "name": "Project Manager",
+    "description": "Project management, WBS, schedule/risk management"
+  },
+  "DEVELOPMENT": {
+    "name": "Development",
+    "description": "Software development, code review, tech advisory"
+  }
+}

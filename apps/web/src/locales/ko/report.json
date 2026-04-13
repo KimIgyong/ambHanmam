@@ -1,0 +1,16 @@
+{
+  "title": "업무 리포트",
+  "daily": "일간 리포트",
+  "weekly": "주간 리포트",
+  "generate": "AI 리포트 생성",
+  "generating": "리포트 생성 중...",
+  "generated": "리포트가 생성되었습니다",
+  "savedReports": "저장된 리포트",
+  "noReports": "저장된 리포트가 없습니다",
+  "selectOrGenerate": "리포트를 선택하거나 생성하세요",
+  "emptyState": "왼쪽에서 날짜를 선택하고 AI 리포트를 생성해보세요",
+  "deleteConfirm": "이 리포트를 삭제하시겠습니까?",
+  "deleted": "삭제되었습니다",
+  "myReports": "내 리포트",
+  "selectReport": "리포트를 선택해주세요"
+}

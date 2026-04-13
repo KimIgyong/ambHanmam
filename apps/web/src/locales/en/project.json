@@ -1,0 +1,266 @@
+{
+  "title": "Project Management",
+  "selectEntity": "Please select an entity to view projects.",
+  "menu": {
+    "proposals": "Proposals",
+    "projects": "Projects"
+  },
+  "proposal": {
+    "list": "Proposal List",
+    "new": "New Proposal",
+    "detail": "Proposal Detail",
+    "create": "Create Proposal",
+    "submit": "Submit Proposal",
+    "aiDraft": "AI Draft",
+    "generateDraft": "Generate AI Draft",
+    "generating": "Generating AI draft...",
+    "draftGenerated": "AI draft generated successfully",
+    "fillFromDraft": "Fill form from AI draft",
+    "title": "Proposal Title",
+    "briefDescription": "Brief Description",
+    "name": "Project Name",
+    "purpose": "Purpose",
+    "goal": "Goals",
+    "summary": "Summary"
+  },
+  "project": {
+    "list": "Project List",
+    "detail": "Project Detail",
+    "status": "Status",
+    "category": "Category",
+    "priority": "Priority",
+    "proposer": "Proposer",
+    "manager": "Manager",
+    "sponsor": "Sponsor",
+    "department": "Unit",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "budget": "Budget",
+    "currency": "Currency",
+    "code": "Project Code",
+    "note": "Note",
+    "entity": "Entity",
+    "issueCount": "Issues",
+    "openIssueCount": "Open Issues",
+    "memberCount": "Members"
+  },
+  "status": {
+    "DRAFT": "Draft",
+    "SUBMITTED": "Submitted",
+    "REVIEW": "In Review",
+    "APPROVED": "Approved",
+    "REJECTED": "Rejected",
+    "IN_PROGRESS": "In Progress",
+    "ON_HOLD": "On Hold",
+    "COMPLETED": "Completed",
+    "CANCELLED": "Cancelled"
+  },
+  "category": {
+    "TECH_BPO": "Tech BPO",
+    "SI_DEV": "SI Development",
+    "INTERNAL": "Internal",
+    "R_AND_D": "R&D",
+    "MARKETING": "Marketing",
+    "OTHER": "Other"
+  },
+  "priority": {
+    "LOW": "Low",
+    "MEDIUM": "Medium",
+    "HIGH": "High",
+    "URGENT": "Urgent"
+  },
+  "review": {
+    "title": "Review",
+    "history": "Review History",
+    "preAnalysis": "Pre-Analysis",
+    "generateAnalysis": "Generate AI Analysis",
+    "recommendation": "AI Recommendation",
+    "getRecommendation": "Get AI Recommendation",
+    "approve": "Approve",
+    "reject": "Reject",
+    "hold": "Hold",
+    "comment": "Comment",
+    "step": "Step",
+    "action": "Action",
+    "reviewer": "Reviewer",
+    "noReviews": "No review history yet",
+    "actionSuccess": "Review action completed",
+    "feasibilityScore": "Feasibility Score",
+    "risks": "Risks",
+    "strengths": "Strengths",
+    "weaknesses": "Weaknesses"
+  },
+  "similar": {
+    "title": "Similar Projects",
+    "check": "Check Similar Projects",
+    "score": "Similarity",
+    "reason": "Reason",
+    "noSimilar": "No similar projects found",
+    "warning": "Similar projects detected!"
+  },
+  "ai": {
+    "draft": "AI Draft",
+    "analysis": "AI Analysis",
+    "recommendation": "Recommendation",
+    "confidence": "Confidence",
+    "rationale": "Rationale"
+  },
+  "actions": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "search": "Search projects..."
+  },
+  "confirm": {
+    "delete": "Are you sure you want to delete this project?",
+    "submit": "Are you sure you want to submit this proposal for review?"
+  },
+  "message": {
+    "created": "Project created successfully",
+    "updated": "Project updated successfully",
+    "deleted": "Project deleted successfully",
+    "submitted": "Proposal submitted successfully"
+  },
+  "empty": {
+    "proposals": "No proposals found",
+    "projects": "No projects found"
+  },
+  "sort": {
+    "latest": "Recently Created",
+    "mostIssues": "Most Issues",
+    "latestIssue": "Latest Issue Activity",
+    "createdDesc": "Newest First",
+    "dueDateDesc": "Due Date (Newest)",
+    "dueDateAsc": "Due Date (Oldest)",
+    "priorityAsc": "Highest Priority"
+  },
+  "filter": {
+    "all": "All",
+    "exclude": "excluded",
+    "status": "Status",
+    "category": "Category",
+    "priority": "Priority",
+    "selectAll": "Select All",
+    "deselectAll": "Deselect All",
+    "selectedCount": "{{count}} selected",
+    "statusFilter": "Status Filter",
+    "typeFilter": "Type Filter"
+  },
+  "tabs": {
+    "overview": "Overview",
+    "notes": "Notes",
+    "issues": "Issues",
+    "wbs": "WBS",
+    "kanban": "Kanban",
+    "gantt": "Gantt"
+  },
+  "kanban": {
+    "noIssues": "No issues",
+    "column": {
+      "OPEN": "Open",
+      "IN_PROGRESS": "In Progress",
+      "RESOLVED": "Resolved",
+      "CLOSED": "Closed"
+    }
+  },
+  "gantt": {
+    "noDateIssues": "Issues without dates",
+    "noDates": "No issues with start/due dates",
+    "showAuthor": "Author",
+    "showAssignee": "Assignee"
+  },
+  "wbs": {
+    "tab": "WBS",
+    "epic": "Epic",
+    "component": "Component",
+    "unassigned": "Unassigned",
+    "group": "Group",
+    "addEpic": "Add Epic",
+    "addComponent": "Add Component",
+    "editEpic": "Edit Epic",
+    "editComponent": "Edit Component",
+    "deleteEpic": "Delete Epic",
+    "deleteComponent": "Delete Component",
+    "noEpics": "No epics",
+    "noComponents": "No components",
+    "noIssues": "No issues",
+    "showClosed": "Show closed issues",
+    "showClosedGroup": "show {{count}} closed",
+    "hideClosedGroup": "hide closed",
+    "issues": "{{count}} issues",
+    "progress": "Progress",
+    "epicStatus": {
+      "PLANNED": "Planned",
+      "IN_PROGRESS": "In Progress",
+      "DONE": "Done",
+      "CANCELLED": "Cancelled"
+    },
+    "confirmDeleteEpic": "Delete this epic? Child issues will be moved to unassigned.",
+    "confirmDeleteComponent": "Delete this component? Child issues will be moved to unassigned.",
+    "epicCreated": "Epic created",
+    "epicUpdated": "Epic updated",
+    "epicDeleted": "Epic deleted",
+    "issueGroupUpdated": "Issue group updated",
+    "dragHint": "Drag issues to assign to epic/component",
+    "componentCreated": "Component created",
+    "componentUpdated": "Component updated",
+    "componentDeleted": "Component deleted",
+    "title": "Title",
+    "description": "Description",
+    "color": "Color",
+    "owner": "Owner",
+    "startDate": "Start Date",
+    "dueDate": "Due Date",
+    "group": "Group",
+    "groupNone": "None"
+  },
+  "issueList": {
+    "noIssues": "No linked issues",
+    "totalCount": "Total {{count}}",
+    "pageInfo": "{{from}}-{{to}} / {{total}}",
+    "prev": "Prev",
+    "next": "Next",
+    "importIssues": "Import Issues"
+  },
+  "member": {
+    "title": "Members",
+    "add": "Add Member",
+    "role": "Role",
+    "PM": "Project Manager",
+    "LEAD": "Lead",
+    "MEMBER": "Member",
+    "REVIEWER": "Reviewer",
+    "OBSERVER": "Observer",
+    "remove": "Remove",
+    "added": "Member added successfully",
+    "removed": "Member removed successfully",
+    "selectUser": "Select user"
+  },
+  "client": {
+    "title": "Assigned Clients",
+    "add": "Add Client",
+    "select": "Select client",
+    "added": "Client assigned successfully",
+    "removed": "Client removed successfully",
+    "noClients": "No clients assigned"
+  },
+  "notes": {
+    "title": "Linked Notes",
+    "empty": "No linked notes",
+    "meetingNote": "Meeting Note",
+    "memo": "Memo"
+  },
+  "comments": {
+    "title": "Comments",
+    "placeholder": "Write a comment...",
+    "submit": "Submit",
+    "empty": "No comments yet",
+    "deleteConfirm": "Delete this comment?"
+  },
+  "scope": {
+    "mine": "My Projects",
+    "all": "All Projects"
+  }
+}

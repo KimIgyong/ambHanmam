@@ -1,0 +1,23 @@
+{
+  "newConversation": "New Conversation",
+  "noConversations": "No conversations",
+  "noConversationsDesc": "Start a new conversation.",
+  "messageCount": "{{count}} messages",
+  "yesterday": "Yesterday",
+  "daysAgo": "{{days}} days ago",
+  "aiAssistant": "{{name}} AI Assistant",
+  "emptyPrompt": "Ask the AI assistant a question.",
+  "messagePlaceholder": "Type a message...",
+  "sendMessage": "Send message",
+  "inputHint": "Shift + Enter for new line, Enter to send",
+  "errorOccurred": "An error occurred: {{error}}",
+  "quotaExceeded": "⚠️ Your AI quota has been exhausted. Please recharge your credits - report to your administrator.",
+  "startChat": "Start chatting",
+  "connectionTestFail": "Connection test failed",
+  "continueResponse": "Continue response",
+  "continuePrompt": "Please continue your response from where you left off.",
+  "copyMessage": "Copy",
+  "copiedToClipboard": "Copied!",
+  "downloadMd": "Download as Markdown",
+  "downloadPdf": "Download as PDF"
+}

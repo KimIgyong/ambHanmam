@@ -1,0 +1,95 @@
+{
+  "title": "Quản lý đăng ký",
+  "plan": {
+    "title": "Gói đăng ký",
+    "currentPlan": "Gói hiện tại",
+    "freePlan": "FREE",
+    "basicPlan": "BASIC",
+    "premiumPlan": "PREMIUM",
+    "upgrade": "Nâng cấp",
+    "cancel": "Hủy đăng ký",
+    "cancelConfirm": "Bạn có chắc chắn muốn hủy đăng ký không?",
+    "cancelSuccess": "Đã hủy đăng ký thành công.",
+    "status": "Trạng thái",
+    "billingCycle": "Chu kỳ thanh toán",
+    "monthly": "Hàng tháng",
+    "annual": "Hàng năm",
+    "userCount": "Số người dùng",
+    "perUser": "/người dùng/tháng",
+    "nextBilling": "Ngày thanh toán tiếp theo",
+    "startDate": "Ngày bắt đầu",
+    "noPlan": "Không có gói đăng ký đang hoạt động. Bắt đầu với gói FREE."
+  },
+  "token": {
+    "title": "Ví Token",
+    "totalBalance": "Tổng số dư",
+    "base": "Token cơ bản",
+    "addon": "Token bổ sung",
+    "referral": "Token giới thiệu",
+    "purchase": "Mua Token",
+    "purchaseAmount": "Số lượng Token",
+    "purchaseSuccess": "Đã tạo trang thanh toán mua token.",
+    "history": "Lịch sử Token",
+    "noHistory": "Không có lịch sử sử dụng token.",
+    "credit": "Nạp",
+    "debit": "Trừ",
+    "reason": {
+      "ONETIME_GRANT": "Cấp một lần",
+      "MONTHLY_GRANT": "Cấp hàng tháng",
+      "ADDON_PURCHASE": "Mua bổ sung",
+      "REFERRAL_REWARD": "Thưởng giới thiệu",
+      "AI_USAGE": "Sử dụng AI",
+      "RESET": "Đặt lại hàng tháng",
+      "ADMIN_ADJUST": "Điều chỉnh quản trị",
+      "REFUND": "Hoàn tiền"
+    }
+  },
+  "storage": {
+    "title": "Lưu trữ",
+    "usage": "Sử dụng",
+    "totalQuota": "Tổng dung lượng",
+    "baseStorage": "Dung lượng cơ bản",
+    "addonStorage": "Dung lượng bổ sung",
+    "usedPercent": "Đã sử dụng",
+    "purchase": "Mua thêm dung lượng",
+    "purchaseGb": "Dung lượng (GB)",
+    "purchaseSuccess": "Đã tạo trang thanh toán mua dung lượng.",
+    "warning": "Dung lượng lưu trữ đã vượt quá 100%. Vui lòng mua thêm dung lượng.",
+    "blocked": "Tải lên bị chặn. Dung lượng đã vượt quá 120%. Vui lòng mua thêm dung lượng."
+  },
+  "checkout": {
+    "title": "Thanh toán",
+    "processing": "Đang xử lý thanh toán...",
+    "success": "Thanh toán hoàn tất!",
+    "redirecting": "Đang chuyển đến trang thanh toán...",
+    "returnMessage": "Đăng ký của bạn đã được cập nhật."
+  },
+  "pricing": {
+    "title": "Gói giá",
+    "currentPlan": "Gói hiện tại",
+    "upgradeBtn": "Nâng cấp lên {{plan}}",
+    "freeTier": "Miễn phí",
+    "contactUs": "Liên hệ",
+    "perUserMonth": "/người dùng/tháng",
+    "tokenOnetime": "Token một lần",
+    "tokenMonthly": "Token hàng tháng/người dùng",
+    "storageBase": "Lưu trữ cơ bản",
+    "maxUsers": "Số người dùng tối đa",
+    "comingSoon": "Sắp ra mắt"
+  },
+  "payment": {
+    "selectMethod": "Chọn phương thức thanh toán",
+    "polar": "Polar (Thẻ tín dụng / PayPal)",
+    "polarDesc": "Cổng thanh toán quốc tế",
+    "toss": "Toss Payments",
+    "tossDesc": "Thanh toán Hàn Quốc (Thẻ / Chuyển khoản)",
+    "megapay": "MegaPay (VNPAY)",
+    "megapayDesc": "Thanh toán Việt Nam (QR / ATM / Ví điện tử)",
+    "comingSoon": "Sắp ra mắt"
+  },
+  "errors": {
+    "loadFailed": "Không thể tải dữ liệu đăng ký.",
+    "checkoutFailed": "Không thể tạo phiên thanh toán.",
+    "cancelFailed": "Không thể hủy đăng ký."
+  }
+}

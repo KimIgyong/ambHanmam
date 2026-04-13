@@ -1,0 +1,16 @@
+{
+  "title": "Work Report",
+  "daily": "Daily Report",
+  "weekly": "Weekly Report",
+  "generate": "Generate AI Report",
+  "generating": "Generating report...",
+  "generated": "Report generated successfully",
+  "savedReports": "Saved Reports",
+  "noReports": "No saved reports",
+  "selectOrGenerate": "Select a report or generate a new one",
+  "emptyState": "Select a date and generate an AI report",
+  "deleteConfirm": "Delete this report?",
+  "deleted": "Deleted",
+  "myReports": "My Reports",
+  "selectReport": "Select a report to view"
+}

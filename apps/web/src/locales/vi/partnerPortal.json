@@ -1,0 +1,114 @@
+{
+  "title": "Cổng Đối Tác",
+  "login": {
+    "title": "Đăng nhập Cổng Đối Tác",
+    "subtitle": "Quản lý ứng dụng và dịch vụ của bạn",
+    "partnerCode": "Mã Đối Tác",
+    "partnerCodePlaceholder": "Nhập mã đối tác",
+    "partnerCodeRequired": "Vui lòng nhập mã đối tác",
+    "email": "Email",
+    "password": "Mật khẩu",
+    "submit": "Đăng nhập",
+    "noAccount": "Bạn có lời mời?",
+    "register": "Đăng ký"
+  },
+  "register": {
+    "title": "Đăng ký",
+    "subtitle": "Thiết lập tài khoản của bạn",
+    "invalidToken": "Liên kết mời không hợp lệ hoặc đã hết hạn",
+    "name": "Họ tên",
+    "password": "Mật khẩu",
+    "confirmPassword": "Xác nhận mật khẩu",
+    "jobTitle": "Chức danh",
+    "phone": "Số điện thoại",
+    "submit": "Đăng ký",
+    "hasAccount": "Đã có tài khoản?",
+    "login": "Đăng nhập",
+    "passwordMismatch": "Mật khẩu không khớp"
+  },
+  "nav": {
+    "dashboard": "Tổng quan",
+    "myApps": "Ứng dụng",
+    "myPage": "Trang cá nhân",
+    "logout": "Đăng xuất"
+  },
+  "dashboard": {
+    "welcome": "Xin chào, {{name}}",
+    "myApps": "Ứng dụng của tôi",
+    "myAppsDesc": "Đăng ký và quản lý ứng dụng tùy chỉnh",
+    "partnerInfo": "Thông tin Đối Tác",
+    "partnerName": "Tên Đối Tác",
+    "partnerCode": "Mã Đối Tác",
+    "role": "Vai trò",
+    "email": "Email"
+  },
+  "myPage": {
+    "title": "Trang cá nhân",
+    "name": "Họ tên",
+    "email": "Email",
+    "partner": "Đối tác",
+    "jobTitle": "Chức danh",
+    "changePassword": "Đổi mật khẩu",
+    "currentPassword": "Mật khẩu hiện tại",
+    "newPassword": "Mật khẩu mới",
+    "confirmNewPassword": "Xác nhận mật khẩu mới",
+    "save": "Lưu",
+    "passwordChanged": "Đã đổi mật khẩu thành công",
+    "passwordMismatch": "Mật khẩu không khớp"
+  },
+  "app": {
+    "title": "Ứng dụng của tôi",
+    "create": "Đăng ký ứng dụng",
+    "noApps": "Chưa có ứng dụng nào",
+    "noAppsDesc": "Đăng ký ứng dụng tùy chỉnh đầu tiên",
+    "name": "Tên ứng dụng",
+    "code": "Mã ứng dụng",
+    "url": "URL ứng dụng",
+    "description": "Mô tả",
+    "category": "Danh mục",
+    "authMode": "Phương thức xác thực",
+    "openMode": "Cách mở",
+    "status": "Trạng thái",
+    "icon": "Biểu tượng",
+    "submit": "Gửi xem xét",
+    "save": "Lưu nháp",
+    "edit": "Sửa",
+    "delete": "Xóa",
+    "deleteConfirm": "Bạn có chắc muốn xóa ứng dụng này?",
+    "submitConfirm": "Gửi ứng dụng này để xem xét?",
+    "submitted": "Ứng dụng đã được gửi xem xét",
+    "saved": "Ứng dụng đã được lưu",
+    "deleted": "Ứng dụng đã được xóa",
+    "versions": "Phiên bản",
+    "latestVersion": "Phiên bản mới nhất",
+    "categories": {
+      "PRODUCTIVITY": "Năng suất",
+      "COMMUNICATION": "Giao tiếp",
+      "ANALYTICS": "Phân tích",
+      "INTEGRATION": "Tích hợp",
+      "UTILITY": "Tiện ích",
+      "OTHER": "Khác"
+    },
+    "authModes": {
+      "NONE": "Không",
+      "SSO_JWT": "SSO (JWT)",
+      "API_KEY": "API Key",
+      "OAUTH2": "OAuth2"
+    },
+    "openModes": {
+      "IFRAME": "Iframe",
+      "NEW_TAB": "Tab mới",
+      "POPUP": "Popup"
+    },
+    "statuses": {
+      "DRAFT": "Nháp",
+      "SUBMITTED": "Đã gửi",
+      "IN_REVIEW": "Đang xem xét",
+      "APPROVED": "Đã duyệt",
+      "REJECTED": "Bị từ chối",
+      "PUBLISHED": "Đã xuất bản",
+      "SUSPENDED": "Tạm dừng",
+      "ARCHIVED": "Lưu trữ"
+    }
+  }
+}

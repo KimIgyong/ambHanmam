@@ -1,0 +1,210 @@
+{
+  "tab": {
+    "management": "Quản lý",
+    "sales": "Kinh doanh",
+    "service": "Dịch vụ",
+    "support": "Hỗ trợ",
+    "notice": "Thông báo",
+    "finance": "Tài chính"
+  },
+  "lnb": {
+    "subMenu": "Menu phụ",
+    "fixedMenu": "Cá nhân",
+    "myWork": "Công việc",
+    "workContact": "Liên hệ",
+    "approval": "Phê duyệt",
+    "message": "Tin nhắn",
+    "myMenu": "Menu của tôi"
+  },
+  "menu": {
+    "management": {
+      "dashboard": "Bảng điều khiển",
+      "meetings": "Quản lý họp",
+      "projects": "Quản lý dự án",
+      "annualPlan": "Kế hoạch năm",
+      "performance": "Phân tích hiệu suất",
+      "collection": "Tình trạng thu",
+      "budget": "Ngân sách chi phí",
+      "products": "Quản lý sản phẩm",
+      "overview": "Tổng quan"
+    },
+    "sales": {
+      "clients": "Quản lý khách hàng",
+      "contracts": "Quản lý hợp đồng",
+      "invoiceRequest": "Yêu cầu hóa đơn",
+      "externalSales": "Doanh thu ngoài",
+      "internalSales": "Doanh thu nội bộ",
+      "internalPurchases": "Mua nội bộ",
+      "collectionAnalysis": "Phân tích thu",
+      "laborCost": "Chi phí nhân công",
+      "expenseBudget": "Ngân sách chi phí",
+      "expense": "Quản lý chi phí"
+    },
+    "finance": {
+      "invoiceIssue": "Phát hành hóa đơn",
+      "expensePayment": "Chi trả chi phí",
+      "cardUsage": "Sử dụng thẻ",
+      "bankTransaction": "Giao dịch ngân hàng",
+      "pendingExpense": "Chi phí chờ",
+      "pendingCollection": "Thu chờ"
+    },
+    "service": {
+      "consultationReceipt": "Tiếp nhận tư vấn",
+      "consultationManagement": "Quản lý tư vấn",
+      "consultationStats": "Thống kê tư vấn",
+      "ipManagement": "Quản lý IP"
+    },
+    "support": {
+      "companyLife": "Cuộc sống công ty",
+      "devBoard": "Bảng phát triển",
+      "companyDocs": "Tài liệu công ty",
+      "designDocs": "Quản lý thiết kế",
+      "designDocsView": "Xem thiết kế",
+      "docSendLog": "Nhật ký gửi",
+      "docReceiveLog": "Nhật ký nhận"
+    },
+    "notice": {
+      "schedule": "Chia sẻ lịch",
+      "reservation": "Đặt chỗ"
+    }
+  },
+  "column": {
+    "no": "STT",
+    "title": "Tiêu đề",
+    "status": "Trạng thái",
+    "date": "Ngày",
+    "author": "Tác giả",
+    "regDate": "Ngày đăng ký",
+    "category": "Danh mục",
+    "company": "Công ty",
+    "companyName": "Tên công ty",
+    "representative": "Đại diện",
+    "contractName": "Hợp đồng",
+    "manager": "Quản lý",
+    "assignee": "Người phụ trách",
+    "requestDate": "Ngày yêu cầu",
+    "completionDate": "Ngày hoàn thành",
+    "amount": "Số tiền",
+    "invoiceAmount": "Số tiền hóa đơn",
+    "collectionAmount": "Số tiền thu",
+    "type": "Loại",
+    "project": "Dự án",
+    "customer": "Khách hàng",
+    "requestor": "Người yêu cầu",
+    "reportDate": "Ngày báo cáo",
+    "plan": "Kế hoạch",
+    "result": "Kết quả",
+    "content": "Nội dung",
+    "businessRegNo": "Mã số DN",
+    "urgency": "Khẩn cấp",
+    "period": "Kỳ",
+    "item": "Mục",
+    "ip": "Địa chỉ IP",
+    "description": "Mô tả",
+    "sender": "Người gửi",
+    "receiver": "Người nhận",
+    "docNo": "Số văn bản",
+    "sendDate": "Ngày gửi",
+    "receiveDate": "Ngày nhận",
+    "consultType": "Loại tư vấn",
+    "consultStatus": "Trạng thái",
+    "productName": "Sản phẩm",
+    "unitPrice": "Đơn giá",
+    "quantity": "SL",
+    "totalAmount": "Tổng",
+    "budget": "Ngân sách",
+    "actual": "Thực tế",
+    "difference": "Chênh lệch",
+    "rate": "Tỷ lệ",
+    "month": "Tháng",
+    "cardName": "Thẻ",
+    "usageDate": "Ngày dùng",
+    "storeName": "Cửa hàng",
+    "bankName": "Ngân hàng",
+    "deposit": "Nạp",
+    "withdrawal": "Rút",
+    "balance": "Số dư",
+    "expenseType": "Loại chi",
+    "paymentDate": "Ngày trả",
+    "approver": "Người duyệt",
+    "docStatus": "Trạng thái VB",
+    "approvalDate": "Ngày duyệt",
+    "draftDate": "Ngày soạn"
+  },
+  "button": {
+    "search": "Tìm kiếm",
+    "reset": "Đặt lại",
+    "register": "Đăng ký",
+    "delete": "Xóa",
+    "excel": "Xuất Excel",
+    "print": "In",
+    "inquiry": "Tra cứu",
+    "selectedInquiry": "Tra cứu đã chọn",
+    "new": "Mới",
+    "fileSelect": "Chọn tệp",
+    "prev": "Trước",
+    "next": "Tiếp",
+    "today": "Hôm nay",
+    "write": "Viết",
+    "reply": "Trả lời",
+    "send": "Gửi",
+    "approve": "Duyệt",
+    "reject": "Từ chối",
+    "save": "Lưu"
+  },
+  "status": {
+    "completed": "Hoàn thành",
+    "inProgress": "Đang xử lý",
+    "pending": "Chờ xử lý",
+    "cancelled": "Đã hủy",
+    "draft": "Nháp",
+    "approved": "Đã duyệt",
+    "rejected": "Từ chối",
+    "waiting": "Chờ",
+    "urgent": "Khẩn",
+    "normal": "Bình thường"
+  },
+  "workContact": {
+    "processing": "Đang xử lý",
+    "assigned": "Phụ trách",
+    "interest": "Quan tâm"
+  },
+  "approval": {
+    "toApprove": "Cần duyệt",
+    "inProgress": "Đang xử lý",
+    "notSubmitted": "Chưa trình"
+  },
+  "message": {
+    "inbox": "Hộp thư đến",
+    "sent": "Đã gửi"
+  },
+  "reservation": {
+    "meetingRoom": "Phòng họp",
+    "vehicle": "Xe"
+  },
+  "dashboard": {
+    "notices": "Thông báo",
+    "recentPosts": "Bài mới",
+    "schedule": "Lịch",
+    "attendance": "Chấm công",
+    "anniversary": "Kỷ niệm"
+  },
+  "common": {
+    "totalCount": "Tổng {{count}} mục",
+    "noData": "Không có dữ liệu.",
+    "mockData": "Dữ liệu mẫu",
+    "page": "Trang",
+    "rowsPerPage": "Dòng/trang",
+    "all": "Tất cả",
+    "mySchedule": "Lịch của tôi",
+    "teamSchedule": "Lịch nhóm",
+    "year": "Năm",
+    "month": "Tháng",
+    "consultation": {
+      "immediate": "Ngay",
+      "tenMin": "10 phút",
+      "oneHour": "1 giờ",
+      "today": "Hôm nay"
+    }
+  }
+}

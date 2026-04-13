@@ -1,0 +1,88 @@
+{
+  "title": "Chấm công",
+  "subtitle": "Quản lý lịch chấm công hàng tuần.",
+  "filter": {
+    "all": "Tất cả",
+    "employee": "Nhân viên",
+    "client": "Khách hàng"
+  },
+  "weekNavPrev": "Tuần trước",
+  "weekNavNext": "Tuần sau",
+  "addSchedule": "Thêm lịch",
+  "editSchedule": "Sửa lịch",
+  "bulkRegister": "Đăng ký cả tuần",
+  "bulkTitle": "Đăng ký lịch tuần",
+  "noSchedule": "Chưa đăng ký",
+  "registered": "Đã đăng ký",
+  "type": {
+    "OFFICE": "Văn phòng",
+    "REMOTE": "Làm từ xa",
+    "OUTSIDE_WORK": "Làm ngoài",
+    "BUSINESS_TRIP": "Công tác",
+    "EXTERNAL_SITE": "Công trường",
+    "DAY_OFF": "Nghỉ phép",
+    "AM_HALF": "Nghỉ nửa ngày sáng",
+    "PM_HALF": "Nghỉ nửa ngày chiều",
+    "MENSTRUATION": "Nghỉ kinh nguyệt"
+  },
+  "form": {
+    "date": "Ngày",
+    "type": "Loại",
+    "startTime": "Giờ bắt đầu",
+    "endTime": "Giờ kết thúc",
+    "autoCalculated": "Tự động tính"
+  },
+  "deleteConfirm": {
+    "title": "Xóa lịch",
+    "message": "Bạn có chắc muốn xóa lịch này?",
+    "confirm": "Xóa"
+  },
+  "dayNames": {
+    "mon": "T2",
+    "tue": "T3",
+    "wed": "T4",
+    "thu": "T5",
+    "fri": "T6",
+    "sat": "T7",
+    "sun": "CN"
+  },
+  "applyTo": "Áp dụng cho",
+  "daysAlreadyRegistered": "{{count}} ngày đã có lịch. Ghi đè?",
+  "selectDays": "Chọn ngày để áp dụng",
+  "notEditable": "Ngoài thời gian đăng ký",
+  "weekOf": "{{start}} ~ {{end}}",
+  "memberManage": {
+    "button": "Quản lý thành viên",
+    "title": "Quản lý thành viên chấm công",
+    "desc": "Chọn nhân viên hiển thị và kéo để sắp xếp thứ tự.",
+    "visibleCount": "{{visible}}/{{total}} hiển thị",
+    "show": "Hiển thị",
+    "hide": "Ẩn",
+    "save": "Lưu"
+  },
+  "amendment": {
+    "button": "Sửa",
+    "title": "Sửa chấm công",
+    "note": "Lý do",
+    "notePlaceholder": "Nhập lý do sửa đổi",
+    "history": "Lịch sử sửa đổi",
+    "original": "Gốc",
+    "by": "Người sửa",
+    "noHistory": "Không có lịch sử sửa đổi",
+    "amended": "Đã sửa"
+  },
+  "policy": {
+    "title": "Chính sách chấm công",
+    "subtitle": "Quản lý chính sách chấm công của công ty.",
+    "remotePolicy": "Chính sách làm từ xa",
+    "remoteDefaultCount": "Số lần mặc định hàng tháng",
+    "remoteExtraCount": "Số lần bổ sung",
+    "remoteBlockOnExceed": "Chặn làm từ xa khi vượt quá",
+    "perMonth": "lần/tháng",
+    "leavePolicy": "Chính sách nghỉ phép",
+    "leavePolicyFuture": "(Sắp ra mắt)",
+    "leaveAutoDeduct": "Tự động trừ ngày nghỉ",
+    "halfLeaveAutoDeduct": "Tự động trừ nửa ngày",
+    "saved": "Đã lưu chính sách."
+  }
+}

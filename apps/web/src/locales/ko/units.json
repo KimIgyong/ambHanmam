@@ -1,0 +1,50 @@
+{
+  "MANAGEMENT": {
+    "name": "경영",
+    "description": "SWOT 분석, KPI, 의사결정 지원"
+  },
+  "ACCOUNTING": {
+    "name": "회계",
+    "description": "K-IFRS, 세무, 예산, 결산"
+  },
+  "HR": {
+    "name": "인사",
+    "description": "근로법, 채용, 평가, 보상"
+  },
+  "LEGAL": {
+    "name": "법무",
+    "description": "계약검토, 개인정보, 컴플라이언스"
+  },
+  "SALES": {
+    "name": "영업",
+    "description": "CRM, B2B/B2G, 제안서, 매출분석"
+  },
+  "IT": {
+    "name": "IT",
+    "description": "ISMS-P, 시스템관리, DX전략"
+  },
+  "MARKETING": {
+    "name": "마케팅",
+    "description": "STP, 디지털마케팅, 캠페인ROI"
+  },
+  "GENERAL_AFFAIRS": {
+    "name": "총무",
+    "description": "구매, 자산, 시설, 안전관리"
+  },
+  "PLANNING": {
+    "name": "기획",
+    "description": "사업계획, 신사업, PM/WBS"
+  },
+  "TRANSLATION": {
+    "name": "번역",
+    "description": "다국어 번역, 용어 관리, 문서 현지화"
+  },
+  "PM": {
+    "name": "프로젝트매니저",
+    "description": "프로젝트 관리, WBS, 일정/리스크 관리"
+  },
+  "DEVELOPMENT": {
+    "name": "개발",
+    "description": "소프트웨어 개발, 코드리뷰, 기술 자문"
+  }
+}

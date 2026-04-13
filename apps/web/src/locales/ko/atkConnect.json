@@ -1,0 +1,60 @@
+{
+  "connected": "연결됨",
+  "openNewTab": "새 탭으로 열기",
+  "banner": {
+    "title": "AmoebaTalk",
+    "desc": "Facebook, Zalo, LINE 등 고객 메시지를 한 곳에서 관리하세요",
+    "cta": "사용 시작하기",
+    "badges": "무료 · 1분 설정 · 이메일 인증 불필요"
+  },
+  "hero": {
+    "headline": "모든 고객 메시지, 하나의 대화로.",
+    "sub": "Facebook, Zalo, LINE, KakaoTalk, WhatsApp, Instagram — 모든 채널을 하나로",
+    "cta": "지금 무료로 시작하기",
+    "connecting": "연결 중...",
+    "badges": "설정 1분 · 신용카드 불필요 · 즉시 사용"
+  },
+  "channels": {
+    "title": "고객이 있는 곳, 어디서든 대화하세요",
+    "sub": "7개 이상의 메시징 채널을 하나의 인박스에서 관리",
+    "ecommerce": "+ Shopify · Odoo · WooCommerce 이커머스 연동"
+  },
+  "features": {
+    "title": "왜 AmoebaTalk인가?",
+    "inbox": "통합 인박스",
+    "inboxDesc": "모든 채널의 메시지를 한 곳에서 확인하고 응답합니다",
+    "ai": "AI 스마트 응대",
+    "aiDesc": "AI가 고객 의도를 분석하고 자동으로 최적의 답변을 제안합니다",
+    "analytics": "실시간 분석",
+    "analyticsDesc": "대화량, 응답 시간, 만족도를 실시간으로 모니터링합니다",
+    "team": "팀 협업",
+    "teamDesc": "대화 배정, 내부 메모, 태그로 팀원과 효율적으로 협업",
+    "ecommerce": "이커머스 연동",
+    "ecommerceDesc": "Shopify, Odoo 주문 정보와 고객 대화를 자동 연결",
+    "security": "엔터프라이즈 보안",
+    "securityDesc": "데이터 암호화, 역할 기반 접근 제어로 안전하게 운영"
+  },
+  "howItWorks": {
+    "title": "3단계로 시작하세요",
+    "step1": "계정 연결",
+    "step1Desc": "AMB 정보로 원클릭 가입",
+    "step2": "채널 추가",
+    "step2Desc": "OAuth로 소셜 채널 연결",
+    "step3": "대화 시작",
+    "step3Desc": "고객 메시지가 즉시 도착"
+  },
+  "stats": {
+    "channels": "지원 채널",
+    "responseTime": "응답 시간 단축",
+    "ai": "AI 자동 응대",
+    "setup": "설정 시간"
+  },
+  "cta": {
+    "title": "지금 바로 시작하세요",
+    "sub": "현재 법인 정보로 즉시 가입됩니다",
+    "button": "AmoebaTalk 서비스 시작하기",
+    "noVerify": "이메일 인증 없이 즉시 사용",
+    "autoLink": "AMB 법인 정보 자동 연결",
+    "passwordOnly": "비밀번호만 설정하면 바로 사용 가능"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "panel": {
+    "title": "Dịch thuật",
+    "original": "Bản gốc",
+    "translated": "Đã dịch",
+    "noTranslation": "Chưa có bản dịch {{lang}} cho nội dung này.",
+    "noTranslationDesc": "Bản dịch AI sẽ được lưu vào DB để người dùng khác có thể xem ngay.",
+    "translateTo": "Dịch sang {{lang}}",
+    "viewOriginal": "Xem bản gốc",
+    "translating": "Đang tạo bản dịch...",
+    "staleWarning": "Bản dịch có thể đã cũ",
+    "locked": "Bản dịch đã bị khóa",
+    "aiTranslated": "Dịch bởi AI",
+    "humanEdited": "Đã chỉnh sửa",
+    "editTranslation": "Sửa bản dịch",
+    "reTranslate": "Dịch lại",
+    "history": "Lịch sử",
+    "translateAll": "Dịch tất cả",
+    "translateAllProgress": "Đang dịch ({{current}}/{{total}})",
+    "changeOriginalLang": "Thay đổi ngôn ngữ gốc",
+    "originalLangLabel": "Gốc: {{lang}}"
+  },
+  "save": {
+    "title": "Lưu bản dịch tiếng Anh?",
+    "titleDynamic": "Lưu bản dịch {{langs}} không?",
+    "description": "AI sẽ tạo bản dịch tiếng Anh để các thành viên khác có thể đọc.",
+    "descriptionDynamic": "AI sẽ tạo bản dịch {{langs}} để các thành viên khác có thể đọc.",
+    "selectTargetLangs": "Ngôn ngữ đích",
+    "dontAskAgain": "Không hỏi lại",
+    "no": "Không, chỉ lưu bản gốc",
+    "yes": "Có, lưu kèm bản dịch",
+    "generating": "Đang tạo bản dịch tiếng Anh...",
+    "generatingLang": "Đang tạo bản dịch {{lang}}... ({{current}}/{{total}})",
+    "generated": "Đã tạo bản dịch tiếng Anh",
+    "generatedAll": "Đã tạo bản dịch {{count}} ngôn ngữ",
+    "saveAsIs": "Lưu nguyên",
+    "editAndSave": "Sửa trước khi lưu",
+    "saved": "Đã lưu bản gốc + bản dịch"
+  },
+  "edit": {
+    "title": "Sửa bản dịch",
+    "changeReason": "Lý do thay đổi (tùy chọn)",
+    "changeReasonPlaceholder": "Nhập lý do thay đổi",
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "saved": "Đã cập nhật bản dịch",
+    "lock": "Khóa bản dịch",
+    "unlock": "Mở khóa bản dịch",
+    "locked": "Đã khóa",
+    "unlocked": "Đã mở khóa",
+    "lockedWarning": "Bản dịch này đã bị khóa. Mở khóa để chỉnh sửa."
+  },
+  "history": {
+    "title": "Lịch sử chỉnh sửa",
+    "version": "Phiên bản {{version}}",
+    "editedBy": "Người sửa",
+    "reason": "Lý do",
+    "noHistory": "Không có lịch sử"
+  },
+  "lang": {
+    "en": "Tiếng Anh",
+    "ko": "Tiếng Hàn",
+    "vi": "Tiếng Việt"
+  },
+  "glossary": {
+    "title": "Bảng thuật ngữ",
+    "addTerm": "Thêm thuật ngữ",
+    "editTerm": "Sửa thuật ngữ",
+    "deleteTerm": "Xóa thuật ngữ",
+    "termEn": "Thuật ngữ tiếng Anh",
+    "termKo": "Tiếng Hàn",
+    "termVi": "Tiếng Việt",
+    "category": "Danh mục",
+    "context": "Ngữ cảnh",
+    "deleteConfirm": "Bạn có chắc muốn xóa thuật ngữ này?",
+    "noTerms": "Chưa có thuật ngữ nào"
+  },
+  "messages": {
+    "translateSuccess": "Dịch thành công",
+    "translateError": "Lỗi khi dịch",
+    "savedToDb": "Đã lưu vào DB. Người dùng khác có thể xem ngay."
+  }
+}

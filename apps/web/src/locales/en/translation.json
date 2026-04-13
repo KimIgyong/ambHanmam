@@ -1,0 +1,83 @@
+{
+  "panel": {
+    "title": "Translation",
+    "original": "Original",
+    "translated": "Translated",
+    "noTranslation": "No {{lang}} translation available for this content.",
+    "noTranslationDesc": "AI-generated translations are saved to DB so other users can view them immediately.",
+    "translateTo": "Translate to {{lang}}",
+    "viewOriginal": "View Original",
+    "translating": "Generating translation...",
+    "staleWarning": "Translation may be outdated",
+    "locked": "Translation is locked",
+    "aiTranslated": "AI Translated",
+    "humanEdited": "Edited",
+    "editTranslation": "Edit Translation",
+    "reTranslate": "Re-translate",
+    "history": "History",
+    "translateAll": "Translate All",
+    "translateAllProgress": "Translating ({{current}}/{{total}})",
+    "changeOriginalLang": "Change source language",
+    "originalLangLabel": "Source: {{lang}}"
+  },
+  "save": {
+    "title": "Save English translation too?",
+    "titleDynamic": "Save {{langs}} translation too?",
+    "description": "AI will generate an English translation so other team members can read it.",
+    "descriptionDynamic": "AI will generate {{langs}} translations so other team members can read it.",
+    "selectTargetLangs": "Target languages",
+    "dontAskAgain": "Don't ask again",
+    "no": "No, save original only",
+    "yes": "Yes, save with translations",
+    "generating": "Generating English translation...",
+    "generatingLang": "Generating {{lang}} translation... ({{current}}/{{total}})",
+    "generated": "English translation generated",
+    "generatedAll": "{{count}} language translations generated",
+    "saveAsIs": "Save as is",
+    "editAndSave": "Edit before saving",
+    "saved": "Original + translations saved"
+  },
+  "edit": {
+    "title": "Edit Translation",
+    "changeReason": "Change Reason (optional)",
+    "changeReasonPlaceholder": "Enter the reason for change",
+    "save": "Save",
+    "cancel": "Cancel",
+    "saved": "Translation updated",
+    "lock": "Lock translation",
+    "unlock": "Unlock translation",
+    "locked": "Locked",
+    "unlocked": "Unlocked",
+    "lockedWarning": "This translation is locked. Unlock it to make changes."
+  },
+  "history": {
+    "title": "Translation History",
+    "version": "Version {{version}}",
+    "editedBy": "Edited by",
+    "reason": "Reason",
+    "noHistory": "No history available"
+  },
+  "lang": {
+    "en": "English",
+    "ko": "Korean",
+    "vi": "Vietnamese"
+  },
+  "glossary": {
+    "title": "Domain Glossary",
+    "addTerm": "Add Term",
+    "editTerm": "Edit Term",
+    "deleteTerm": "Delete Term",
+    "termEn": "English Term",
+    "termKo": "Korean",
+    "termVi": "Vietnamese",
+    "category": "Category",
+    "context": "Context",
+    "deleteConfirm": "Are you sure you want to delete this term?",
+    "noTerms": "No terms registered"
+  },
+  "messages": {
+    "translateSuccess": "Translation completed",
+    "translateError": "Translation error occurred",
+    "savedToDb": "Saved to DB. Other users can view it now."
+  }
+}

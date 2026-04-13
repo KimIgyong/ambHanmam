@@ -1,0 +1,16 @@
+{
+  "title": "Báo cáo công việc",
+  "daily": "Báo cáo hàng ngày",
+  "weekly": "Báo cáo hàng tuần",
+  "generate": "Tạo báo cáo AI",
+  "generating": "Đang tạo báo cáo...",
+  "generated": "Báo cáo đã được tạo thành công",
+  "savedReports": "Báo cáo đã lưu",
+  "noReports": "Không có báo cáo đã lưu",
+  "selectOrGenerate": "Chọn báo cáo hoặc tạo báo cáo mới",
+  "emptyState": "Chọn ngày và tạo báo cáo AI",
+  "deleteConfirm": "Xóa báo cáo này?",
+  "deleted": "Đã xóa",
+  "myReports": "Báo cáo của tôi",
+  "selectReport": "Chọn báo cáo để xem"
+}

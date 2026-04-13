@@ -1,0 +1,40 @@
+{
+  "title": "공지사항",
+  "subtitle": "회사 소식과 공지를 확인하세요.",
+  "createNotice": "공지 작성",
+  "editNotice": "공지 수정",
+  "noNotices": "등록된 공지사항이 없습니다.",
+  "pinned": "고정",
+  "new": "NEW",
+  "visibility": {
+    "PUBLIC": "전체 공개",
+    "CELL": "셀별",
+    "UNIT": "Unit별"
+  },
+  "form": {
+    "title": "제목",
+    "titlePlaceholder": "공지사항 제목을 입력하세요",
+    "content": "내용",
+    "visibility": "공개 범위",
+    "unit": "대상 Unit",
+    "pinned": "상단 고정",
+    "attachments": "첨부파일",
+    "addFile": "파일 추가",
+    "maxFileSize": "최대 10MB"
+  },
+  "detail": {
+    "author": "작성자",
+    "createdAt": "작성일",
+    "views": "조회수",
+    "attachments": "첨부파일"
+  },
+  "deleteConfirm": {
+    "title": "공지 삭제",
+    "message": "이 공지사항을 삭제하시겠습니까?",
+    "confirm": "삭제"
+  },
+  "filter": {
+    "all": "전체",
+    "pinned": "고정 공지"
+  }
+}

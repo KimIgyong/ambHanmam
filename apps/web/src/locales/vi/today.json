@@ -1,0 +1,170 @@
+{
+  "title": "Hom nay",
+  "tabs": {
+    "my": "Hom nay cua toi",
+    "team": "Hom nay cua nhom",
+    "all": "Hom nay cua tat ca"
+  },
+  "summary": {
+    "todayDue": "Den han hom nay",
+    "inProgress": "Dang thuc hien",
+    "overdue": "Qua han",
+    "issues": "Van de",
+    "completedToday": "Hoan thanh hom nay"
+  },
+  "sections": {
+    "overdue": "Qua han",
+    "todayDue": "Den han hom nay",
+    "inProgress": "Dang thuc hien",
+    "calendar": "Lich trinh hom nay"
+  },
+  "empty": {
+    "todayDue": "Khong co cong viec den han hom nay.",
+    "overdue": "Khong co cong viec qua han.",
+    "inProgress": "Khong co cong viec dang thuc hien.",
+    "noData": "Khong co du lieu de hien thi.",
+    "issues": "Khong co van de chua giai quyet.",
+    "calendar": "Khong co su kien nao hom nay.",
+    "meetingNotes": "Khong co ghi chu hop gan day."
+  },
+  "viewAll": "Xem tat ca",
+  "all": {
+    "title": "Hom nay cua tat ca",
+    "totalMembers": "Tong thanh vien",
+    "cardView": "Dang the",
+    "listView": "Dang danh sach",
+    "filterByDept": "Loc theo phong ban",
+    "allDepts": "Tat ca",
+    "todoCount": "Cong viec",
+    "overdueCount": "Qua han",
+    "issueCount": "Van de",
+    "sendDm": "Nhan tin",
+    "noMembers": "Khong tim thay thanh vien.",
+    "hide": "An khoi Hom nay",
+    "unhide": "Hien thi trong Hom nay",
+    "hidden": "Da an",
+    "showAllIncludingHidden": "Xem tat ca (ke ca an)",
+    "showActiveOnly": "Chi hien thi hoat dong"
+  },
+  "team": {
+    "title": "Hom nay cua nhom",
+    "noMembers": "Khong tim thay thanh vien nhom.",
+    "unitLabel": "Phòng ban"
+  },
+  "ai": {
+    "generate": "Phan tich AI",
+    "generateMy": "AI Huan luyen cong viec",
+    "generating": "Dang phan tich...",
+    "save": "Luu bao cao",
+    "saved": "Bao cao da duoc luu",
+    "reportTitle": "Tieu de bao cao",
+    "savedReports": "Bao cao da luu",
+    "workReport": "Bao cao cong viec",
+    "regenerate": "Phan tich lai",
+    "noReports": "Khong co bao cao da luu",
+    "deleteConfirm": "Xoa bao cao nay?",
+    "translate": "Dich",
+    "translating": "Dang dich...",
+    "sourceLang": "Ngon ngu nguon",
+    "targetLang": "Dich sang",
+    "translateResult": "Ket qua dich"
+  },
+  "close": "Dong",
+  "mission": {
+    "title": "Nhiem vu hom nay",
+    "prompt": "Viet nhiem vu cua ban cho hom nay",
+    "placeholder": "Trong tam chinh cua ban hom nay la gi...",
+    "save": "Luu",
+    "edit": "Sua",
+    "skip": "Bo qua hom nay",
+    "skipped": "Da bo qua nhiem vu hom nay",
+    "yesterdayCheck": "Danh gia muc do hoan thanh nhiem vu hom qua",
+    "checkScore": "Muc do hoan thanh",
+    "checkTitle": "Kiem tra nhiem vu hom qua",
+    "uncheckedTitle": "Kiem tra nhiem vu chua hoan thanh",
+    "lineStateDone": "Hoan thanh",
+    "lineStateIncomplete": "Chua hoan thanh",
+    "lineStateNa": "Khong ap dung",
+    "subChoiceMission": "Chuyen sang hom nay",
+    "subChoiceTask": "Tao Task",
+    "doneBadge": "Da luu hoan thanh",
+    "taskBadge": "Da dang ky Task",
+    "missionBadge": "Chuyen sang nhiem vu hom nay",
+    "naBadge": "Loai tru",
+    "carryOverTitle": "Chuyen sang nhiem vu hom nay",
+    "progressEval": "{{eval}} da danh gia",
+    "progressExclude": "{{exclude}} loai tru",
+    "saveCheck": "Luu",
+    "remainHint": "{{count}} con lai — Chon hoat dong tiep theo",
+    "allEvaluated": "Tat ca da duoc danh gia",
+    "subChoicePrompt": "Tiep tuc:",
+    "changeChoice": "Thay doi"
+  },
+  "history": {
+    "title": "Lich su",
+    "backToToday": "Quay lai Hom nay",
+    "backToCalendar": "Lich",
+    "noSnapshot": "Khong co anh chup cho ngay nay.",
+    "stats": "{{days}} ngay ghi nhan · Trung binh {{avg}}%",
+    "weekView": "Tuan",
+    "monthView": "Thang"
+  },
+  "snapshot": {
+    "readonly": "Chi doc",
+    "todos": "Cong viec",
+    "overdue": "Qua han",
+    "todayDue": "Den han hom nay",
+    "inProgress": "Dang thuc hien",
+    "scheduled": "Da len lich",
+    "completed": "Hoan thanh",
+    "issues": "Van de",
+    "issueTotal": "Tổng",
+    "issueCount": "{{count}}",
+    "issueResolved": "{{count}} đã giải quyết",
+    "reported": "Toi da tao",
+    "assigned": "Toi phu trach",
+    "issueTab": {
+      "open": "Cần xem xét",
+      "working": "Đang làm",
+      "watching": "Theo dõi"
+    },
+    "schedules": "Lich trinh",
+    "allDay": "Ca ngay",
+    "last4weeks": "4 tuan gan day"
+  },
+  "memo": {
+    "title": "Ghi chu",
+    "placeholder": "Them ghi chu...",
+    "save": "Luu",
+    "deleteConfirm": "Xoa ghi chu nay?"
+  },
+  "attendance": {
+    "approve": "Phe duyet WFH",
+    "reject": "Tu choi (Vang mat)",
+    "approved": "WFH da duoc phe duyet",
+    "rejected": "WFH bi tu choi (Ghi nhan vang mat)",
+    "absent": "Vang mat",
+    "pendingWfh": "Cho phe duyet"
+  },
+  "sidebar": {
+    "notices": "Thong bao",
+    "recentNotes": "Ghi chu chia se gan day",
+    "inProgressIssues": "Van de dang xu ly",
+    "viewMore": "Xem them",
+    "noNotices": "Khong co thong bao.",
+    "noNotes": "Khong co ghi chu chia se.",
+    "noIssues": "Khong co van de dang xu ly."
+  },
+  "cell": {
+    "myCells": "Cell của tôi",
+    "showAll": "Xem tất cả"
+  },
+  "org": {
+    "unitTab": "Phòng ban",
+    "cellTab": "Cell",
+    "allUnits": "Tất cả phòng ban",
+    "allCells": "Tất cả Cell",
+    "manager": "Quản lý",
+    "members": "Thành viên"
+  }
+}

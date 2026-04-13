@@ -1,0 +1,1896 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AMB Management User Manual</title>
+  <link rel="canonical" href="https://www.amoeba.site/service/ama/AMA-User-Manual-v1.html" />
+  <style>
+    :root { color-scheme: light; }
+    body { margin: 0; font-family: "Noto Sans KR", "Apple SD Gothic Neo", "Segoe UI", sans-serif; background: #f7f8fb; color: #1f2937; line-height: 1.65; }
+    .container { max-width: 980px; margin: 0 auto; padding: 28px 20px 64px; }
+    .paper { background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 24px; box-shadow: 0 1px 2px rgba(0,0,0,.04); }
+    h1, h2, h3, h4, h5, h6 { line-height: 1.3; margin: 1.2em 0 .5em; color: #111827; }
+    h1 { font-size: 1.8rem; border-bottom: 2px solid #eef2ff; padding-bottom: .4em; }
+    h2 { font-size: 1.35rem; border-bottom: 1px solid #f1f5f9; padding-bottom: .3em; }
+    h3 { font-size: 1.1rem; }
+    p { margin: .45em 0; }
+    ul, ol { margin: .4em 0 .8em 1.2em; padding: 0; }
+    li { margin: .2em 0; }
+    code { background: #f3f4f6; color: #111827; padding: .1em .35em; border-radius: 6px; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+    pre { background: #0f172a; color: #e2e8f0; border-radius: 10px; padding: 14px; overflow: auto; }
+    pre code { background: transparent; color: inherit; padding: 0; }
+    a { color: #2563eb; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    blockquote { margin: .8em 0; padding: .5em .9em; border-left: 3px solid #c7d2fe; background: #f8faff; color: #334155; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <article class="paper">
+<h1>AMB Management 사용자 매뉴얼 / User Manual</h1>
+
+<p>&gt; <strong>Version / 버전</strong>: 1.0.0  </p>
+<p>&gt; <strong>Last Updated / 최종 수정일</strong>: 2026-03-15  </p>
+<p>&gt; <strong>System / 대상 시스템</strong>: AMB Management (AMA)  </p>
+<p>&gt; <strong>Related / 관련 문서</strong>: <a href="AMA-User-Guide-v1.md" target="_blank" rel="noopener noreferrer">AMA-User-Guide-v1.md</a></p>
+
+<p>---</p>
+
+<h2>Table of Contents / 목차</h2>
+
+<h3>Getting Started / 시작하기</h3>
+<ul>
+<li><a href="#시스템-접속-및-로그인-login" target="_blank" rel="noopener noreferrer">시스템 접속 및 로그인 Login</a></li>
+<li><a href="#조직-구조-이해-organization-structure" target="_blank" rel="noopener noreferrer">조직 구조 이해 Organization Structure</a></li>
+</ul>
+
+<h3>Dashboard / 대시보드</h3>
+<ol>
+<li><a href="#0-오늘의-미션-today" target="_blank" rel="noopener noreferrer">오늘의 미션 Today</a></li>
+</ol>
+
+<h3>Work Tools / 업무도구</h3>
+<ol>
+<li><a href="#1-할일-todo" target="_blank" rel="noopener noreferrer">할일 TODO</a></li>
+<li><a href="#2-노트-meeting-notes" target="_blank" rel="noopener noreferrer">노트 Meeting Notes</a></li>
+<li><a href="#3-출근예정표-attendance" target="_blank" rel="noopener noreferrer">출근예정표 Attendance</a></li>
+<li><a href="#4-휴가-신청-my-leave" target="_blank" rel="noopener noreferrer">휴가 신청 My Leave</a></li>
+<li><a href="#5-공지사항-notices" target="_blank" rel="noopener noreferrer">공지사항 Notices</a></li>
+<li><a href="#6-문서함-documents" target="_blank" rel="noopener noreferrer">문서함 Documents</a></li>
+<li><a href="#7-로비채팅-lobby-chat" target="_blank" rel="noopener noreferrer">로비채팅 Lobby Chat</a></li>
+<li><a href="#8-크루-crew" target="_blank" rel="noopener noreferrer">크루 Crew</a></li>
+<li><a href="#9-이슈-issues" target="_blank" rel="noopener noreferrer">이슈 Issues</a></li>
+<li><a href="#10-프로젝트-projects" target="_blank" rel="noopener noreferrer">프로젝트 Projects</a></li>
+<li><a href="#11-일정관리-calendar" target="_blank" rel="noopener noreferrer">일정관리 Calendar</a></li>
+</ol>
+
+<h3>Work Modules / 업무모듈</h3>
+<ol>
+<li><a href="#12-거래처관리-billing" target="_blank" rel="noopener noreferrer">거래처관리 Billing</a></li>
+<li><a href="#13-계약서-조회-contracts" target="_blank" rel="noopener noreferrer">계약서 조회 Contracts</a></li>
+<li><a href="#14-자산관리-asset-management" target="_blank" rel="noopener noreferrer">자산관리 Asset Management</a></li>
+<li><a href="#15-지출결의-expense-request" target="_blank" rel="noopener noreferrer">지출결의 Expense Request</a></li>
+<li><a href="#16-업무항목-work-items" target="_blank" rel="noopener noreferrer">업무항목 Work Items</a></li>
+<li><a href="#17-웹메일-webmail" target="_blank" rel="noopener noreferrer">웹메일 Webmail</a></li>
+<li><a href="#18-인사관리-hr-management" target="_blank" rel="noopener noreferrer">인사관리 HR Management</a></li>
+<li><a href="#19-회계관리-accounting" target="_blank" rel="noopener noreferrer">회계관리 Accounting</a></li>
+<li><a href="#20-지식관리-kms" target="_blank" rel="noopener noreferrer">지식관리 KMS</a></li>
+<li><a href="#21-ai-에이전트-ai-agents" target="_blank" rel="noopener noreferrer">AI 에이전트 AI Agents</a></li>
+<li><a href="#22-서비스관리-service-management" target="_blank" rel="noopener noreferrer">서비스관리 Service Management</a></li>
+</ol>
+
+<h3>Admin Area / 관리자 영역</h3>
+<ol>
+<li><a href="#23-관리자-설정-admin-settings" target="_blank" rel="noopener noreferrer">관리자 설정 Admin Settings</a></li>
+<li><a href="#24-법인-설정-entity-settings" target="_blank" rel="noopener noreferrer">법인 설정 Entity Settings</a></li>
+<li><a href="#25-사이트-관리-site-management" target="_blank" rel="noopener noreferrer">사이트 관리 Site Management</a></li>
+<li><a href="#26-포탈-브릿지-portal-bridge" target="_blank" rel="noopener noreferrer">포탈 브릿지 Portal Bridge</a></li>
+</ol>
+
+<h3>Common Features / 공통 기능</h3>
+<ol>
+<li><a href="#27-마이페이지-my-page" target="_blank" rel="noopener noreferrer">마이페이지 My Page</a></li>
+<li><a href="#28-공통-기능-common-features" target="_blank" rel="noopener noreferrer">공통 기능 Common Features</a></li>
+</ol>
+
+<p>---</p>
+
+<h2>시스템 접속 및 로그인 Login</h2>
+
+<h3>기능 설명 / Feature Description</h3>
+
+<p>AMB Management(AMA)는 웹 브라우저에서 접속하는 클라우드 기반 업무 관리 시스템입니다.  </p>
+<p>AMB Management (AMA) is a cloud-based work management system accessed via web browser.</p>
+
+<h3>사용법 / How to Use</h3>
+
+<ol>
+<li>웹 브라우저에서 시스템 URL에 접속합니다 / Open the system URL in a web browser</li>
+</ol>
+<ul>
+<li>개발 환경: <code>http://localhost:5179</code></li>
+<li>스테이징: <code>https://stg-ama.amoeba.site</code></li>
+<li>프로덕션: <code>https://ama.amoeba.site</code></li>
+</ul>
+<ol>
+<li>회사 이메일과 비밀번호로 로그인합니다 / Log in with your company email and password</li>
+<li>로그인 후 <strong>오늘의 미션(Today)</strong> 대시보드가 표시됩니다 / After login, the <strong>Today</strong> dashboard appears</li>
+</ol>
+
+<h3>💡 사용 팁 / Usage Tips</h3>
+
+<ul>
+<li><strong>자동 로그아웃</strong>: 30분간 미활동 시 자동 로그아웃되므로, 중요 작업 중에는 주기적으로 활동하세요.  </li>
+</ul>
+<p>  Auto logout occurs after 30 minutes of inactivity. Stay active during important work.</p>
+<ul>
+<li><strong>PWA 설치</strong>: 모바일/데스크톱에서 "앱 설치" 기능을 사용하면 네이티브 앱처럼 사용할 수 있습니다.  </li>
+</ul>
+<p>  Install as PWA on mobile/desktop for a native app-like experience.</p>
+<ul>
+<li><strong>다국어 전환</strong>: 헤더 우측의 언어 선택기로 한국어/영어/베트남어 중 원하는 언어를 선택할 수 있습니다.  </li>
+</ul>
+<p>  Use the language selector in the header to switch between Korean/English/Vietnamese.</p>
+
+<p>---</p>
+
+<h2>조직 구조 이해 Organization Structure</h2>
+
+<h3>기능 설명 / Feature Description</h3>
+
+<p>AMA는 <strong>매트릭스 조직</strong> 구조를 지원합니다. 데이터는 <strong>Entity(법인)</strong> 단위로 격리되며, <strong>Unit(유닛/부서)</strong> 은 상설 조직, <strong>Cell(셀/프로젝트팀)</strong> 은 프로젝트 기반 유연한 조직입니다.  </p>
+<p>AMA supports a <strong>matrix organization</strong> structure. Data is isolated per <strong>Entity (company)</strong>, <strong>Unit (department)</strong> is a permanent structure, and <strong>Cell (project team)</strong> is a flexible project-based structure.</p>
+
+<p>| 계층 / Level | 설명 / Description |</p>
+<p>|------|------|</p>
+<p>| <strong>Entity (법인/회사)</strong> | 최상위 단위. 모든 데이터가 법인별로 격리됩니다. / Top-level unit. All data is isolated per entity. |</p>
+<p>| <strong>Unit (유닛/부서)</strong> | 1인 1 유닛 소속. 하위 유닛(Section) 가능. / One person belongs to one unit. Sub-units (Section) possible. |</p>
+<p>| <strong>Cell (셀/프로젝트팀)</strong> | 1인 다수 셀 소속 가능. TF(Task Force) 형태. / One person can belong to multiple cells. Task Force style. |</p>
+
+<h3>💡 사용 팁 / Usage Tips</h3>
+
+<ul>
+<li><strong>법인 전환</strong>: 여러 법인에 소속된 경우, 헤더의 법인 선택기로 소속 법인을 전환할 수 있습니다.  </li>
+</ul>
+<p>  If affiliated with multiple entities, use the entity selector in the header to switch.</p>
+<ul>
+<li><strong>데이터 격리</strong>: 프로젝트, 거래처, 회계 등의 데이터는 법인 단위로 분리되어 있으므로, 올바른 법인을 선택했는지 확인하세요.  </li>
+</ul>
+<p>  Data for projects, billing, accounting, etc. is isolated per entity — ensure you've selected the correct one.</p>
+
+<p>---</p>
+
+<h1>Dashboard / 대시보드</h1>
+
+<p>---</p>
+
+<h2>0. 오늘의 미션 Today</h2>
+
+<p>&gt; <strong>경로 / Path</strong>: 로그인 후 첫 화면 / Login landing page (<code>/</code>)</p>
+
+<h3>기능 설명 / Feature Description</h3>
+
+<p>로그인 직후 표시되는 통합 대시보드 페이지입니다. 오늘 처리해야 할 미션, 지연 작업, 이슈, 일정, 회의록을 한 화면에서 확인할 수 있습니다. 범위 탭(My Work / Unit / Cell / All)으로 조회 범위를 전환할 수 있습니다.  </p>
+<p>Integrated dashboard displayed immediately after login. View today's missions, overdue tasks, issues, schedules, and meeting notes in one screen. Switch scope with tabs (My Work / Unit / Cell / All).</p>
+
+<h3>화면 구성 / Screen Layout</h3>
+
+<ul>
+<li><strong>범위 탭</strong>: <code>내 업무</code> · <code>유닛(부서)</code> · <code>셀(프로젝트팀)</code> · <code>전체</code> 4개 탭</li>
+<li><strong>오늘의 미션</strong>: 오늘과 어제 미완료 미션 표시</li>
+<li><strong>작업</strong>: 지연 작업(빨간색 강조) + 진행 중 작업</li>
+<li><strong>이슈</strong>: "확인 필요"(OPEN) / "작업 중"(IN_PROGRESS) / "관계자" 3개 탭</li>
+<li><strong>오늘 일정</strong>: 사용자 타임존 기반 일정</li>
+<li><strong>회의록</strong>: 최근 5건</li>
+<li><strong>요약 바</strong>: 각 항목의 통계</li>
+</ul>
+
+<h3>사용법 / How to Use</h3>
+
+<ol>
+<li><strong>로그인</strong> → 자동으로 오늘의 미션 페이지가 표시됩니다 / Login → Today page appears automatically</li>
+<li><strong>범위 탭 전환</strong> → <code>내 업무</code> 탭이 기본이며, <code>유닛(부서)</code> · <code>셀(프로젝트)</code> · <code>전체</code>로 다른 멤버의 업무도 확인할 수 있습니다 / <code>My Work</code> is default; switch to <code>Unit</code> · <code>Cell</code> · <code>All</code> to see others' work</li>
+<li><strong>오늘의 미션 클릭</strong> → 해당 항목의 상세 페이지로 이동합니다 / Click a mission item → Navigate to the detail page</li>
+<li><strong>이슈 탭 전환</strong> → "확인 필요", "작업 중", "관계자" 탭으로 이슈 상태별 확인 / Switch issue tabs to check by status</li>
+<li><strong>AI 업무 코칭</strong> → ✨ 버튼 클릭 → AI가 오늘 업무에 대한 분석과 코칭을 제공합니다 / Click ✨ button → AI provides coaching for today's work</li>
+<li><strong>저장된 리포트</strong> → 📄 버튼 → 이전에 생성된 업무 리포트를 열람합니다 / Click 📄 → Browse saved work reports</li>
+<li><strong>히스토리 캘린더</strong> → 내 업무 탭 우측 사이드바에서 과거 날짜별 업무 내역을 확인합니다 / Use the right sidebar calendar to view past work history</li>
+</ol>
+
+<h3>💡 사용 팁 / Usage Tips</h3>
+
+<ul>
+<li><strong>아침 루틴</strong>: 매일 출근 후 가장 먼저 이 페이지를 확인하여 당일 해야 할 일을 정리하세요.  </li>
+</ul>
+<p>  Check this page first every morning to plan your day.</p>
+<ul>
+<li><strong>AI 코칭 활용</strong>: 업무가 많을 때 ✨ 버튼을 눌러 AI의 우선순위 제안을 참고하세요.  </li>
+</ul>
+<p>  When busy, press ✨ for AI's priority suggestions.</p>
+<ul>
+<li><strong>지연 작업 주의</strong>: 빨간색으로 강조된 항목은 마감일이 지난 작업입니다. 즉시 처리하거나 마감일을 조정하세요.  </li>
+</ul>
+<p>  Red-highlighted items are overdue — handle immediately or adjust the deadline.</p>
+<ul>
+<li><strong>히스토리 캘린더</strong>: 과거 날짜를 클릭하면 그날의 업무 기록을 확인할 수 있어, 업무 보고 작성 시 유용합니다.  </li>
+</ul>
+<p>  Click past dates in the history calendar to review work records — useful for writing reports.</p>
+
+<p>---</p>
+
+<h1>Work Tools / 업무도구</h1>
+
+<p>---</p>
+
+<h2>1. 할일 TODO</h2>
+
+<p>&gt; <strong>경로 / Path</strong>: 사이드바 &gt; 할일 / Sidebar &gt; TODO (<code>/todos</code>)</p>
+
+<h3>기능 설명 / Feature Description</h3>
+
+<p>개인 및 유닛 단위의 할일을 칸반 보드로 관리합니다. 마감일 기준으로 <strong>완료(Done)</strong> · <strong>오늘(Today)</strong> · <strong>예정(Upcoming)</strong> 3개 컬럼으로 자동 분류됩니다. 태그, 참여자, 이슈 연결을 지원하며, 그룹/전사 범위의 할일도 조회 가능합니다.  </p>
+<p>Manage personal and unit tasks on a Kanban board. Auto-classified into 3 columns (<strong>Done / Today / Upcoming</strong>) by due date. Supports tags, participants, issue linking, and group/all scope viewing.</p>
+
+<h3>사용법 / How to Use</h3>
+
+<h4>할일 생성 / Create Task</h4>
+<ol>
+<li><code>내 할일</code> 탭에서 우상단 <strong>[+ 할일 추가]</strong> 클릭 / Click <strong>[+ Add Task]</strong> in <code>My Tasks</code> tab</li>
+<li><strong>제목</strong>(필수), <strong>설명</strong>, <strong>마감일</strong>(필수) 입력 / Enter <strong>Title</strong> (required), <strong>Description</strong>, <strong>Due Date</strong> (required)</li>
+<li>필요 시 <strong>태그</strong>(쉼표 구분), <strong>참여자</strong>(다중 선택), <strong>연결 이슈</strong> 설정 / Add <strong>Tags</strong>, <strong>Participants</strong>, <strong>Linked Issue</strong> as needed</li>
+<li><strong>[저장]</strong> 클릭 → 자동 번역 대화상자가 나타나면 확인 / Click <strong>[Save]</strong> → Confirm auto-translation dialog</li>
+</ol>
+
+<h4>상태 변경 / Change Status</h4>
+<ul>
+<li>카드의 <strong>체크 아이콘</strong> 클릭 → <code>예정(SCHEDULED)</code> → <code>진행중(IN_PROGRESS)</code> → <code>완료(COMPLETED)</code> 순으로 순환  </li>
+</ul>
+<p>  Click the <strong>check icon</strong> on a card → Cycles through <code>SCHEDULED</code> → <code>IN_PROGRESS</code> → <code>COMPLETED</code></p>
+
+<h4>상세보기·수정·삭제 / View Detail · Edit · Delete</h4>
+<ol>
+<li><strong>카드 클릭</strong> → 상세 모달 열림 (제목, 설명, 상태, 참여자, 연결 이슈 확인) / <strong>Card click</strong> → Detail modal opens</li>
+<li><strong>카드 메뉴(⋯)</strong> → <code>수정</code> 또는 <code>삭제</code> 선택 / <strong>Card menu (⋯)</strong> → Select <code>Edit</code> or <code>Delete</code></li>
+<li><strong>히스토리 아이콘</strong> 클릭 → 상태 변경 이력 확인 / Click <strong>history icon</strong> → View status change log</li>
+</ol>
+
+<h4>그룹·전사 보기 / Group · All View</h4>
+<ul>
+<li><strong>그룹 탭</strong>: 같은 유닛(부서) 멤버들의 할일 조회 (읽기 전용) / View unit members' tasks (read-only)</li>
+<li><strong>전사 탭</strong>: 전체 회사의 할일 조회 (읽기 전용) / View all company tasks (read-only)</li>
+</ul>
+
+<h3>💡 사용 팁 / Usage Tips</h3>
+
+<ul>
+<li><strong>마감일 설정</strong>: 마감일을 정확히 설정하면 자동으로 "오늘"과 "예정" 컬럼에 분류되어 우선순위 관리에 편리합니다.  </li>
+</ul>
+<p>  Set due dates accurately for automatic column classification and easy priority management.</p>
+<ul>
+<li><strong>이슈 연결</strong>: 이슈 트래커의 항목과 할일을 연결하면, 이슈 상세에서도 관련 할일을 확인할 수 있습니다.  </li>
+</ul>
+<p>  Linking tasks to issues enables cross-referencing from the issue detail page.</p>
+<ul>
+<li><strong>태그 활용</strong>: 태그를 <code>#긴급</code>, <code>#회의</code>, <code>#개발</code> 등으로 분류하면 빠른 시각적 구분이 가능합니다.  </li>
+</ul>
+<p>  Use tags like <code>#urgent</code>, <code>#meeting</code>, <code>#dev</code> for quick visual identification.</p>
+<ul>
+<li><strong>자동 번역</strong>: 저장 시 다국어 자동 번역이 제공되므로, 다국적 팀에서 별도 번역 작업이 불필요합니다.  </li>
+</ul>
+<p>  Auto-translation on save eliminates the need for manual translation in multinational teams.</p>
+
+<p>---</p>
+
+<h2>2. 노트 Meeting Notes</h2>
+
+<p>&gt; <strong>경로 / Path</strong>: 사이드바 &gt; 노트 / Sidebar &gt; Meeting Notes (<code>/meeting-notes</code>)</p>
+
+<h3>기능 설명 / Feature Description</h3>
+
+<p><strong>회의록(Meeting Note)</strong> 과 <strong>메모(Memo)</strong> 두 가지 유형의 노트를 작성·관리합니다. 공개 범위를 PRIVATE(본인만) / GROUP(유닛/그룹) / ENTITY(법인) / PUBLIC(전사)으로 설정하여, 개인 메모부터 전사 공유 회의록까지 다양한 용도로 활용할 수 있습니다. 리치 텍스트 에디터와 자동 번역 기능을 제공합니다.  </p>
+<p>Create and manage two types of notes: <strong>Meeting Notes</strong> and <strong>Memos</strong>. Set visibility from PRIVATE (self only) to PUBLIC (company-wide). Rich text editor and auto-translation included.</p>
+
+<h3>사용법 / How to Use</h3>
+
+<h4>노트 생성 / Create Note</h4>
+<ol>
+<li>우상단 <strong>[+ 새 노트]</strong> 클릭 / Click <strong>[+ New Note]</strong> at top-right</li>
+<li><strong>유형</strong> 선택: <code>회의록</code> 또는 <code>메모</code> / Select <strong>Type</strong>: <code>Meeting Note</code> or <code>Memo</code></li>
+<li><strong>제목</strong>(필수) 입력 / Enter <strong>Title</strong> (required)</li>
+<li><strong>내용</strong> 작성 (리치 텍스트 에디터로 서식 편집 가능) / Write <strong>Content</strong> using rich text editor</li>
+<li>회의록인 경우 <strong>회의 일자</strong> 선택 / Select <strong>Meeting Date</strong> for Meeting Notes</li>
+<li><strong>공개 범위</strong> 선택: <code>비공개</code> / <code>그룹</code> / <code>법인</code> / <code>공개</code> / Select <strong>Visibility</strong></li>
+<li>그룹 범위 선택 시 대상 <strong>유닛(부서)</strong> 지정 / Specify target <strong>Unit</strong> when GROUP scope selected</li>
+<li><strong>[저장]</strong> 클릭 / Click <strong>[Save]</strong></li>
+</ol>
+
+<h4>노트 조회 / Browse Notes</h4>
+<ol>
+<li>상단의 <strong>유형 필터</strong>로 <code>전체</code> / <code>회의록</code> / <code>메모</code> 필터링 / Use <strong>Type Filter</strong> to filter</li>
+<li><strong>공개범위 필터</strong>로 <code>비공개</code> / <code>그룹</code> / <code>법인</code> / <code>공개</code> 필터링 / Use <strong>Scope Filter</strong> to filter</li>
+<li><strong>카드 클릭</strong> → 상세 페이지 이동 / <strong>Click card</strong> → Navigate to detail page</li>
+</ol>
+
+<h4>상세 보기 / Detail View</h4>
+<ul>
+<li>HTML 서식 렌더링된 노트 내용 확인 / View HTML-formatted note content</li>
+<li><strong>번역 패널</strong>: 다국어(KO/EN/VN) 자동 번역 확인 / <strong>Translation Panel</strong>: Auto-translation (KO/EN/VN)</li>
+<li>작성자만 <strong>수정</strong> / <strong>삭제</strong> 가능 / Only author can <strong>Edit</strong> / <strong>Delete</strong></li>
+</ul>
+
+<h3>💡 사용 팁 / Usage Tips</h3>
+
+<ul>
+<li><strong>회의록 작성 순서</strong>: 회의 전에 미리 제목과 아젠다를 메모로 만들고, 회의 중 내용을 업데이트하면 효율적입니다.  </li>
+</ul>
+<p>  Create a memo with title and agenda before the meeting, then update it during the meeting.</p>
+<ul>
+<li><strong>공개 범위 활용</strong>: 초안은 <code>비공개</code>로 작성하고, 완성 후 <code>법인</code> 또는 <code>공개</code>로 변경하면 안전합니다.  </li>
+</ul>
+<p>  Start drafts as <code>PRIVATE</code>, then change to <code>ENTITY</code> or <code>PUBLIC</code> once finalized.</p>
+<ul>
+<li><strong>번역 패널</strong>: 다국적 팀과 공유할 회의록은 <code>공개</code>로 저장하면 자동 번역 패널이 제공됩니다.  </li>
+</ul>
+<p>  Notes shared with multinational teams get auto-translation panels when set to <code>PUBLIC</code>.</p>
+
+<p>---</p>
+
+<h2>3. 출근예정표 Attendance</h2>
+
+<p>&gt; <strong>경로 / Path</strong>: 사이드바 &gt; 출근예정표 / Sidebar &gt; Attendance (<code>/attendance</code>)</p>
+
+<h3>기능 설명 / Feature Description</h3>
+
+<p>유닛(부서) 멤버들의 주간 근무 일정을 표 형식으로 확인하고 등록하는 도구입니다. 행은 멤버, 열은 월~일(7일)로 구성되며, 각 셀에 근무유형과 시간이 표시됩니다. 본인 행만 수정 가능하며, 일괄 등록으로 주간 일정을 한 번에 입력할 수 있습니다.  </p>
+<p>Weekly schedule table for unit members. Rows represent members (Mon–Sun columns) showing work type and hours. Only your own row is editable. Batch registration available for weekly entry.</p>
+
+<h3>사용법 / How to Use</h3>
+
+<h4>일정 등록 / Register Schedule</h4>
+<ol>
+<li><strong>본인 행</strong>의 원하는 <strong>요일 셀</strong> 클릭 / Click a <strong>day cell</strong> in <strong>your row</strong></li>
+<li>하단 편집 폼에서 <strong>근무유형</strong> 선택 / Select <strong>Work Type</strong> in the bottom form</li>
+</ol>
+<ul>
+<li><code>출근(WORK)</code>, <code>재택(REMOTE)</code>, <code>휴가(DAY_OFF)</code>, <code>오전반차(AM_HALF)</code>, <code>오후반차(PM_HALF)</code>, <code>생리휴가(MENSTRUATION)</code></li>
+</ul>
+<ol>
+<li><strong>시작시간</strong> 선택 (06:00~12:00, 30분 간격) / Select <strong>Start Time</strong> (06:00–12:00, 30-min intervals)</li>
+<li>종료시간은 근무유형에 따라 <strong>자동 계산</strong> / End time is <strong>auto-calculated</strong> by type</li>
+<li><strong>[저장]</strong> 클릭 / Click <strong>[Save]</strong></li>
+</ol>
+
+<h4>주간 일괄 등록 / Batch Registration</h4>
+<ol>
+<li><strong>[일괄 등록]</strong> 버튼 클릭 / Click <strong>[Batch Register]</strong> button</li>
+<li>월~금 각 요일별 <strong>근무유형</strong>과 <strong>시작시간</strong> 설정 / Set work type and start time for each weekday</li>
+<li><strong>[저장]</strong> 클릭 → 5일치 일정 한 번에 등록 / Click <strong>[Save]</strong> → All 5 days registered at once</li>
+</ol>
+
+<h4>일정 삭제 / Delete Schedule</h4>
+<ul>
+<li>기존 일정이 있는 셀 선택 → <strong>[삭제]</strong> 클릭 / Select a cell with existing schedule → Click <strong>[Delete]</strong></li>
+</ul>
+
+<h4>일정 조회 / View Schedule</h4>
+<ul>
+<li><code>&lt;</code> <code>&gt;</code> 버튼으로 주간 이동 / Navigate weeks with <code>&lt;</code> <code>&gt;</code> buttons</li>
+<li>다른 멤버의 일정은 조회만 가능 / Other members' schedules are view-only</li>
+</ul>
+
+<h3>💡 사용 팁 / Usage Tips</h3>
+
+<ul>
+<li><strong>일괄 등록 활용</strong>: 매주 동일 패턴으로 근무한다면, <code>일괄 등록</code>으로 한 번에 입력하면 시간을 절약할 수 있습니다.  </li>
+</ul>
+<p>  Use batch registration to save time if you have a consistent weekly schedule.</p>
+<ul>
+<li><strong>편집 가능 범위</strong>: 다음 주 월요일부터 1개월 후까지만 편집 가능합니다. 현재 주나 과거 주는 수정할 수 없으므로, 미리미리 등록하세요.  </li>
+</ul>
+<p>  Only editable from next Monday to 1 month ahead. Register in advance since past weeks can't be modified.</p>
+<ul>
+<li><strong>비고 컬럼</strong>: NOTE 컬럼에 재택 근무 요일이나 특이사항을 메모해 두면 팀원 간 소통에 도움됩니다.  </li>
+</ul>
+<p>  Use the NOTE column to record remote work days or special notes for team communication.</p>
+<ul>
+<li><strong>재택 근무</strong>: <code>재택(REMOTE)</code> 유형은 녹색으로 표시되어, 한눈에 누가 재택인지 확인할 수 있습니다.  </li>
+</ul>
+<p>  <code>REMOTE</code> type is shown in green, making it easy to identify who's working remotely at a glance.</p>
+
+<p>---</p>
+
+<h2>4. 휴가 신청 My Leave</h2>
+
+<p>&gt; <strong>경로 / Path</strong>: 사이드바 &gt; 휴가 신청 / Sidebar &gt; My Leave (<code>/my-leave</code>)</p>
+
+<h3>기능 설명 / Feature Description</h3>
+
+<p>연간 휴가 잔액 조회와 휴가 신청·관리를 위한 도구입니다. 연차, 반차, 병가, 특별휴가, 생리휴가 등 다양한 휴가 유형을 지원하며, 신청 이력과 승인 상태를 실시간으로 확인할 수 있습니다.  </p>
+<p>Manage annual leave balance and submit/manage leave requests. Supports annual leave, half-day, sick leave, special leave, and menstrual leave. Real-time tracking of request history and approval status.</p>
+
+<h3>사용법 / How to Use</h3>
+
+<h4>잔액 확인 / Check Balance</h4>
+<ol>
+<li>상단의 <strong>잔액 요약 카드</strong>에서 기본 지급일수, 사용 일수, 잔여 일수, OT 변환일을 확인 / Check entitlement, used, remaining, and OT converted in <strong>Balance Summary Cards</strong></li>
+<li><code>&lt;</code> <code>&gt;</code> 버튼으로 연도 전환 / Navigate years with <code>&lt;</code> <code>&gt;</code> buttons</li>
+</ol>
+
+<h4>휴가 신청 / Submit Leave Request</h4>
+<ol>
+<li><strong>[+ 신청]</strong> 버튼 클릭 / Click <strong>[+ Request]</strong> button</li>
+<li><strong>휴가 유형</strong> 선택: 연차 / 오전반차 / 오후반차 / 병가 / 특별휴가 / 생리휴가 / Select <strong>Leave Type</strong></li>
+<li><strong>기간</strong> 설정 (시작일 ~ 종료일) / Set <strong>Period</strong> (start – end date)</li>
+<li><strong>사유</strong> 입력 / Enter <strong>Reason</strong></li>
+<li><strong>[신청]</strong> 클릭 → 승인 대기 상태로 제출 / Click <strong>[Submit]</strong> → Submitted as pending</li>
+</ol>
+
+<h4>신청 취소 / Cancel Request</h4>
+<ul>
+<li><code>대기(PENDING)</code> 또는 <code>승인(APPROVED)</code> 상태의 신청 건 옆 <strong>[취소]</strong> 클릭 / Click <strong>[Cancel]</strong> next to <code>PENDING</code> or <code>APPROVED</code> requests</li>
+</ul>
+
+<h3>💡 사용 팁 / Usage Tips</h3>
+
+<ul>
+<li><strong>잔여 일수 확인</strong>: 휴가 신청 전에 반드시 잔액 카드에서 잔여 일수를 확인하세요.  </li>
+</ul>
+<p>  Always check remaining days before requesting leave.</p>
+<ul>
+<li><strong>반차 활용</strong>: 오전 또는 오후만 휴가가 필요한 경우, <code>오전반차</code>/<code>오후반차</code>를 사용하면 연차 0.5일만 차감됩니다.  </li>
+</ul>
+<p>  Use <code>AM Half</code> / <code>PM Half</code> to consume only 0.5 days of annual leave.</p>
+<ul>
+<li><strong>신청 취소</strong>: 승인된 휴가도 취소가 가능하므로, 일정이 변경되면 즉시 취소 처리하세요.  </li>
+</ul>
+<p>  Approved leave can also be cancelled — process cancellation immediately when plans change.</p>
+
+<p>---</p>
+
+<h2>5. 공지사항 Notices</h2>
+
+<p>&gt; <strong>경로 / Path</strong>: 사이드바 &gt; 공지사항 / Sidebar &gt; Notices (<code>/notices</code>)</p>
+
+<h3>기능 설명 / Feature Description</h3>
+
+<p>전사 또는 법인 단위의 공지사항을 작성·관리하는 도구입니다. 상단 고정(📌) 기능으로 중요 공지를 항상 최상단에 노출할 수 있으며, 리치 텍스트 에디터와 다국어 자동 번역을 지원합니다.  </p>
+<p>Create and manage company-wide or entity-level notices. Pin (📌) important notices to the top. Rich text editor and multi-language auto-translation supported.</p>
+
+<h3>사용법 / How to Use</h3>
+
+<h4>공지 작성 / Create Notice</h4>
+<ol>
+<li><strong>[+ 새 공지]</strong> 클릭 (권한 필요) / Click <strong>[+ New Notice]</strong> (permission required)</li>
+<li><strong>제목</strong>(필수) 입력 / Enter <strong>Title</strong> (required)</li>
+<li><strong>내용</strong> 작성 (리치 텍스트 에디터) / Write <strong>Content</strong> (rich text editor)</li>
+<li><strong>공개 범위</strong> 선택: <code>법인(ENTITY)</code> 또는 <code>공개(PUBLIC)</code> / Select <strong>Visibility</strong></li>
+<li>필요 시 <strong>상단 고정</strong> 토글 ON / Toggle <strong>Pin to Top</strong> as needed</li>
+<li><strong>[저장]</strong> 클릭 / Click <strong>[Save]</strong></li>
+</ol>
+
+<h4>공지 조회 / Browse Notices</h4>
+<ol>
+<li><strong>공개범위 필터</strong>로 <code>전체</code> / <code>법인</code> / <code>공개</code> 필터링 / Use scope filter to filter</li>
+<li><strong>카드 클릭</strong> → 상세 페이지 이동 / Click card → Detail page</li>
+<li>상세 페이지에서 <strong>번역 패널</strong>로 다국어 번역 확인 / Check auto-translation in detail page</li>
+</ol>
+
+<h3>💡 사용 팁 / Usage Tips</h3>
+
+<ul>
+<li><strong>상단 고정</strong>: 긴급 공지나 장기간 유효한 공지는 <code>상단 고정</code>을 활성화하면 항상 최상단에 표시됩니다.  </li>
+</ul>
+<p>  Enable <code>Pin to Top</code> for urgent or long-term notices to keep them always visible.</p>
+<ul>
+<li><strong>번역 활용</strong>: 다국적 직원이 읽어야 하는 공지는 <code>공개</code>로 설정하면 자동 번역이 제공됩니다.  </li>
+</ul>
+<p>  Set to <code>PUBLIC</code> for notices intended for multinational staff to enable auto-translation.</p>
+
+<p>---</p>
+
+<h2>6. 문서함 Documents</h2>
+
+<p>&gt; <strong>경로 / Path</strong>: 사이드바 &gt; 문서함 / Sidebar &gt; Documents (<code>/documents</code>)</p>
+
+<h3>기능 설명 / Feature Description</h3>
+
+<p>Google Drive와 연동하여 회사 문서를 관리하는 도구입니다. 좌측 폴더 트리에서 공유 드라이브의 폴더를 탐색하고, 우측에서 파일 목록 확인 및 업로드를 수행합니다. 드래그 앤 드롭 업로드와 파일 미리보기를 지원합니다.  </p>
+<p>Document management tool integrated with Google Drive. Browse shared drive folders in the left tree, view files and upload on the right. Supports drag &amp; drop upload and file preview.</p>
+
+<h3>사용법 / How to Use</h3>
+
+<h4>문서 탐색 / Browse Documents</h4>
+<ol>
+<li><strong>좌측 폴더 트리</strong>에서 원하는 폴더 클릭 / Click desired folder in the <strong>left folder tree</strong></li>
+<li><strong>우측 파일 목록</strong>에서 폴더 내 파일/하위 폴더 확인 / View files/subfolders in the <strong>right file list</strong></li>
+<li><strong>파일명 검색</strong>으로 빠른 검색 / Use <strong>filename search</strong> for quick lookup</li>
+</ol>
+
+<h4>파일 업로드 / Upload Files</h4>
+<ol>
+<li>원하는 폴더를 선택한 상태에서 / Select the target folder</li>
+<li><strong>드래그 앤 드롭</strong> 또는 <strong>업로드 버튼</strong> 클릭 / <strong>Drag &amp; drop</strong> files or click <strong>Upload</strong> button</li>
+<li>단일/다중 파일 선택 가능 / Single or multiple files supported</li>
+</ol>
+
+<h4>폴더 생성 / Create Folder</h4>
+<ul>
+<li>현재 폴더에서 <strong>[폴더 생성]</strong> → 이름 입력 → 확인 / Click <strong>[Create Folder]</strong> → Enter name → Confirm</li>
+</ul>
+
+<h4>파일 열기 / Open File</h4>
+<ul>
+<li><strong>파일 클릭</strong> → Google Drive에서 열림 / <strong>Click file</strong> → Opens in Google Drive</li>
+</ul>
+
+<h3>💡 사용 팁 / Usage Tips</h3>
+
+<ul>
+<li><strong>폴더 구조</strong>: 프로젝트별, 부서별로 폴더를 잘 구성해 두면 문서 검색이 훨씬 빨라집니다.  </li>
+</ul>
+<p>  Organize folders by project/department for faster document retrieval.</p>
+<ul>
+<li><strong>사전 설정 필요</strong>: 문서함을 사용하려면 관리자가 Admin Settings &gt; Drive에서 Google Drive Service Account를 설정해야 합니다.  </li>
+</ul>
+<p>  Admin must configure Google Drive Service Account in Admin Settings &gt; Drive before use.</p>
+<ul>
+<li><strong>법인별 설정</strong>: Entity Settings &gt; Drive에서 법인별로 별도의 Drive 설정이 가능합니다.  </li>
+</ul>
+<p>  Separate Drive settings per entity can be configured in Entity Settings &gt; Drive.</p>
+
+<p>---</p>
+
+<h2>7. 로비채팅 Lobby Chat</h2>
+
+<p>&gt; <strong>경로 / Path</strong>: 사이드바 &gt; 로비채팅 / Sidebar &gt; Lobby Chat (<code>/amoeba-talk</code>)  </p>
+<p>&gt; <strong>공식명칭 / Official Name</strong>: 아메바톡-로비 / Amoeba Talk - Lobby</p>
+
+<h3>기능 설명 / Feature Description</h3>
+
+<p>사내직원 전용 업무 채팅 기능입니다. 채널 기반의 실시간 메신저로, SSE를 통한 실시간 메시지 수신, 온라인 상태(Presence) 확인, DM(1:1 메시지), 메시지 검색, 메시지 고정 기능을 제공합니다.  </p>
+<p>Internal employee work chat feature. Channel-based real-time messenger with SSE-based messaging, online presence, DM (Direct Message), message search, and message pinning.</p>
+
+<h3>사용법 / How to Use</h3>
+
+<h4>채널 만들기 / Create Channel</h4>
+<ol>
+<li><strong>[새 채널]</strong> 클릭 / Click <strong>[New Channel]</strong></li>
+<li><strong>이름</strong>, <strong>설명</strong>, <strong>공개/비공개</strong> 설정 / Set <strong>Name</strong>, <strong>Description</strong>, <strong>Public/Private</strong></li>
+<li><strong>[생성]</strong> 클릭 / Click <strong>[Create]</strong></li>
+</ol>
+
+<h4>메시지 보내기 / Send Message</h4>
+<ol>
+<li><strong>좌측 채널 리스트</strong>에서 채널 선택 / Select channel from <strong>left channel list</strong></li>
+<li>하단 <strong>메시지 입력창</strong>에 텍스트 입력 / Type in the bottom <strong>message input field</strong></li>
+<li><strong>Enter</strong> 또는 <strong>[전송]</strong> 클릭 / Press <strong>Enter</strong> or click <strong>[Send]</strong></li>
+</ol>
+
+<h4>DM (1:1 메시지) / Direct Message</h4>
+<ol>
+<li><strong>크루(Crew)</strong> 페이지에서 멤버 카드 클릭, 또는 <strong>[새 DM]</strong> 모달 사용 / Click member card on <strong>Crew</strong> page, or use <strong>[New DM]</strong> modal</li>
+<li>자동으로 DM 채널 생성 → 로비채팅으로 이동 / DM channel auto-created → Navigate to Lobby Chat</li>
+</ol>
+
+<h4>메시지 검색 / Search Messages</h4>
+<ul>
+<li>헤더의 <strong>검색 버튼</strong> 클릭 → 채널 내 메시지 키워드 검색 / Click <strong>search button</strong> in header → search within channel</li>
+</ul>
+
+<h4>메시지 고정 / Pin Message</h4>
+<ul>
+<li>중요 메시지에서 <strong>고정</strong> 선택 → 채널 상단에 배너로 표시 / Select <strong>Pin</strong> on important message → Shown as banner at channel top</li>
+</ul>
+
+<h4>멤버 관리 / Manage Members</h4>
+<ul>
+<li>헤더의 <strong>멤버 패널 토글</strong> → 우측에 멤버 목록 + 온라인 상태 확인 / Toggle <strong>member panel</strong> in header → View members + online status</li>
+</ul>
+
+<h3>💡 사용 팁 / Usage Tips</h3>
+
+<ul>
+<li><strong>채널 분류</strong>: 프로젝트별, 주제별로 채널을 나누어 사용하면 대화가 정리됩니다.  </li>
+</ul>
+<p>  Organize channels by project or topic to keep conversations structured.</p>
+<ul>
+<li><strong>메시지 고정</strong>: 팀의 중요 공지, 회의 링크 등을 채널에 고정하면 팀원들이 쉽게 찾을 수 있습니다.  </li>
+</ul>
+<p>  Pin important announcements or meeting links for easy team access.</p>
+<ul>
+<li><strong>DM vs 채널</strong>: 개인적인 소통은 DM, 여러 명과의 협업은 채널을 사용하세요.  </li>
+</ul>
+<p>  Use DM for private communication, channels for group collaboration.</p>
+<ul>
+<li><strong>온라인 상태</strong>: 초록 배지가 표시된 멤버는 현재 온라인이므로 빠른 응답을 기대할 수 있습니다.  </li>
+</ul>
+<p>  Green badge members are currently online — expect quick responses.</p>
+
+<p>---</p>
+
+<h2>8. 크루 Crew</h2>
+
+<p>&gt; <strong>경로 / Path</strong>: 사이드바 &gt; 크루 / Sidebar &gt; Crew (<code>/crew</code>)</p>
+
+<h3>기능 설명 / Feature Description</h3>
+
+<p>유닛(부서) 멤버의 온라인/오프라인 상태를 실시간으로 확인하고, 1:1 DM을 시작할 수 있는 멤버 디렉토리입니다. 온라인 멤버가 우선 정렬되며, 이름/이메일 실시간 검색을 지원합니다.  </p>
+<p>Member directory showing real-time online/offline status. Start 1:1 DMs directly. Online members sorted first with real-time name/email search.</p>
+
+<h3>사용법 / How to Use</h3>
+
+<ol>
+<li><strong>크루 페이지</strong> 접속 → 유닛 멤버 카드 그리드 표시 / Access <strong>Crew</strong> page → Unit member card grid displayed</li>
+<li><strong>검색바</strong>에 이름 또는 이메일 입력 → 실시간 필터링 / Enter name or email in <strong>search bar</strong> → Real-time filtering</li>
+<li><strong>멤버 카드 클릭</strong> → 자동으로 DM 채널 생성 → 로비채팅으로 이동 / <strong>Click member card</strong> → DM channel auto-created → Navigate to Lobby Chat</li>
+</ol>
+
+<h3>💡 사용 팁 / Usage Tips</h3>
+
+<ul>
+<li><strong>온라인 확인 후 DM</strong>: 초록 배지(온라인) 멤버에게 DM을 보내면 즉각적인 소통이 가능합니다.  </li>
+</ul>
+<p>  DM green-badged (online) members for immediate communication.</p>
+<ul>
+<li><strong>빠른 연락</strong>: 로비채팅에서 DM을 직접 만들 수도 있지만, 크루 페이지에서 카드를 클릭하는 것이 더 빠릅니다.  </li>
+</ul>
+<p>  Clicking a card on Crew page is faster than creating a DM directly in Lobby Chat.</p>
+
+<p>---</p>
+
+<h2>9. 이슈 Issues</h2>
+
+<p>&gt; <strong>경로 / Path</strong>: 사이드바 &gt; 이슈 / Sidebar &gt; Issues (<code>/issues</code>)</p>
+
+<h3>기능 설명 / Feature Description</h3>
+
+<p>프로젝트 또는 업무 관련 이슈를 등록·추적·관리하는 도구입니다. 7단계 상태(OPEN → APPROVED → IN_PROGRESS → ON_HOLD → RESOLVED → CLOSED), 4단계 우선순위(CRITICAL/HIGH/MEDIUM/LOW), 3가지 보기 모드(그리드/보드/타임라인)를 제공합니다. 댓글, 파일 첨부, TODO 연결 기능도 포함합니다.  </p>
+<p>Issue tracking tool with 7 statuses, 4 priority levels, and 3 view modes (Grid/Board/Timeline). Includes comments, file attachments, and TODO linking.</p>
+
+<h3>사용법 / How to Use</h3>
+
+<h4>이슈 생성 / Create Issue</h4>
+<ol>
+<li><strong>[+ 이슈 생성]</strong> 클릭 / Click <strong>[+ Create Issue]</strong></li>
+<li><strong>제목</strong>(필수), <strong>설명</strong>(리치 텍스트) 입력 / Enter <strong>Title</strong> (required), <strong>Description</strong> (rich text)</li>
+<li><strong>상태</strong>, <strong>우선순위</strong>, <strong>담당자</strong>, <strong>태그</strong>, <strong>시작일/마감일</strong> 설정 / Set <strong>Status</strong>, <strong>Priority</strong>, <strong>Assignee</strong>, <strong>Tags</strong>, <strong>Start/Due Date</strong></li>
+<li><strong>[저장]</strong> → 자동 번역 대화상자 확인 / Click <strong>[Save]</strong> → Confirm auto-translation</li>
+</ol>
+
+<h4>보기 모드 전환 / Switch View Modes</h4>
+<ul>
+<li><strong>그리드 보기</strong>: 테이블 형식 목록 (정렬, 필터링에 최적) / <strong>Grid View</strong>: Table list (optimal for sorting/filtering)</li>
+<li><strong>보드 보기</strong>: 상태별 칸반 컬럼 (드래그 앤 드롭으로 상태 변경) / <strong>Board View</strong>: Kanban by status (drag &amp; drop to change status)</li>
+<li><strong>타임라인 보기</strong>: 간트 차트 형식 일정 시각화 / <strong>Timeline View</strong>: Gantt chart schedule visualization</li>
+</ul>
+
+<h4>이슈 상세 / Issue Detail</h4>
+<ol>
+<li>이슈 클릭 → 상세 페이지(<code>/issues/:id</code>) / Click issue → Detail page</li>
+<li><strong>댓글</strong>: 이슈에 대한 의견 교환 / <strong>Comments</strong>: Discuss the issue</li>
+<li><strong>파일 첨부</strong>: 관련 파일 업로드 / <strong>Attachments</strong>: Upload related files</li>
+<li><strong>상태 변경 이력</strong>: 변경 로그 확인 / <strong>Change History</strong>: View status change log</li>
+<li><strong>연결된 할일</strong>: TODO와 연결/조회 / <strong>Linked Tasks</strong>: Link/view related TODOs</li>
+</ol>
+
+<h4>필터 사용 / Using Filters</h4>
+<ul>
+<li><strong>상태</strong>, <strong>우선순위</strong>, <strong>담당자</strong>, <strong>태그</strong>, <strong>검색어</strong>로 필터링 / Filter by <strong>Status</strong>, <strong>Priority</strong>, <strong>Assignee</strong>, <strong>Tag</strong>, <strong>Keyword</strong></li>
+</ul>
+
+<h3>💡 사용 팁 / Usage Tips</h3>
+
+<ul>
+<li><strong>보드 보기 활용</strong>: 보드 뷰에서 카드를 드래그 앤 드롭하면 상태를 빠르게 변경할 수 있어, 스탠드업 미팅에서 유용합니다.  </li>
+</ul>
+<p>  Drag &amp; drop cards in Board view for quick status changes — useful in standup meetings.</p>
+<ul>
+<li><strong>우선순위 색상</strong>: <code>긴급(CRITICAL)</code>은 빨간색으로 강조되므로, 긴급한 이슈를 빠르게 식별할 수 있습니다.  </li>
+</ul>
+<p>  <code>CRITICAL</code> priority is highlighted in red for quick identification.</p>
+<ul>
+<li><strong>타임라인 보기</strong>: 복수의 이슈 일정을 간트 차트로 한눈에 파악하여 병목을 식별하세요.  </li>
+</ul>
+<p>  Use Timeline view to identify bottlenecks across multiple issue schedules.</p>
+<ul>
+<li><strong>할일 연결</strong>: 이슈를 세분화하여 할일로 분배하면, 이슈 상세에서 전체 진행률을 파악할 수 있습니다.  </li>
+</ul>
+<p>  Break down issues into linked tasks to track overall progress from the issue detail page.</p>
+
+<p>---</p>
+
+<h2>10. 프로젝트 Projects</h2>
+
+<p>&gt; <strong>경로 / Path</strong>: 사이드바 &gt; 프로젝트 / Sidebar &gt; Projects (<code>/project</code>)</p>
+
+<h3>기능 설명 / Feature Description</h3>
+
+<p>프로젝트 관리와 AI 기반 제안서 자동 생성 기능을 포함하는 종합 프로젝트 관리 모듈입니다. <strong>제안서(Proposals)</strong> 서브메뉴에서 AI가 입력 정보를 기반으로 제안서 초안을 자동 생성하며, <strong>프로젝트(Projects)</strong> 서브메뉴에서 프로젝트 기본 정보, 멤버, 일정, 산출물을 관리합니다.  </p>
+<p>Comprehensive project management module with AI-based proposal generation. <strong>Proposals</strong> submenu auto-generates proposal drafts with AI, <strong>Projects</strong> submenu manages project info, members, schedules, and deliverables.</p>
+
+<h3>사용법 / How to Use</h3>
+
+<h4>제안서 생성 / Create Proposal</h4>
+<ol>
+<li>사이드바 &gt; 프로젝트 &gt; <strong>제안서</strong> 이동 / Navigate to Sidebar &gt; Projects &gt; <strong>Proposals</strong></li>
+<li><strong>[+ 새 제안서]</strong> 클릭 / Click <strong>[+ New Proposal]</strong></li>
+<li>기본 정보 입력: 프로젝트명, 고객사, 기간, 예산 등 / Enter basic info: project name, client, duration, budget</li>
+<li><strong>[AI 생성]</strong> 클릭 → AI가 제안서 초안 자동 생성 / Click <strong>[AI Generate]</strong> → AI auto-generates draft</li>
+<li>생성된 초안 편집 → <strong>[확정]</strong> / Edit generated draft → <strong>[Confirm]</strong></li>
+</ol>
+
+<h4>제안서 상태 관리 / Proposal Status</h4>
+<ul>
+<li><code>초안(DRAFT)</code> → <code>검토중(IN_REVIEW)</code> → <code>승인(APPROVED)</code> → <code>발송(SENT)</code> → <code>수주(WON)</code> / <code>실주(LOST)</code></li>
+</ul>
+
+<h4>프로젝트 관리 / Manage Projects</h4>
+<ol>
+<li>사이드바 &gt; 프로젝트 &gt; <strong>프로젝트</strong> 이동 / Navigate to Sidebar &gt; Projects &gt; <strong>Projects</strong></li>
+<li>프로젝트 목록 테이블에서 프로젝트 확인 / View projects in the list table</li>
+<li><strong>프로젝트 클릭</strong> → 상세 페이지 (기본 정보, 멤버, 일정, 산출물 관리) / Click project → Detail page</li>
+</ol>
+
+<h3>💡 사용 팁 / Usage Tips</h3>
+
+<ul>
+<li><strong>AI 제안서 생성</strong>: 기본 정보를 상세히 입력할수록 AI의 제안서 초안 품질이 높아집니다.  </li>
+</ul>
+<p>  The more detailed the basic info, the higher the quality of AI-generated proposal drafts.</p>
+<ul>
+<li><strong>수주 과정 추적</strong>: 제안서 상태를 <code>DRAFT</code> → <code>SENT</code> → <code>WON</code>으로 업데이트하며 수주 프로세스를 추적하세요.  </li>
+</ul>
+<p>  Track the sales process by updating proposal status through each stage.</p>
+<ul>
+<li><strong>제안서 → 프로젝트 연계</strong>: 수주(WON) 확정 후 해당 제안서에서 프로젝트를 생성하면 데이터가 연결됩니다.  </li>
+</ul>
+<p>  Create a project from a won proposal to maintain data linkage.</p>
+
+<p>---</p>
+
+<h2>11. 일정관리 Calendar</h2>
+
+<p>&gt; <strong>경로 / Path</strong>: 사이드바 &gt; 일정관리 / Sidebar &gt; Calendar (<code>/calendar</code>)</p>
+
+<h3>기능 설명 / Feature Description</h3>
+
+<p>개인 및 유닛 일정을 관리하는 캘린더 모듈입니다. 월/주/일 3가지 보기를 제공하며, 카테고리별 색상 구분(회의-파랑, 출장-초록, 휴가-빨강, 프로젝트-보라, 기타-회색), 반복 일정, 참여자 관리를 지원합니다. Google Calendar과 유사한 직관적인 UI를 제공합니다.  </p>
+<p>Calendar module for personal and unit schedules. 3 views (Month/Week/Day), color-coded categories, recurring events, and participant management. Google Calendar-like intuitive UI.</p>
+
+<h3>사용법 / How to Use</h3>
+
+<h4>일정 생성 / Create Event</h4>
+<ol>
+<li><strong>[+ 일정 추가]</strong> 버튼 클릭 또는 캘린더 <strong>빈 영역 클릭</strong> / Click <strong>[+ Add Event]</strong> button or click empty calendar area</li>
+<li><strong>제목</strong>(필수) 입력 / Enter <strong>Title</strong> (required)</li>
+<li><strong>날짜</strong> 선택 (📅 캘린더 아이콘) / Select <strong>Date</strong> (📅 calendar icon)</li>
+<li><strong>시간</strong> 선택 (🕐 30분 간격 드롭다운, AM/PM 형식) / Select <strong>Time</strong> (🕐 30-min dropdown, AM/PM)</li>
+<li><strong>종일 모드</strong>: <code>종일(All Day)</code> 토글 ON → 시간 입력 숨김, 날짜만 / Toggle <strong>All Day</strong> ON → date only, no time</li>
+<li><strong>카테고리</strong> 선택 (회의/출장/휴가/프로젝트/기타) / Select <strong>Category</strong></li>
+<li><strong>메모</strong> 입력 (선택) / Enter <strong>Notes</strong> (optional)</li>
+<li><strong>참여자</strong> 추가 (멤버 다중 선택) / Add <strong>Participants</strong> (multi-select)</li>
+<li><strong>반복 설정</strong> (선택): 매일/매주/매월/매년/사용자정의 / Set <strong>Recurrence</strong> (optional)</li>
+<li><strong>[저장]</strong> 클릭 / Click <strong>[Save]</strong></li>
+</ol>
+
+<h4>보기 모드 전환 / Switch View Modes</h4>
+<ul>
+<li><strong>월 보기</strong>: 전체 월 그리드, 날짜 셀에 일정 축약 표시 / <strong>Month View</strong>: Full month grid</li>
+<li><strong>주 보기</strong>: 7일 타임라인, 시간대별 일정 블록 / <strong>Week View</strong>: 7-day timeline</li>
+<li><strong>일 보기</strong>: 단일 날짜 상세 타임라인 / <strong>Day View</strong>: Single date detailed timeline</li>
+</ul>
+
+<h4>일정 수정·삭제 / Edit · Delete Event</h4>
+<ol>
+<li>캘린더에서 <strong>일정 클릭</strong> → 상세 모달 / Click <strong>event</strong> on calendar → Detail modal</li>
+<li><strong>[수정]</strong> 또는 <strong>[삭제]</strong> 선택 / Select <strong>[Edit]</strong> or <strong>[Delete]</strong></li>
+</ol>
+
+<h4>카테고리 필터 / Category Filter</h4>
+<ul>
+<li>좌측 사이드바에서 카테고리별 <strong>표시/숨김 토글</strong> / Toggle category <strong>visibility</strong> in left sidebar</li>
+</ul>
+
+<h3>💡 사용 팁 / Usage Tips</h3>
+
+<ul>
+<li><strong>시간 자동 조정</strong>: 시작 시간을 변경하면 기존 duration이 유지되어 종료 시간이 자동 조정됩니다.  </li>
+</ul>
+<p>  Changing start time auto-adjusts end time while preserving the existing duration.</p>
+<ul>
+<li><strong>반복 일정</strong>: 정기 미팅은 반복 일정으로 등록하면 한 번에 설정할 수 있습니다.  </li>
+</ul>
+<p>  Register regular meetings as recurring events to set them up at once.</p>
+<ul>
+<li><strong>카테고리 색상</strong>: 회의(파랑), 출장(초록), 휴가(빨강), 프로젝트(보라)로 색상 구분되어 한눈에 일정 유형을 파악할 수 있습니다.  </li>
+</ul>
+<p>  Color-coded categories (meeting-blue, trip-green, leave-red, project-purple) for quick visual identification.</p>
+<ul>
+<li><strong>주간 보기 활용</strong>: 주간 일정을 확인할 때는 <code>주 보기</code>가 가장 직관적입니다. 시간대별 블록으로 빈 시간을 빠르게 찾을 수 있습니다.  </li>
+</ul>
+<p>  Use <code>Week View</code> to find available time slots quickly with hour-by-hour blocks.</p>
+<ul>
+<li><strong>종일 일정</strong>: 출장이나 휴가 등 종일 일정은 <code>종일(All Day)</code> 토글을 켜면 시간 없이 날짜만 입력됩니다.  </li>
+</ul>
+<p>  Toggle <code>All Day</code> for full-day events like business trips or leave.</p>
+
+<p>---</p>
+
+<h1>Work Modules / 업무모듈</h1>
+
+<p>---</p>
+
+<h2>12. 거래처관리 Billing</h2>
+
+<p>&gt; <strong>경로 / Path</strong>: 사이드바 &gt; 거래처관리 / Sidebar &gt; Billing (<code>/billing</code>)</p>
+
+<h3>기능 설명 / Feature Description</h3>
+
+<p>거래처(Partner), 계약(Contract), SOW(작업명세서), 청구서(Invoice), 수금(Payment)을 종합적으로 관리하는 모듈입니다. 대시보드에서 매출/비용 현황, 미수금/미지급금, 월별 트렌드를 한눈에 파악할 수 있으며, 각 서브메뉴에서 세부 업무를 처리합니다. Google Drive와 연동하여 거래처별 폴더를 자동 생성하고, 청구서 PDF 출력 및 이메일 발송 기능을 지원합니다.  </p>
+<p>Comprehensive module for managing Partners, Contracts, SOW, Invoices, and Payments. Dashboard provides revenue/expense overview. Google Drive integration for per-partner folders. Invoice PDF export and email sending supported.</p>
+
+<h3>사용법 / How to Use</h3>
+
+<h4>대시보드 확인 / Check Dashboard (<code>/billing/dashboard</code>)</h4>
+<ol>
+<li><strong>요약 카드</strong>: 총 매출, 미수금, 미지급금, 계약 수 확인 / <strong>Summary Cards</strong>: Total revenue, receivables, payables, contract count</li>
+<li><strong>월별 차트</strong>: 연간 매출/비용 트렌드 확인 / <strong>Monthly Chart</strong>: Annual revenue/expense trend</li>
+<li><strong>상위 거래처</strong>: 매출 상위 거래처 목록 확인 / <strong>Top Partners</strong>: Top revenue partners</li>
+</ol>
+
+<h4>거래처 등록 / Register Partner (<code>/billing/partners</code>)</h4>
+<ol>
+<li><strong>[+ 거래처 등록]</strong> 클릭 / Click <strong>[+ Register Partner]</strong></li>
+<li><strong>기본 정보</strong> 입력: 회사명, 사업자번호, 대표자명, 연락처, 주소 / Enter <strong>Basic Info</strong>: company name, business number, representative, contact, address</li>
+<li><strong>유형</strong> 선택: <code>고객사(CLIENT)</code> / <code>공급사(VENDOR)</code> / <code>겸용(BOTH)</code> / Select <strong>Type</strong></li>
+<li><strong>[저장]</strong> → Google Drive에 거래처 폴더 자동 생성 / <strong>[Save]</strong> → Partner folder auto-created in Google Drive</li>
+</ol>
+
+<h4>거래처 상세 / Partner Detail</h4>
+<ol>
+<li>목록에서 <strong>거래처 클릭</strong> → 상세 페이지 / Click partner → Detail page</li>
+<li><strong>담당자 관리</strong>: 거래처 담당자 CRUD / <strong>Contact Management</strong>: Partner contact CRUD</li>
+<li><strong>관련 계약</strong>: 연결된 계약 목록 확인 / <strong>Related Contracts</strong>: View linked contracts</li>
+</ol>
+
+<h4>계약 관리 / Manage Contracts (<code>/billing/contracts</code>)</h4>
+<ol>
+<li><strong>[+ 계약 등록]</strong> → 계약명, 거래처, 기간, 금액, 통화, 방향(수취/지급), 카테고리 입력 / Enter contract details</li>
+<li><strong>상태 관리</strong>: <code>초안</code> → <code>활성</code> → <code>만료임박</code> → <code>만료</code> → <code>갱신</code> / <code>해지</code> / Track status lifecycle</li>
+<li><strong>SOW 연결</strong>: 계약에 SOW(작업명세서) 연결 / Link SOW to contract</li>
+<li><strong>파일 첨부</strong>: 계약서 PDF 업로드 / Attach contract PDF</li>
+</ol>
+
+<h4>청구서 관리 / Manage Invoices (<code>/billing/invoices</code>)</h4>
+<ol>
+<li><strong>[+ 청구서 생성]</strong> → 계약 선택 → 청구 내용 입력 / Select contract → Enter invoice details</li>
+<li><strong>PDF 출력</strong>: 청구서를 PDF로 내보내기 / Export invoice as PDF</li>
+<li><strong>이메일 발송</strong>: 거래처에 청구서 메일 전송 / Send invoice email to partner</li>
+<li><strong>일괄 생성</strong>: 여러 거래처/계약에 대한 청구서 일괄 발행 / Bulk invoice generation</li>
+</ol>
+
+<h4>수금 관리 / Manage Payments (<code>/billing/payments</code>)</h4>
+<ul>
+<li>청구서와 연결하여 수금 현황 추적 / Track payment collection linked to invoices</li>
+</ul>
+
+<h3>💡 사용 팁 / Usage Tips</h3>
+
+<ul>
+<li><strong>대시보드 먼저</strong>: 매일 대시보드에서 미수금 현황을 확인하여 수금 지연을 방지하세요.  </li>
+</ul>
+<p>  Check receivables daily on the dashboard to prevent collection delays.</p>
+<ul>
+<li><strong>거래처 유형</strong>: 고객이면서 공급사인 경우 <code>겸용(BOTH)</code>으로 설정하면 양쪽 거래를 하나의 거래처로 관리할 수 있습니다.  </li>
+</ul>
+<p>  Set as <code>BOTH</code> when a partner is both client and vendor to manage both sides under one entry.</p>
+<ul>
+<li><strong>계약 만료 알림</strong>: <code>만료 임박(EXPIRING)</code> 상태(30일 이내)를 주기적으로 확인하여 계약 갱신을 놓치지 마세요.  </li>
+</ul>
+<p>  Regularly check <code>EXPIRING</code> status (within 30 days) to avoid missing contract renewals.</p>
+<ul>
+<li><strong>청구서 일괄 생성</strong>: 월말에 여러 거래처/계약의 청구서를 한 번에 발행하면 업무 효율이 높아집니다.  </li>
+</ul>
+<p>  Use batch invoice creation at month-end for multiple partners/contracts.</p>
+<ul>
+<li><strong>Drive 연동</strong>: 거래처 등록 시 Google Drive에 자동 폴더가 생성되므로, 관련 문서를 해당 폴더에 정리하세요.  </li>
+</ul>
+<p>  Auto-created Google Drive folders per partner — organize related documents there.</p>
+
+<p>---</p>
+
+<h2>13. 계약서 조회 Contracts</h2>
+
+<p>&gt; <strong>경로 / Path</strong>: 사이드바 또는 직접 접근 / Sidebar or direct access (<code>/contracts</code>)</p>
+
+<h3>기능 설명 / Feature Description</h3>
+
+<p>Billing 모듈과 별도로, 전사 계약서를 통합 조회할 수 있는 독립 페이지입니다. 방향(수취/지급), 카테고리, 상태 등의 필터로 원하는 계약을 빠르게 찾을 수 있습니다.  </p>
+<p>Independent page for consolidated contract viewing across the company, separate from the Billing module. Filter by direction, category, and status.</p>
+
+<h3>사용법 / How to Use</h3>
+
+<ol>
+<li><strong>검색어</strong> 입력: 계약명 키워드 / Enter contract name <strong>keyword</strong></li>
+<li><strong>방향 필터</strong>: <code>수취(RECEIVABLE)</code> / <code>지급(PAYABLE)</code> / Filter by <strong>Direction</strong></li>
+<li><strong>카테고리 필터</strong>: TECH_BPO, SI_DEV, MAINTENANCE 등 / Filter by <strong>Category</strong></li>
+<li><strong>상태 필터</strong>: DRAFT, ACTIVE, EXPIRING, EXPIRED 등 / Filter by <strong>Status</strong></li>
+<li>목록에서 계약 확인 (상태별 색상 배지, 통화 포매팅) / View contracts (status color badges, currency formatting)</li>
+</ol>
+
+<h3>💡 사용 팁 / Usage Tips</h3>
+
+<ul>
+<li><strong>빠른 조회</strong>: Billing 모듈의 계약 관리보다 이 페이지가 전사 계약 검색에 더 빠르고 편리합니다.  </li>
+</ul>
+<p>  This page is faster and more convenient for company-wide contract search than the Billing module.</p>
+<ul>
+<li><strong>방향 필터 활용</strong>: <code>수취</code>를 선택하면 매출 관련 계약만, <code>지급</code>을 선택하면 비용 관련 계약만 조회됩니다.  </li>
+</ul>
+<p>  Use direction filter to separate revenue contracts from expense contracts.</p>
+
+<p>---</p>
+
+<h2>14. 자산관리 Asset Management</h2>
+
+<p>&gt; <strong>경로 / Path</strong>: 사이드바 &gt; 자산관리 / Sidebar &gt; Asset Management (<code>/assets</code>)</p>
+
+<h3>기능 설명 / Feature Description</h3>
+
+<p>회사 자산(IT 장비, 소모품, 시설, 회의실)의 등록·배정·반납·폐기까지의 전체 라이프사이클을 관리하는 모듈입니다. 자산 사용 신청 → 승인 워크플로우와 대시보드 통계를 제공합니다.  </p>
+<p>Manage the full lifecycle of company assets (IT equipment, supplies, facilities, meeting rooms) from registration to disposal. Includes usage request/approval workflow and dashboard statistics.</p>
+
+<h3>사용법 / How to Use</h3>
+
+<h4>자산 등록 / Register Asset (자산 목록 탭)</h4>
+<ol>
+<li><strong>[+ 자산 등록]</strong> 클릭 / Click <strong>[+ Register Asset]</strong></li>
+<li><strong>자산명</strong>, <strong>카테고리</strong>(IT장비/소모품/시설/회의실), <strong>현재 상태</strong>, <strong>구입일</strong>, <strong>구입가</strong>, <strong>시리얼 번호</strong> 입력 / Enter asset details</li>
+<li><strong>[저장]</strong> → 자산 목록에 추가 / <strong>[Save]</strong> → Added to asset list</li>
+</ol>
+
+<h4>자산 상세 확인 / View Asset Detail</h4>
+<ul>
+<li>목록에서 <strong>자산 클릭</strong> → 상세 모달 (자산 정보, 배정 이력, 수리 이력) / Click asset → Detail modal</li>
+</ul>
+
+<h4>자산 사용 신청 / Request Asset Usage (내 신청 탭)</h4>
+<ol>
+<li><strong>[+ 사용 신청]</strong> 클릭 / Click <strong>[+ Request]</strong></li>
+<li>사용할 <strong>자산</strong> 선택 + <strong>사유</strong> 입력 / Select <strong>asset</strong> + enter <strong>reason</strong></li>
+<li><strong>[신청]</strong> → 승인자에게 알림 발송 / <strong>[Submit]</strong> → Notification sent to approver</li>
+</ol>
+
+<h4>승인 관리 / Manage Approvals (승인 탭 — 관리자)</h4>
+<ol>
+<li><strong>승인 대기 목록</strong> 확인 / Check <strong>pending approval list</strong></li>
+<li>각 요청에 <strong>[승인]</strong> 또는 <strong>[반려]</strong> 처리 / <strong>[Approve]</strong> or <strong>[Reject]</strong> each request</li>
+<li>승인 시 자산 상태 자동 변경 / Asset status auto-changes on approval</li>
+</ol>
+
+<h4>대시보드 / Dashboard</h4>
+<ul>
+<li><strong>요약 카드</strong>: 총 자산 수, 사용중, 보관중, 수리중 / Summary: total, in-use, stored, repairing</li>
+<li><strong>카테고리별 차트</strong>: 자산 분포 시각화 / Category chart: asset distribution</li>
+<li><strong>리스크 분석</strong>: 노후 자산, 정기점검 필요 자산 / Risk analysis: aging assets, overdue inspections</li>
+</ul>
+
+<h3>💡 사용 팁 / Usage Tips</h3>
+
+<ul>
+<li><strong>시리얼 번호 등록</strong>: IT 장비 등록 시 시리얼 번호를 반드시 기록하면 분실/도난 시 추적에 도움됩니다.  </li>
+</ul>
+<p>  Always record serial numbers for IT equipment — helps with tracking in case of loss/theft.</p>
+<ul>
+<li><strong>리스크 분석 확인</strong>: 대시보드의 리스크 분석에서 노후 자산을 주기적으로 확인하여 교체 계획을 세우세요.  </li>
+</ul>
+<p>  Check risk analysis regularly for aging assets to plan replacements.</p>
+<ul>
+<li><strong>상태 관리</strong>: 자산 상태를 정확히 업데이트하면 (사용중 → 보관중 → 수리중 등) 팀 전체의 자산 활용도를 높일 수 있습니다.  </li>
+</ul>
+<p>  Accurate status updates improve asset utilization across the team.</p>
+
+<p>---</p>
+
+<h2>15. 지출결의 Expense Request</h2>
+
+<p>&gt; <strong>경로 / Path</strong>: 사이드바 &gt; 지출결의 / Sidebar &gt; Expense Request (<code>/expense-requests</code>)</p>
+
+<h3>기능 설명 / Feature Description</h3>
+
+<p>지출 결의금 신청부터 다단계 승인(L1 → L2 → 최종)을 거쳐 집행까지의 전체 워크플로우를 관리하는 모듈입니다. 월별 리포트와 예산 예측 기능도 제공합니다.  </p>
+<p>Manage expense requests through multi-level approval (L1 → L2 → Final) to execution. Monthly reports and budget forecast included.</p>
+
+<h3>사용법 / How to Use</h3>
+
+<h4>지출 결의금 신청 / Submit Expense Request</h4>
+<ol>
+<li><strong>[+ 신청]</strong> 클릭 → 결의금 작성 페이지(<code>/expense-requests/new</code>) / Click <strong>[+ Request]</strong> → New request page</li>
+<li>지출 내역 항목 입력 (항목명, 금액, 증빙 등) / Enter expense details (item, amount, evidence)</li>
+<li><strong>[제출]</strong> 클릭 → <code>대기(PENDING)</code> 상태로 제출 / Click <strong>[Submit]</strong> → Submitted as <code>PENDING</code></li>
+</ol>
+
+<h4>승인 처리 / Approval Process</h4>
+<ul>
+<li>상태 흐름: <code>초안(DRAFT)</code> → <code>대기(PENDING)</code> → <code>1차승인(APPROVED_L1)</code> → <code>최종승인(APPROVED)</code> → <code>집행(EXECUTED)</code></li>
+<li>승인 대기 탭에서 <strong>[승인]</strong> 또는 <strong>[거절]</strong> 처리 / Process <strong>[Approve]</strong> or <strong>[Reject]</strong> in Pending tab</li>
+</ul>
+
+<h4>리포트 확인 / Check Reports</h4>
+<ul>
+<li><strong>월별 리포트</strong> (<code>/expense-requests/reports/monthly</code>): 월별 지출 통계 + Excel 다운로드 / Monthly stats + Excel download</li>
+<li><strong>예산 예측</strong> (<code>/expense-requests/reports/forecast</code>): 예산 예측 분석 보고서 / Budget forecast analysis</li>
+</ul>
+
+<h3>💡 사용 팁 / Usage Tips</h3>
+
+<ul>
+<li><strong>증빙 첨부</strong>: 영수증, 세금계산서 등 증빙 자료를 함께 첨부하면 승인이 빨라집니다.  </li>
+</ul>
+<p>  Attach receipts and tax invoices for faster approval.</p>
+<ul>
+<li><strong>월별 리포트 활용</strong>: 월말에 월별 리포트를 Excel로 다운로드하여 부서 예산 관리에 활용하세요.  </li>
+</ul>
+<p>  Download monthly reports as Excel at month-end for department budget management.</p>
+<ul>
+<li><strong>예산 예측</strong>: 예산 예측 기능을 활용하면 향후 지출 패턴을 미리 분석할 수 있습니다.  </li>
+</ul>
+<p>  Use budget forecast to analyze future spending patterns in advance.</p>
+
+<p>---</p>
+
+<h2>16. 업무항목 Work Items</h2>
+
+<p>&gt; <strong>경로 / Path</strong>: 사이드바 &gt; 업무항목 / Sidebar &gt; Work Items (<code>/work-items</code>)</p>
+
+<h3>기능 설명 / Feature Description</h3>
+
+<p>유닛(부서) 업무 항목을 추적·관리하는 모듈입니다. 스코프(내 항목/전체), 유형별 필터, 키워드 검색을 지원하며, 카드 리스트 형태로 20건/페이지 단위로 표시됩니다.  </p>
+<p>Track and manage unit work items. Supports scope switching (MY/All), type filter, and keyword search. Card list layout with 20 items per page.</p>
+
+<h3>사용법 / How to Use</h3>
+
+<ol>
+<li><strong>스코프 전환</strong>: <code>내 항목(MY)</code> / <code>전체(All)</code> 선택 / Switch scope: <code>MY</code> / <code>All</code></li>
+<li><strong>유형별 필터</strong>: 작업 유형 선택 / Select work type filter</li>
+<li><strong>키워드 검색</strong>: 제목/설명 키워드로 검색 / Search by title/description keyword</li>
+<li><strong>카드 리스트</strong>에서 업무 항목 확인 / View work items in card list</li>
+<li><strong>페이지네이션</strong>: 20건 단위로 이전/다음 버튼 / Navigate with prev/next (20/page)</li>
+</ol>
+
+<h3>💡 사용 팁 / Usage Tips</h3>
+
+<ul>
+<li><strong>MY 스코프</strong>: 먼저 <code>내 항목</code>으로 나에게 할당된 업무만 확인한 후, 필요 시 <code>전체</code>로 전환하세요.  </li>
+</ul>
+<p>  Check <code>MY</code> scope first for assigned items, then switch to <code>All</code> as needed.</p>
+
+<p>---</p>
+
+<h2>17. 웹메일 Webmail</h2>
+
+<p>&gt; <strong>경로 / Path</strong>: 사이드바 &gt; 웹메일 / Sidebar &gt; Webmail (<code>/mail</code>)</p>
+
+<h3>기능 설명 / Feature Description</h3>
+
+<p>사내 메일 서버(Postal)와 연동되는 웹메일 클라이언트입니다. 수신함·보낸메일·임시저장·휴지통 4개 폴더로 메일을 관리하며, 메일 작성·답장·전달·전체답장·중요표시·첨부파일 기능을 제공합니다. 읽지 않은 메일 배지가 실시간으로 업데이트됩니다.  </p>
+<p>Webmail client integrated with company mail server (Postal). 4 folders: Inbox, Sent, Drafts, Trash. Features: compose, reply, forward, reply-all, star, attachments. Real-time unread badges.</p>
+
+<h3>사용법 / How to Use</h3>
+
+<h4>최초 설정 / Initial Setup</h4>
+<ol>
+<li>웹메일 메뉴 처음 접근 시 자동으로 <strong>설정 폼</strong> 표시 / Setup form displayed automatically on first access</li>
+<li><strong>이메일 주소</strong> 입력 (회사 메일) / Enter <strong>Email Address</strong> (company mail)</li>
+<li><strong>표시 이름</strong> 입력 (선택) / Enter <strong>Display Name</strong> (optional)</li>
+<li><strong>[설정 완료]</strong> 클릭 → 메일 사용 시작 / Click <strong>[Complete Setup]</strong> → Start using mail</li>
+</ol>
+
+<h4>메일 작성 / Compose Mail</h4>
+<ol>
+<li>사이드바의 <strong>[새 메일]</strong> 클릭 / Click <strong>[New Mail]</strong> in sidebar</li>
+<li><strong>받는 사람</strong>(필수, 다중 입력 가능), <strong>참조(CC)</strong>, <strong>숨은참조(BCC)</strong> 입력 / Enter <strong>To</strong> (required, multiple), <strong>CC</strong>, <strong>BCC</strong></li>
+<li><strong>제목</strong>(필수) 입력 / Enter <strong>Subject</strong> (required)</li>
+<li><strong>본문</strong> 작성 (리치 텍스트 에디터) / Write <strong>Body</strong> (rich text editor)</li>
+<li><strong>첨부파일</strong> 추가 (선택) / Add <strong>Attachments</strong> (optional)</li>
+<li><strong>[보내기]</strong> 클릭 → 발송 완료 / Click <strong>[Send]</strong> → Mail sent</li>
+<li>또는 <strong>[임시저장]</strong> → 임시저장 폴더에 보관 / Or click <strong>[Save Draft]</strong> → Saved to Drafts</li>
+</ol>
+
+<h4>메일 읽기 / Read Mail</h4>
+<ol>
+<li><strong>받은편지함</strong> 선택 → 메일 목록 표시 / Select <strong>Inbox</strong> → Mail list displayed</li>
+<li><strong>메일 클릭</strong> → 상세 페이지 (<code>/mail/message/:id</code>) / Click mail → Detail page</li>
+<li>HTML 본문 확인 (DOMPurify로 XSS 방어) / View HTML body (DOMPurify XSS protection)</li>
+<li><strong>첨부파일</strong> 다운로드 / Download <strong>attachments</strong></li>
+</ol>
+
+<h4>답장·전달 / Reply · Forward</h4>
+<ul>
+<li><strong>답장</strong>: 발신자에게만 답장 / Reply to sender only</li>
+<li><strong>전체답장</strong>: 발신자 + CC 전체에 답장 / Reply to sender + all CC</li>
+<li><strong>전달</strong>: 새 수신자에게 전달 (원본 인용 포함) / Forward to new recipients (original quote included)</li>
+</ul>
+
+<h4>중요 표시·삭제 / Star · Delete</h4>
+<ul>
+<li><strong>⭐ 아이콘 클릭</strong>: 중요 표시/해제 토글 / Click ⭐ to toggle star</li>
+<li><strong>삭제</strong>: 휴지통으로 이동 (소프트 삭제, 복구 가능) / Delete moves to Trash (recoverable)</li>
+</ul>
+
+<h3>💡 사용 팁 / Usage Tips</h3>
+
+<ul>
+<li><strong>임시저장 활용</strong>: 긴 메일을 작성할 때는 주기적으로 <code>임시저장</code>을 눌러 작성 중인 내용을 보존하세요.  </li>
+</ul>
+<p>  Periodically save drafts when writing long emails to preserve your work.</p>
+<ul>
+<li><strong>중요 표시</strong>: 나중에 다시 확인해야 할 메일은 ⭐ 중요 표시를 해두면 빠르게 찾을 수 있습니다.  </li>
+</ul>
+<p>  Star emails you need to revisit later for quick retrieval.</p>
+<ul>
+<li><strong>미읽 배지</strong>: 사이드바 폴더 옆의 미읽 메일 수 배지로 받은편지함 현황을 실시간 확인하세요.  </li>
+</ul>
+<p>  Monitor real-time inbox status via unread count badges next to folder names.</p>
+<ul>
+<li><strong>휴지통 복구</strong>: 삭제된 메일은 휴지통에서 복구 가능하니, 실수로 삭제해도 걱정하지 마세요.  </li>
+</ul>
+<p>  Deleted emails can be recovered from Trash — don't worry about accidental deletions.</p>
+
+<p>---</p>
+
+<h2>18. 인사관리 HR Management</h2>
+
+<p>&gt; <strong>경로 / Path</strong>: 사이드바 &gt; 인사관리 / Sidebar &gt; HR Management (<code>/hr</code>)</p>
+
+<h3>기능 설명 / Feature Description</h3>
+
+<p>직원·프리랜서 인적 정보부터 근태, 급여, 퇴직금, 보고서까지 인사 업무 전반을 관리하는 종합 모듈입니다. 법인 국가(KR/VN)에 따라 일부 메뉴가 자동 표시/숨김됩니다. 하위 11개 서브메뉴로 구성됩니다.  </p>
+<p>Comprehensive HR module covering employee/freelancer info, attendance, payroll, severance, and reports. Menu visibility varies by entity country (KR/VN). 11 submenus.</p>
+
+<h3>사용법 / How to Use</h3>
+
+<h4>직원관리 / Employees (<code>/hr/employees</code>)</h4>
+<ol>
+<li><strong>직원 목록</strong> 조회: 이름/사번 검색, 상태/계약유형/유닛 필터 / <strong>Employee List</strong>: Search by name/ID, filter by status/contract type/unit</li>
+<li><strong>[+ 직원 등록]</strong> → 4개 탭:</li>
+</ol>
+<ul>
+<li><strong>기본정보</strong>: 이름, 연락처, 주소, 입사일, 유닛, 직급 / <strong>Basic Info</strong>: name, contact, address, hire date, unit, position</li>
+<li><strong>급여</strong>: 기본급, 수당, 공제 (기존 직원만) / <strong>Salary</strong>: base pay, allowances, deductions (existing employees only)</li>
+<li><strong>부양가족</strong>: 부양가족 정보 (기존 직원만) / <strong>Dependents</strong>: dependent info (existing only)</li>
+<li><strong>한국 정보</strong>: 4대보험, 세금 (KR 법인만) / <strong>KR Info</strong>: 4 insurances, tax (KR entity only)</li>
+</ul>
+
+<h4>프리랜서 관리 / Freelancers (<code>/hr/freelancers</code>) — KR 법인 전용</h4>
+<ul>
+<li>프리랜서 목록 조회 및 등록 / View and register freelancers</li>
+<li>입력: 국적, 주소, 연락처, 계약 기간, 금액, 세율 / Enter: nationality, address, contact, contract period, amount, tax rate</li>
+</ul>
+
+<h4>근태관리 / Timesheet (<code>/hr/timesheet</code>)</h4>
+<ol>
+<li><strong>연-월 네비게이션</strong>으로 월 선택 / Select month with year-month navigation</li>
+<li><strong>요약 카드</strong>: 근무일수, 지각, 결근 통계 / Summary cards: work days, late, absent stats</li>
+<li><strong>근태 그리드</strong>: 직원×날짜 매트릭스에서 출근 코드 확인/입력 / Attendance grid: employee × date matrix</li>
+<li>관리자: <strong>일괄 등록(Batch Upsert)</strong> 가능 / Admin: batch upsert available</li>
+</ol>
+
+<h4>급여관리 / Payroll (<code>/hr/payroll</code>)</h4>
+<ol>
+<li><strong>급여 기간 목록</strong> 조회 / View payroll period list</li>
+<li>관리자: <strong>새 기간 생성</strong> (연, 월, 지급일) / Admin: Create new period</li>
+<li>기간 클릭 → <strong>급여 상세</strong> 페이지 / Click period → Payroll detail page</li>
+<li><strong>단계별 처리</strong>: <code>산출(Calculate)</code> → <code>1차승인(L1)</code> → <code>2차승인(L2)</code> → <code>확정(Finalize)</code> / Step-by-step processing</li>
+<li><strong>급여 요약 테이블</strong>: 직원별 기본급, 수당, 공제, 실수령액 / Per-employee payroll summary</li>
+<li>직원 행 클릭 → 개별 급여 상세 슬라이드 오버 패널 / Click row → Individual payroll slide-over</li>
+</ol>
+
+<h4>퇴직금 / Severance (<code>/hr/severance</code>) — 관리자 전용</h4>
+<ol>
+<li>좌측에서 <strong>직원 선택</strong> / Select employee on left</li>
+<li><strong>퇴직일</strong> 입력 → 퇴직금 <strong>자동 계산</strong> / Enter resignation date → Auto-calculate severance</li>
+</ol>
+
+<h4>리포트 / Reports (<code>/hr/reports</code>) — 관리자 전용</h4>
+<ol>
+<li><strong>확정된 급여 기간</strong> 선택 / Select finalized payroll period</li>
+<li>보고서 선택 → <strong>생성/다운로드</strong> / Select report → Generate/Download</li>
+</ol>
+<ul>
+<li><strong>베트남</strong>: 급여명세서(PDF), 급여대장(XLSX), 보험 리포트, PIT 리포트, 직원명부</li>
+<li><strong>한국</strong>: 급여명세서(PDF), 급여대장(XLSX), 4대보험 집계표, 세무사 Excel, 사업소득 대장, 직원명부</li>
+</ul>
+
+<h4>HR 설정 / HR Settings (<code>/hr/settings</code>) — 관리자 전용</h4>
+<ul>
+<li><strong>베트남</strong>: 보험 요율, 세률표, 최저임금, 초과근무 배율, 공휴일 / VN: insurance rates, tax table, minimum wage, overtime multiplier, holidays</li>
+<li><strong>한국</strong>: 4대보험 파라미터, 소득세 간이세액표, 공휴일 / KR: 4 insurance parameters, simplified tax table, holidays</li>
+</ul>
+
+<h3>💡 사용 팁 / Usage Tips</h3>
+
+<ul>
+<li><strong>급여 단계별 처리</strong>: 급여 처리는 반드시 <code>산출</code> → <code>1차승인</code> → <code>2차승인</code> → <code>확정</code> 순서로 진행해야 합니다. 단계를 건너뛸 수 없습니다.  </li>
+</ul>
+<p>  Payroll must follow the Calculate → L1 → L2 → Finalize sequence. No steps can be skipped.</p>
+<ul>
+<li><strong>법인별 메뉴 차이</strong>: KR 법인에서만 프리랜서, 사업소득, 연말정산 메뉴가 표시됩니다.  </li>
+</ul>
+<p>  Freelancers, Business Income, and Year-End Tax menus only appear for KR entities.</p>
+<ul>
+<li><strong>리포트 다운로드</strong>: 급여 확정 후 반드시 리포트를 생성하여 보관하세요.  </li>
+</ul>
+<p>  Always generate and save reports after finalizing payroll.</p>
+<ul>
+<li><strong>근태 일괄 등록</strong>: 관리자는 월 단위로 전 직원의 근태를 일괄 등록할 수 있어 시간을 절약할 수 있습니다.  </li>
+</ul>
+<p>  Admins can batch-register attendance for all employees monthly to save time.</p>
+<ul>
+<li><strong>연말정산</strong>: KR 법인의 경우, Excel 파일 임포트 기능으로 연말정산 데이터를 빠르게 반영할 수 있습니다.  </li>
+</ul>
+<p>  For KR entities, use Excel import for quick year-end tax settlement data entry.</p>
+
+<p>---</p>
+
+<h2>19. 회계관리 Accounting</h2>
+
+<p>&gt; <strong>경로 / Path</strong>: 사이드바 &gt; 회계관리 / Sidebar &gt; Accounting (<code>/accounting</code>)</p>
+
+<h3>기능 설명 / Feature Description</h3>
+
+<p>은행 계좌와 입출금 거래 내역을 관리하는 모듈입니다. 다중 통화(KRW/VND/USD 등)를 지원하며, 계좌별 카드 그리드, 거래 등록/수정, Excel 일괄 임포트 기능을 제공합니다.  </p>
+<p>Module for managing bank accounts and transaction records. Multi-currency support (KRW/VND/USD). Account card grid, transaction CRUD, and Excel batch import.</p>
+
+<h3>사용법 / How to Use</h3>
+
+<h4>계좌 관리 / Account Management</h4>
+<ol>
+<li><strong>[+ 계좌 추가]</strong> 클릭 / Click <strong>[+ Add Account]</strong></li>
+<li><strong>은행명</strong>, <strong>지점</strong>, <strong>계좌번호</strong>, <strong>별칭</strong>, <strong>통화</strong>(KRW/VND/USD), <strong>기초 잔액</strong>, <strong>개시일</strong> 입력 / Enter account details</li>
+<li><strong>[저장]</strong> → 카드 그리드에 추가 / <strong>[Save]</strong> → Added to card grid</li>
+<li>카드의 <strong>수정/삭제</strong> 버튼으로 관리 / Manage via <strong>Edit/Delete</strong> buttons on card</li>
+</ol>
+
+<h4>거래 내역 관리 / Transaction Management</h4>
+<ol>
+<li><strong>계좌 카드 클릭</strong> → 거래 내역 페이지(<code>/accounting/:accountId</code>) / Click account card → Transaction page</li>
+<li><strong>[+ 거래 추가]</strong> 클릭 / Click <strong>[+ Add Transaction]</strong></li>
+<li><strong>거래일</strong>, <strong>프로젝트명</strong>, <strong>순 금액</strong>, <strong>부가세</strong>, <strong>수수료</strong>, <strong>거래처명</strong>, <strong>적요</strong> 입력 / Enter transaction details</li>
+<li><strong>필터</strong>: 날짜 범위, 거래처명, 적요 검색 / Filters: date range, partner name, memo search</li>
+<li><strong>정렬</strong>: 날짜 오름차순/내림차순 토글 / Sort: date ascending/descending toggle</li>
+<li><strong>페이지네이션</strong>: 20/50/100/200건 단위 / Pagination: 20/50/100/200 per page</li>
+</ol>
+
+<h4>Excel 임포트 / Excel Import</h4>
+<ol>
+<li><strong>[Excel 임포트]</strong> 클릭 / Click <strong>[Excel Import]</strong></li>
+<li>Excel 파일 업로드 / Upload Excel file</li>
+<li>처리 결과 확인: 생성된 계좌 수, 가져온 거래 수, 처리된 시트 수 / Check results: accounts created, transactions imported, sheets processed</li>
+</ol>
+
+<h3>💡 사용 팁 / Usage Tips</h3>
+
+<ul>
+<li><strong>통화별 잔액 확인</strong>: 상단의 통화별 총 잔액 요약에서 여러 통화의 자금 현황을 한눈에 파악하세요.  </li>
+</ul>
+<p>  Check the multi-currency balance summary at the top for an overview of funds across currencies.</p>
+<ul>
+<li><strong>Excel 임포트</strong>: 은행에서 다운로드한 거래 내역 Excel을 바로 임포트하면 수작업 입력을 줄일 수 있습니다.  </li>
+</ul>
+<p>  Import bank-downloaded Excel transaction records to reduce manual data entry.</p>
+<ul>
+<li><strong>계좌별 임포트</strong>: 전체 Excel 임포트 외에 계좌별 개별 거래 임포트도 가능합니다.  </li>
+</ul>
+<p>  Per-account individual transaction import is also available besides bulk Excel import.</p>
+<ul>
+<li><strong>적요 활용</strong>: 적요 필드에 명확한 설명을 입력하면 나중에 검색이 훨씬 편리합니다.  </li>
+</ul>
+<p>  Clear descriptions in the memo field make future searches much easier.</p>
+
+<p>---</p>
+
+<h2>20. 지식관리 KMS</h2>
+
+<p>&gt; <strong>경로 / Path</strong>: 사이드바 &gt; 지식관리 / Sidebar &gt; KMS (<code>/kms</code>)</p>
+
+<h3>기능 설명 / Feature Description</h3>
+
+<p>조직의 지식 자산을 체계적으로 관리하고 AI 기반 분석을 제공하는 모듈입니다. <strong>문서 빌더</strong>(AI 문서 자동 생성), <strong>5A 매트릭스</strong>(비즈니스 성숙도 분석), <strong>태그 클라우드/관리</strong>(태그 기반 분류), <strong>지식 그래프</strong>(지식 연결 시각화) 6개 서브메뉴로 구성됩니다.  </p>
+<p>Module for managing organizational knowledge assets with AI-based analysis. 6 submenus: Doc Builder (AI document generation), 5A Matrix (business maturity analysis), Tag Cloud/Management, and Knowledge Graph.</p>
+
+<h3>사용법 / How to Use</h3>
+
+<h4>문서 빌더 / Doc Builder (<code>/kms/doc-builder</code>)</h4>
+<ol>
+<li><strong>기초 데이터 탭</strong>: 카테고리별 기초 데이터 입력/수정, 완성도 게이지 확인 / <strong>Base Data Tab</strong>: Enter base data per category, check completion gauge</li>
+<li><strong>기밀 등급</strong> 설정: <code>공개(PUBLIC)</code> / <code>내부(INTERNAL)</code> / <code>기밀(CONFIDENTIAL)</code> / Set <strong>Confidentiality</strong> level</li>
+<li><strong>문서 생성 탭</strong>: AI가 기초 데이터 기반으로 문서 초안 자동 생성 → 미리보기/다운로드 / <strong>Generate Tab</strong>: AI auto-generates draft → Preview/Download</li>
+<li><strong>동기화 탭</strong>: DDD, Billing, HR 등 외부 모듈 데이터 동기화 / <strong>Sync Tab</strong>: Sync data from external modules</li>
+</ol>
+
+<h4>5A 매트릭스 / 5A Matrix (<code>/kms/ddd</code>)</h4>
+<ol>
+<li><strong>분기별 기간</strong> 선택 (YYYY-QN 형식) / Select <strong>quarterly period</strong></li>
+<li><strong>가중 점수 게이지</strong> 확인: 프로세스(30%) + 역량(40%) + 품질(30%) / Check <strong>weighted score gauge</strong></li>
+<li><strong>AI 인사이트</strong> 확인: AI의 분석 및 추천 / Check <strong>AI Insights</strong></li>
+<li><strong>스냅샷 데이터 입력</strong>: 현재 수치 입력 / Enter <strong>snapshot data</strong></li>
+<li><strong>데이터 수집 &amp; 분석</strong>: 자동 수집 후 AI 분석 실행 / <strong>Collect &amp; Analyze</strong>: Auto-collect then AI analysis</li>
+</ol>
+
+<h4>5A 설정 / 5A Settings (<code>/kms/ddd-settings</code>)</h4>
+<ul>
+<li><strong>지표 탭</strong>: 5A 단계별 KPI 지표 설정 / <strong>Metrics Tab</strong>: Set KPI metrics per 5A stage</li>
+<li><strong>목표 탭</strong>: 단계별 목표 값 설정 / <strong>Targets Tab</strong>: Set target values</li>
+<li><strong>가중치 탭</strong>: 프로세스/역량/품질 가중치 설정 (합계 100% 검증) / <strong>Gauges Tab</strong>: Set weights (sum must equal 100%)</li>
+</ul>
+
+<h4>태그 클라우드 / Tag Cloud (<code>/kms/tag-cloud</code>)</h4>
+<ol>
+<li><strong>범위 선택</strong>: 나(MY) / 유닛(UNIT) / 법인(ENTITY) / Select <strong>Scope</strong></li>
+<li><strong>레벨 필터</strong>: 전체 / 도메인 / 토픽 / 컨텍스트 / <strong>Level Filter</strong></li>
+<li><strong>태그 클릭</strong> → 범위별 비교 패널 / Click tag → Scope comparison panel</li>
+<li><strong>인사이트 사이드바</strong>: 태그 사용 패턴 분석 / Insight sidebar: tag usage analysis</li>
+</ol>
+
+<h4>태그 관리 / Tag Management (<code>/kms/tags</code>)</h4>
+<ul>
+<li><strong>계층형 태그 트리</strong> 구조로 태그 CRUD / Tag CRUD in <strong>hierarchical tag tree</strong></li>
+<li>입력: 이름, 현지 이름, 레벨(Domain/Topic/Context), 부모 태그, 색상 / Enter: name, local name, level, parent tag, color</li>
+</ul>
+
+<h4>지식 그래프 / Knowledge Graph (<code>/kms/knowledge-graph</code>)</h4>
+<ul>
+<li>레벨별 그룹(Domain → Topic → Context)으로 <strong>노드 시각화</strong> / <strong>Node visualization</strong> by level groups</li>
+<li>노드 크기: 사용 횟수에 비례 / Node size proportional to usage count</li>
+<li><strong>노드 호버</strong>: 연결 관계 표시 / Hover node to show connections</li>
+</ul>
+
+<h3>💡 사용 팁 / Usage Tips</h3>
+
+<ul>
+<li><strong>문서 빌더 완성도</strong>: 기초 데이터의 완성도가 높을수록 AI가 생성하는 문서의 품질이 향상됩니다.  </li>
+</ul>
+<p>  Higher base data completion leads to better AI-generated document quality.</p>
+<ul>
+<li><strong>5A 매트릭스 정기 입력</strong>: 매 분기마다 스냅샷 데이터를 입력하면 성숙도 추이를 추적할 수 있습니다.  </li>
+</ul>
+<p>  Enter snapshot data every quarter to track maturity trends over time.</p>
+<ul>
+<li><strong>태그 계층 구조</strong>: Domain → Topic → Context 순서로 태그를 계층화하면 지식 분류가 체계적으로 정리됩니다.  </li>
+</ul>
+<p>  Organize tags hierarchically (Domain → Topic → Context) for systematic knowledge classification.</p>
+<ul>
+<li><strong>지식 그래프 활용</strong>: 지식 그래프에서 노드 간 연결 관계를 확인하면 관련 지식을 빠르게 탐색할 수 있습니다.  </li>
+</ul>
+<p>  Check node connections in Knowledge Graph to quickly explore related knowledge.</p>
+
+<p>---</p>
+
+<h2>21. AI 에이전트 AI Agents</h2>
+
+<p>&gt; <strong>경로 / Path</strong>: 사이드바 &gt; AI 에이전트 / Sidebar &gt; AI Agents (<code>/agents</code>)</p>
+
+<h3>기능 설명 / Feature Description</h3>
+
+<p>유닛(부서)별 전문 AI 챗봇에 접속하는 허브 페이지입니다. 법무, 경리, 번역, 프로젝트관리, 개발 등 각 유닛의 업무 특성에 맞는 전문화된 AI 에이전트와 SSE 기반 실시간 스트리밍으로 대화할 수 있습니다. 사용자의 <code>CHAT_*</code> 메뉴 권한에 따라 접근 가능한 에이전트만 표시됩니다.  </p>
+<p>Hub page for accessing unit-specific AI chatbots. Chat with specialized AI agents (Legal, Accounting, Translation, PM, Development) via SSE streaming. Only agents accessible by your <code>CHAT_*</code> permissions are shown.</p>
+
+<h3>사용법 / How to Use</h3>
+
+<h4>에이전트 선택 / Select Agent</h4>
+<ol>
+<li><strong>에이전트 카드 그리드</strong>에서 원하는 에이전트 카드 확인 / Find desired agent in <strong>card grid</strong></li>
+<li>카드의 <strong>[대화 시작]</strong> 클릭 / Click <strong>[Start Chat]</strong> on the card</li>
+<li>채팅 페이지(<code>/chat/:unit</code>)로 이동 / Navigate to chat page</li>
+</ol>
+
+<h4>에이전트와 대화 / Chat with Agent</h4>
+<ol>
+<li><strong>좌측 사이드바</strong>: 이전 대화 목록 확인 / <strong>Left sidebar</strong>: View previous conversation list</li>
+<li><strong>[새 대화]</strong>: 새로운 대화 세션 시작 / <strong>[New Conversation]</strong>: Start new chat session</li>
+<li><strong>메시지 입력</strong> → Enter → SSE 기반 실시간 스트리밍 응답 수신 / Enter message → SSE-based streaming response</li>
+</ol>
+
+<h3>💡 사용 팁 / Usage Tips</h3>
+
+<ul>
+<li><strong>전문 에이전트 활용</strong>: 법률 질문은 <code>법무</code> 에이전트, 세금 관련은 <code>경리</code> 에이전트 등 전문 분야에 맞는 에이전트를 선택하세요.  </li>
+</ul>
+<p>  Use the specialized agent for each domain — Legal for law, Accounting for tax, etc.</p>
+<ul>
+<li><strong>대화 이력 유지</strong>: 이전 대화는 좌측 사이드바에서 다시 열 수 있으므로, 관련 주제는 같은 대화에서 계속하세요.  </li>
+</ul>
+<p>  Previous conversations can be reopened from the sidebar — continue related topics in the same chat.</p>
+<ul>
+<li><strong>구체적 질문</strong>: AI에게 구체적이고 상세한 질문을 할수록 더 정확한 답변을 받을 수 있습니다.  </li>
+</ul>
+<p>  The more specific and detailed your questions, the more accurate the AI's responses.</p>
+
+<p>---</p>
+
+<h2>22. 서비스관리 Service Management</h2>
+
+<p>&gt; <strong>경로 / Path</strong>: 사이드바 &gt; 서비스관리 / Sidebar &gt; Service Management (<code>/admin/service</code>)</p>
+
+<h3>기능 설명 / Feature Description</h3>
+
+<p>회사가 제공하는 서비스 상품, 고객, 구독의 전체 라이프사이클을 관리하는 모듈입니다. 대시보드에서 전체 현황을 파악하고, 서비스 카탈로그 등록부터 고객 관리, 구독 상태 추적까지 처리할 수 있습니다.  </p>
+<p>Manage the full lifecycle of service products, clients, and subscriptions. Dashboard overview, service catalog registration, client management, and subscription status tracking.</p>
+
+<h3>사용법 / How to Use</h3>
+
+<h4>대시보드 / Dashboard (<code>/admin/service/dashboard</code>)</h4>
+<ul>
+<li><strong>4개 통계 카드</strong>: 총 서비스 수, 총 고객 수, 활성 구독 수, 30일 내 만료 예정 / <strong>4 Stats Cards</strong></li>
+<li><strong>서비스 개요 카드</strong>: 각 서비스별 상태, 요금제 수, 활성 구독자 수 / <strong>Service Overview Cards</strong></li>
+</ul>
+
+<h4>서비스 관리 / Manage Services (<code>/admin/service/services</code>)</h4>
+<ol>
+<li><strong>[+ 서비스 등록]</strong> → 코드, 이름, 카테고리(<code>COMMUNICATION</code>/<code>COMMERCE</code>/<code>MARKETING</code>/<code>PACKAGE</code>/<code>OTHER</code>), 설명, 색상 입력 / Register service</li>
+<li><strong>서비스 상세</strong>: 서비스 정보 인라인 수정 / Service detail: inline edit</li>
+<li><strong>요금제 관리</strong>: 요금제 추가 (코드, 이름, 가격, 과금주기) / <strong>Plan Management</strong>: Add plans</li>
+<li><strong>서비스 삭제</strong>: 확인 대화상자 후 삭제 / Delete with confirmation</li>
+</ol>
+
+<h4>고객 관리 / Manage Clients (<code>/admin/service/clients</code>)</h4>
+<ol>
+<li><strong>고객 목록</strong>: 테이블 형식 (검색, 상태/유형 필터) / Client list with filters</li>
+<li><strong>고객 상세</strong> → 4개 탭:</li>
+</ol>
+<ul>
+<li><strong>정보</strong>: 기본 정보 인라인 수정 / <strong>Info</strong>: Basic info inline edit</li>
+<li><strong>연락처</strong>: 담당자 CRUD / <strong>Contacts</strong>: Contact person CRUD</li>
+<li><strong>구독</strong>: 고객의 구독 목록 / <strong>Subscriptions</strong>: Client's subscriptions</li>
+<li><strong>노트</strong>: 메모 CRUD / <strong>Notes</strong>: Memo CRUD</li>
+</ul>
+
+<h4>구독 관리 / Manage Subscriptions (<code>/admin/service/subscriptions</code>)</h4>
+<ol>
+<li><strong>[+ 구독 등록]</strong> → 고객, 서비스, 시작/종료일, 과금주기, 가격, 통화, 자동갱신, 메모 / Register subscription</li>
+<li><strong>구독 상세</strong> → 상태 배지 + 인라인 수정 / Detail: status badge + inline edit</li>
+<li><strong>라이프사이클 액션</strong>: 해지(사유 필수), 정지, 재개, 갱신 / Lifecycle: Cancel, Suspend, Resume, Renew</li>
+<li><strong>이력 로그</strong>: 상태 변경 기록 확인 / History log: status change records</li>
+</ol>
+
+<h3>💡 사용 팁 / Usage Tips</h3>
+
+<ul>
+<li><strong>만료 임박 확인</strong>: 대시보드의 "30일 내 만료 예정" 카드를 매일 확인하여 갱신이 필요한 구독을 놓치지 마세요.  </li>
+</ul>
+<p>  Check "Expiring within 30 days" card daily to avoid missing subscription renewals.</p>
+<ul>
+<li><strong>해지 시 사유 필수</strong>: 구독 해지 시 사유를 반드시 입력해야 하므로, 고객과의 소통 내용을 기록해 두세요.  </li>
+</ul>
+<p>  Cancel reason is required — document your communication with the client.</p>
+<ul>
+<li><strong>고객 노트 활용</strong>: 고객 상세의 노트 탭에 중요한 미팅 내용이나 특이사항을 기록하면 팀 내 정보 공유에 도움됩니다.  </li>
+</ul>
+<p>  Use client notes to record important meeting content or special notes for team information sharing.</p>
+<ul>
+<li><strong>자동 갱신 설정</strong>: 장기 계약 고객은 자동 갱신을 활성화하면 매번 수동 갱신할 필요가 없습니다.  </li>
+</ul>
+<p>  Enable auto-renewal for long-term contract clients to avoid manual renewal each time.</p>
+
+<p>---</p>
+
+<h1>Admin Area / 관리자 영역</h1>
+
+<p>---</p>
+
+<h2>23. 관리자 설정 Admin Settings</h2>
+
+<p>&gt; <strong>경로 / Path</strong>: 사이드바 하단 &gt; 설정 / Sidebar bottom &gt; Settings (<code>/admin</code>)  </p>
+<p>&gt; ⚠️ <strong>관리자(ADMIN) 권한 필요 / Admin permission required</strong></p>
+
+<h3>기능 설명 / Feature Description</h3>
+
+<p>시스템 전반의 설정을 관리하는 관리자 전용 영역입니다. 카드형 대시보드에서 각 설정 항목으로 이동하며, 사용자의 메뉴 권한에 따라 접근 가능한 카드만 표시됩니다. 멤버 관리, API 키, SMTP, 권한, Drive, AI 사용량, 법인, 유닛, 대화, 메일 계정, 에이전트, 용어집 등 12개 설정 항목을 관리합니다.  </p>
+<p>Admin-only area for system-wide settings. 12 setting items: Members, API Keys, SMTP, Permissions, Drive, AI Usage, Entities, Units, Conversations, Mail Accounts, Agent Settings, Glossary.</p>
+
+<h3>사용법 / How to Use</h3>
+
+<h4>내 서명 / My Signature</h4>
+<ul>
+<li>설정 메인 페이지 하단의 <strong>내 서명</strong> 섹션 / <strong>My Signature</strong> section at bottom of settings main</li>
+<li><strong>서명 이미지 업로드</strong> (전자 서명용) / Upload signature image (for e-signatures)</li>
+<li>기존 서명 조회 및 삭제 / View and delete existing signature</li>
+</ul>
+
+<h4>멤버 관리 / Members (<code>/admin/members</code>)</h4>
+<ol>
+<li><strong>멤버 탭</strong>: 전체 사용자 목록, 검색, 역할/상태 확인 / <strong>Members Tab</strong>: All user list, search, role/status</li>
+<li><strong>그룹 탭</strong>: 업무 그룹 CRUD / <strong>Groups Tab</strong>: Work group CRUD</li>
+<li><strong>초대 탭</strong>: 멤버 초대 발송 및 대기 관리 / <strong>Invites Tab</strong>: Send invites and manage pending</li>
+<li><strong>멤버 상세</strong> (<code>/admin/members/:id</code>):</li>
+</ol>
+<ul>
+<li>법인 역할 배정, 유닛 역할 배정, 그룹 배정 / Entity/Unit role assignment, group assignment</li>
+<li>직원 연결 (HR 레코드 링크) / Employee link (HR record)</li>
+<li>가입 승인 처리 / Signup approval</li>
+</ul>
+
+<h4>API 키 관리 / API Keys (<code>/admin/api-keys</code>)</h4>
+<ol>
+<li><strong>[+ 키 생성]</strong> → 키 이름 입력 → 키 자동 생성 / Create key: enter name → auto-generate</li>
+<li>⚠️ <strong>생성 시 표시되는 키를 즉시 복사</strong> (다시 확인 불가) / ⚠️ <strong>Copy the key immediately</strong> (shown only once)</li>
+<li>키 삭제: 확인 대화상자 후 삭제 / Delete key with confirmation</li>
+</ol>
+
+<h4>SMTP 설정 / SMTP Settings (<code>/admin/smtp</code>)</h4>
+<ol>
+<li><strong>호스트</strong>, <strong>포트</strong>, <strong>사용자</strong>, <strong>비밀번호</strong>, <strong>보내는 주소</strong>, <strong>TLS 토글</strong> 입력 / Enter SMTP details</li>
+<li><strong>[연결 테스트]</strong> → 성공/실패 확인 / <strong>[Test Connection]</strong> → Check success/failure</li>
+<li><strong>[저장]</strong> / <strong>[Save]</strong></li>
+</ol>
+
+<h4>메뉴 권한 / Permissions (<code>/admin/permissions</code>)</h4>
+<ol>
+<li><strong>메뉴 구성 탭</strong>: 시스템 메뉴 ON/OFF / <strong>Menu Config Tab</strong>: Toggle menus ON/OFF</li>
+<li><strong>역할별 권한 탭</strong>: ADMIN/MANAGER/USER 역할별 메뉴 접근 설정 / <strong>Role-based Tab</strong>: Set per-role menu access</li>
+<li><strong>사용자별 권한 탭</strong>: 특정 사용자 개별 권한 오버라이드 / <strong>User-specific Tab</strong>: Per-user permission override</li>
+</ol>
+
+<h4>Drive 설정 / Drive Settings (<code>/admin/drive</code>)</h4>
+<ol>
+<li><strong>위임 이메일</strong> 입력 / Enter <strong>Impersonate Email</strong></li>
+<li><strong>거래처 루트 폴더 ID/이름</strong> 입력 / Enter <strong>Partner root folder ID/name</strong></li>
+<li><strong>공유 드라이브 탐색</strong>: 폴더 트리 네비게이션 / <strong>Shared Drive Explorer</strong>: Folder tree navigation</li>
+<li><strong>[연결 테스트]</strong> 및 <strong>[저장]</strong> / <strong>[Test Connection]</strong> and <strong>[Save]</strong></li>
+</ol>
+
+<h4>AI 사용량 / AI Usage (<code>/admin/ai-usage</code>)</h4>
+<ul>
+<li><strong>월별 통계</strong>: 엔티티별 토큰 사용량, 요청 수 / Monthly: per-entity token usage, request count</li>
+<li><strong>할당량 관리</strong>: Daily/Monthly 토큰 할당량 설정 / Quota: set daily/monthly token quotas</li>
+</ul>
+
+<h4>법인 관리 / Entity Management (<code>/admin/entities</code>)</h4>
+<ol>
+<li><strong>법인 등록</strong>: 코드, 법인명, 영문명, 국가, 통화, 사업자번호, 주소, 대표자, 연락처, 이메일, 급여지급일 / Register entity</li>
+<li><strong>법인별 하위 설정</strong>: 그룹 탭, 유닛 탭 / Sub-settings: Groups Tab, Units Tab</li>
+<li><strong>법인 직인</strong> 이미지 업로드/관리 / Entity seal image upload/manage</li>
+</ol>
+
+<h4>유닛 관리 / Unit Management (<code>/admin/departments</code>)</h4>
+<ul>
+<li><strong>계층형 유닛 트리</strong> 구조 / Hierarchical unit tree</li>
+<li>유닛 CRUD (이름, 현지명, 상위 유닛, 활성 여부, 정렬) / Unit CRUD</li>
+<li>하위 유닛(섹션) 추가 / Add sub-unit (Section)</li>
+<li>유닛별 멤버 목록 조회 + 사용자 배정/역할 변경/제거 / Per-unit member list + user assignment</li>
+</ul>
+
+<h4>대화 관리 / Conversation Management (<code>/admin/conversations</code>)</h4>
+<ul>
+<li>전체 AI 대화 이력 관리자 열람 / Admin view of all AI chat history</li>
+<li><strong>필터</strong>: 유닛, 검색어, 날짜 범위 / Filters: unit, keyword, date range</li>
+<li>대화 클릭 → 상세 모달에서 전체 메시지 확인 / Click conversation → Full message detail</li>
+</ul>
+
+<h4>메일 계정 관리 / Mail Accounts (<code>/admin/mail-accounts</code>)</h4>
+<ul>
+<li><strong>계정 탭</strong>: 메일 계정 CRUD (카드형 목록) / <strong>Accounts Tab</strong>: Mail account CRUD</li>
+<li><strong>웹메일 설정 탭</strong>: 시스템 전반 웹메일 설정 / <strong>Webmail Settings Tab</strong>: System-wide settings</li>
+</ul>
+
+<h4>에이전트 설정 / Agent Settings (<code>/admin/agents</code>)</h4>
+<ul>
+<li><strong>채팅 에이전트 탭</strong>: AI 에이전트 활성/비활성 토글, 설정 편집 / <strong>Chat Agents Tab</strong>: Toggle and edit settings</li>
+<li><strong>프롬프트 설정 탭</strong>: 에이전트별 시스템 프롬프트 관리 / <strong>Prompt Settings Tab</strong>: Per-agent prompt management</li>
+<li>설정: 시스템 프롬프트, 설명, 공개 범위(유닛/전사) / Settings: system prompt, description, visibility</li>
+</ul>
+
+<h4>용어집 / Glossary (<code>/admin/glossary</code>)</h4>
+<ul>
+<li>다국어 번역 일관성을 위한 용어 사전 CRUD / Terminology dictionary CRUD for translation consistency</li>
+</ul>
+
+<h3>💡 사용 팁 / Usage Tips</h3>
+
+<ul>
+<li><strong>API 키 보관</strong>: API 키는 생성 시 한 번만 표시됩니다. 반드시 안전한 곳에 저장하세요.  </li>
+</ul>
+<p>  API keys are shown only once at creation — store them securely.</p>
+<ul>
+<li><strong>SMTP 테스트</strong>: SMTP 설정 후 반드시 <code>연결 테스트</code>를 실행하여 메일 발송이 정상인지 확인하세요.  </li>
+</ul>
+<p>  Always run <code>Test Connection</code> after SMTP setup to verify email sending works.</p>
+<ul>
+<li><strong>권한 설정 순서</strong>: 먼저 <code>메뉴 구성</code>에서 필요한 메뉴를 활성화한 후, <code>역할별 권한</code>에서 접근 권한을 설정하세요.  </li>
+</ul>
+<p>  First enable menus in <code>Menu Config</code>, then set access in <code>Role-based Permissions</code>.</p>
+<ul>
+<li><strong>서명 등록</strong>: 전자 결재에 사용할 서명을 미리 등록해 두면 지출결의 등 승인 시 편리합니다.  </li>
+</ul>
+<p>  Register your e-signature in advance for convenient use in expense approvals, etc.</p>
+<ul>
+<li><strong>에이전트 프롬프트</strong>: 에이전트의 시스템 프롬프트를 상세히 작성할수록 AI가 더 정확하고 전문적인 답변을 제공합니다.  </li>
+</ul>
+<p>  More detailed agent system prompts lead to more accurate and specialized AI responses.</p>
+
+<p>---</p>
+
+<h2>24. 법인 설정 Entity Settings</h2>
+
+<p>&gt; <strong>경로 / Path</strong>: 법인 선택기 &gt; 법인 설정 / Entity selector &gt; Entity Settings (<code>/entity-settings</code>)  </p>
+<p>&gt; ⚠️ <strong>법인 관리자 권한 필요 / Entity admin permission required</strong></p>
+
+<h3>기능 설명 / Feature Description</h3>
+
+<p>개별 법인(Entity) 단위의 세부 설정을 관리하는 영역입니다. 전체 관리자 설정과 별도로, 각 법인의 조직, 멤버, 권한, 통계, API 키, Drive, 사용량, 커스텀 앱, 이메일 템플릿을 독립적으로 관리합니다.  </p>
+<p>Per-entity settings area managed independently from global admin settings. Covers organization, members, permissions, work statistics, API keys, Drive, usage, custom apps, and email templates.</p>
+
+<h3>사용법 / How to Use</h3>
+
+<h4>멤버 관리 / Member Management</h4>
+<ol>
+<li><strong>멤버 탭</strong>: 활성 멤버 목록, 권한 변경, 유닛/셀 배정, 직원 연결, 멤버 제거 / <strong>Members Tab</strong></li>
+<li><strong>초대 탭</strong>: 이메일 기반 멤버 초대, 재전송/취소 / <strong>Invites Tab</strong>: Email invites</li>
+</ol>
+
+<h4>멤버 역할 / Member Roles</h4>
+<p>| 역할 | 코드 | 설명 |</p>
+<p>|------|------|------|</p>
+<p>| 관리자 | <code>MASTER</code> | 법인 전체 관리 권한 |</p>
+<p>| 매니저 | <code>MANAGER</code> | 유닛 관리 권한 |</p>
+<p>| 멤버 | <code>MEMBER</code> | 일반 사용 권한 |</p>
+<p>| 뷰어 | <code>VIEWER</code> | 읽기 전용 |</p>
+
+<h4>기타 설정 / Other Settings</h4>
+<ul>
+<li><strong>조직</strong>: 법인 조직 구조 관리 / <strong>Organization</strong>: Entity org structure</li>
+<li><strong>권한</strong>: 메뉴별 역할 기반 접근 제어 (RBAC) / <strong>Permissions</strong>: Role-based access control</li>
+<li><strong>업무 통계</strong>: 법인 업무 통계 확인 / <strong>Work Stats</strong>: Entity work statistics</li>
+<li><strong>API 키</strong>: 법인 전용 API 키 관리 / <strong>API Keys</strong>: Entity-specific API keys</li>
+<li><strong>드라이브</strong>: 법인별 Google Drive 설정 / <strong>Drive</strong>: Per-entity Google Drive settings</li>
+<li><strong>사용량</strong>: 법인 리소스 사용량 확인 / <strong>Usage</strong>: Entity resource usage</li>
+<li><strong>커스텀 앱</strong>: 법인 커스텀 앱 관리 / <strong>Custom Apps</strong>: Entity custom app management</li>
+<li><strong>이메일 템플릿</strong>: 법인별 이메일 템플릿 커스터마이징 / <strong>Email Templates</strong>: Per-entity template customization</li>
+</ul>
+
+<h3>💡 사용 팁 / Usage Tips</h3>
+
+<ul>
+<li><strong>역할 구분</strong>: <code>MASTER</code>는 법인 전체 관리, <code>MANAGER</code>는 유닛 관리, <code>MEMBER</code>는 일반 사용. 최소 권한 원칙을 적용하세요.  </li>
+</ul>
+<p>  Apply the principle of least privilege — <code>MASTER</code> for full admin, <code>MANAGER</code> for unit management, <code>MEMBER</code> for standard use.</p>
+<ul>
+<li><strong>법인별 Drive 설정</strong>: 전체 관리자 Drive 설정과 별도로, 법인별 Google Drive를 독립적으로 설정할 수 있습니다.  </li>
+</ul>
+<p>  Entity-specific Drive settings can be configured independently from global admin Drive settings.</p>
+<ul>
+<li><strong>초대 재전송</strong>: 초대를 받지 못한 신규 멤버에게는 초대 탭에서 재전송을 할 수 있습니다.  </li>
+</ul>
+<p>  Resend invitations from the Invites tab for members who didn't receive them.</p>
+
+<p>---</p>
+
+<h2>25. 사이트 관리 Site Management</h2>
+
+<p>&gt; <strong>경로 / Path</strong>: 관리자 &gt; 사이트 관리 / Admin &gt; Site Management (<code>/admin/site</code>)  </p>
+<p>&gt; ⚠️ <strong>SITE_MANAGEMENT 권한 필요 / Permission required</strong></p>
+
+<h3>기능 설명 / Feature Description</h3>
+
+<p>외부 공개 웹사이트(포탈)의 메뉴, 페이지, 분석을 관리하는 모듈입니다. 드래그 앤 드롭 메뉴 관리, 정적/섹션 빌더 기반 페이지 편집기, 페이지 버전 관리, Google Analytics 연동을 제공합니다.  </p>
+<p>Module for managing external portal menus, pages, and analytics. Drag &amp; drop menu management, static/section builder page editor, page versioning, and Google Analytics integration.</p>
+
+<h3>사용법 / How to Use</h3>
+
+<h4>메뉴 관리 / Menu Management</h4>
+<ol>
+<li><strong>드래그 앤 드롭</strong>으로 메뉴 순서 변경 / <strong>Drag &amp; drop</strong> to reorder menus</li>
+<li>부모-자식 <strong>계층 메뉴</strong> 구성 / Build <strong>hierarchical menus</strong> (parent-child)</li>
+<li>메뉴 <strong>CRUD</strong> (생성, 수정, 삭제) / Menu CRUD</li>
+</ol>
+
+<h4>페이지 빌더 / Page Builder</h4>
+<ol>
+<li><strong>정적 편집기</strong>: HTML 직접 편집 / <strong>Static Editor</strong>: Direct HTML editing</li>
+<li><strong>섹션 빌더</strong>: 드래그 앤 드롭으로 섹션 구성 / <strong>Section Builder</strong>: Drag &amp; drop sections</li>
+<li><strong>메타데이터 폼</strong>: 제목, 설명, URL 설정 / <strong>Metadata Form</strong>: Title, description, URL</li>
+<li><strong>버전 관리</strong>: 페이지 버전 히스토리 / <strong>Versioning</strong>: Page version history</li>
+<li><strong>발행</strong>: 발행 확인 모달을 통해 공개 / <strong>Publish</strong>: Publish via confirmation modal</li>
+</ol>
+
+<h4>분석 / Analytics</h4>
+<ul>
+<li><strong>포탈 분석</strong>: 방문자, 페이지뷰 통계 / Portal analytics: visitor, pageview stats</li>
+<li><strong>앱 분석</strong>: 커스텀 앱 사용 통계 / App analytics: custom app usage stats</li>
+<li><strong>GA 설정</strong>: Google Analytics 통합 설정 / GA Settings: Google Analytics integration</li>
+</ul>
+
+<h3>💡 사용 팁 / Usage Tips</h3>
+
+<ul>
+<li><strong>버전 관리 활용</strong>: 페이지 수정 전 현재 버전이 자동 저장되므로, 언제든 이전 버전으로 복구할 수 있습니다.  </li>
+</ul>
+<p>  Page versions are auto-saved before edits, so you can always revert to previous versions.</p>
+<ul>
+<li><strong>발행 전 확인</strong>: 발행 확인 모달에서 최종 검토 후 공개하세요. 발행 후에는 즉시 외부에 노출됩니다.  </li>
+</ul>
+<p>  Review carefully in the publish confirmation modal — content becomes immediately public after publishing.</p>
+<ul>
+<li><strong>섹션 빌더</strong>: HTML 편집이 어려운 경우, 섹션 빌더의 드래그 앤 드롭으로 손쉽게 페이지를 구성하세요.  </li>
+</ul>
+<p>  Use the section builder's drag &amp; drop if direct HTML editing is difficult.</p>
+
+<p>---</p>
+
+<h2>26. 포탈 브릿지 Portal Bridge</h2>
+
+<p>&gt; <strong>경로 / Path</strong>: 관리자 &gt; 포탈 브릿지 / Admin &gt; Portal Bridge (<code>/admin/portal-bridge</code>)</p>
+
+<h3>기능 설명 / Feature Description</h3>
+
+<p>외부 포탈 고객과 내부 계정을 매핑·관리하는 관리자 도구입니다. 포탈 고객에 대한 내부 계정 자동 생성과 매핑 관리 기능을 제공합니다.  </p>
+<p>Admin tool for mapping and managing external portal customers with internal accounts. Auto-creates internal accounts for portal customers.</p>
+
+<h3>사용법 / How to Use</h3>
+
+<ol>
+<li><strong>고객 탭</strong>: 포탈 고객 목록 검색/필터 / <strong>Customers Tab</strong>: Search/filter portal customers</li>
+<li><strong>매핑 탭</strong>: 고객-내부 계정 매핑 현황 확인 / <strong>Mappings Tab</strong>: View mapping status</li>
+<li><strong>매핑 필터</strong>: 전체 / 매핑 완료 / 미매핑 고객 필터링 / <strong>Filter</strong>: All / Mapped / Unmapped</li>
+<li><strong>고객 검색</strong>: 고객명 검색 (20건/페이지) / <strong>Search</strong>: By customer name (20/page)</li>
+<li><strong>내부 계정 생성</strong>: 포탈 고객에 대한 내부 계정 자동 생성 / <strong>Create Internal Account</strong>: Auto-create for portal customer</li>
+<li><strong>매핑 관리</strong>: 매핑 생성/해제 / <strong>Mapping Management</strong>: Create/remove mappings</li>
+</ol>
+
+<h3>💡 사용 팁 / Usage Tips</h3>
+
+<ul>
+<li><strong>미매핑 고객 확인</strong>: 주기적으로 "미매핑" 필터로 내부 계정이 없는 포탈 고객을 확인하고 매핑하세요.  </li>
+</ul>
+<p>  Periodically check "Unmapped" customers and create internal account mappings.</p>
+
+<p>---</p>
+
+<h1>Common Features / 공통 기능</h1>
+
+<p>---</p>
+
+<h2>27. 마이페이지 My Page</h2>
+
+<p>&gt; <strong>경로 / Path</strong>: 헤더 프로필 클릭 → 마이페이지 / Header profile click → My Page (<code>/my-page</code>)</p>
+
+<h3>기능 설명 / Feature Description</h3>
+
+<p>내 프로필 정보, 소속 법인/유닛(부서)/셀(프로젝트팀), 휴가 잔액, 최근 지출 요청 현황을 확인하는 개인 페이지입니다.  </p>
+<p>Personal page showing profile info, affiliated entities/units/cells, leave balance, and recent expense requests.</p>
+
+<h3>사용법 / How to Use</h3>
+
+<ol>
+<li><strong>헤더의 프로필 아이콘</strong> 클릭 → <strong>마이페이지</strong> 선택 / Click <strong>profile icon</strong> in header → Select <strong>My Page</strong></li>
+<li><strong>프로필 섹션</strong>: 이름, 이메일, 직책 확인 / <strong>Profile</strong>: Name, email, position</li>
+<li><strong>소속 법인</strong>: 법인명, 코드, 국가, 역할, 상태 확인 / <strong>Entities</strong>: Name, code, country, role, status</li>
+<li><strong>소속 유닛</strong>: 유닛명, 역할, Primary 여부, 법인명 확인 / <strong>Units</strong>: Unit name, role, ⭐Primary, entity</li>
+<li><strong>소속 셀</strong>: 셀명, 법인명 확인 / <strong>Cells</strong>: Cell name, entity</li>
+<li><strong>휴가 잔액</strong>: 기본 지급, 사용, 잔여, 이월, 근속년수 5개 카드 / <strong>Leave Balance</strong>: 5 metric cards</li>
+<li><strong>지출 요청</strong>: 최근 5건 + <strong>[신규 신청]</strong> 버튼으로 빠른 지출결의 / <strong>Expense Requests</strong>: Recent 5 + <strong>[New Request]</strong> button</li>
+</ol>
+
+<h3>💡 사용 팁 / Usage Tips</h3>
+
+<ul>
+<li><strong>소속 확인</strong>: 여러 법인/유닛에 소속된 경우, 마이페이지에서 현재 소속 현황을 정확히 확인하세요.  </li>
+</ul>
+<p>  Verify your current affiliations when belonging to multiple entities/units.</p>
+<ul>
+<li><strong>빠른 지출 신청</strong>: 마이페이지의 <strong>[신규 신청]</strong> 버튼으로 지출결의 페이지로 빠르게 이동할 수 있습니다.  </li>
+</ul>
+<p>  Quickly navigate to expense request via the <strong>[New Request]</strong> button on My Page.</p>
+<ul>
+<li><strong>휴가 잔액 확인</strong>: 휴가 신청 전에 마이페이지에서 잔여 일수를 확인하는 습관을 들이세요.  </li>
+</ul>
+<p>  Make it a habit to check remaining leave days on My Page before requesting leave.</p>
+
+<p>---</p>
+
+<h2>28. 공통 기능 Common Features</h2>
+
+<h3>28.1 커스텀 앱 Custom Apps</h3>
+
+<p>&gt; <strong>경로 / Path</strong>: 사이드바 &gt; 커스텀 앱 / Sidebar &gt; Custom Apps (<code>/apps/:appCode</code>)</p>
+
+<h4>기능 설명 / Feature Description</h4>
+<p>외부 웹 애플리케이션을 iframe 또는 새 탭으로 호스팅하는 기능입니다. JWT, API Key, None 3가지 인증 모드를 지원합니다.  </p>
+<p>Host external web applications via iframe or new tab. 3 authentication modes: JWT, API Key, None.</p>
+
+<h4>사용법 / How to Use</h4>
+<ol>
+<li>사이드바에서 <strong>커스텀 앱</strong> 선택 / Select <strong>Custom App</strong> from sidebar</li>
+<li>iframe 모드: 페이지 내에서 바로 표시 / iframe mode: displayed inline</li>
+<li>새 탭 모드: 새 브라우저 탭에서 열림 / new tab mode: opens in new browser tab</li>
+<li>iframe 로드 차단 시 <strong>"새 탭으로 열기"</strong> 대체 버튼 표시 / Fallback "Open in New Tab" button when iframe blocked</li>
+<li>현재 언어가 <code>?locale=</code> 파라미터로 자동 전달 / Current language auto-passed as <code>?locale=</code> parameter</li>
+</ol>
+
+<h3>28.2 다국어 지원 Multi-Language Support</h3>
+
+<h4>기능 설명 / Feature Description</h4>
+<p>전체 UI가 <strong>한국어 / 영어 / 베트남어</strong> 3개 언어를 지원합니다.  </p>
+<p>Full UI supports <strong>Korean / English / Vietnamese</strong>.</p>
+
+<h4>사용법 / How to Use</h4>
+<ol>
+<li><strong>헤더 우측의 언어 선택기</strong> 클릭 / Click <strong>language selector</strong> in header right</li>
+<li>원하는 언어 선택 → UI 전체 즉시 전환 / Select language → Entire UI switches immediately</li>
+<li>노트, 할일, 공지사항 등에서 <strong>자동 번역 패널</strong> 활용 / Use <strong>auto-translation panel</strong> in notes, TODOs, notices</li>
+</ol>
+
+<h3>28.3 법인 전환 Entity Switching</h3>
+
+<h4>사용법 / How to Use</h4>
+<ul>
+<li><strong>헤더의 법인 선택기</strong> 클릭 → 소속 법인 전환 / Click <strong>entity selector</strong> in header → Switch entity</li>
+<li>프로젝트, 거래처, 회계 등은 법인 단위로 데이터 격리 / Data isolated per entity for projects, billing, accounting</li>
+</ul>
+
+<h3>28.4 글로벌 검색 Global Search</h3>
+
+<h4>사용법 / How to Use</h4>
+<ul>
+<li><strong>헤더 중앙 검색바</strong>에 키워드 입력 → 시스템 전체 통합 검색 / Enter keyword in <strong>header search bar</strong> → System-wide integrated search</li>
+</ul>
+
+<h3>28.5 AI 어시스턴트 AI Assistant</h3>
+
+<h4>기능 설명 / Feature Description</h4>
+<p>업무 관련 질문, 데이터 조회, 작업 지원이 가능한 AI 어시스턴트입니다. 로그인 후 자동으로 한 번 표시됩니다.  </p>
+<p>AI assistant for work-related questions, data queries, and task support. Auto-displayed once after login.</p>
+
+<h4>사용법 / How to Use</h4>
+<ol>
+<li>우하단 <strong>플로팅 버튼</strong> 클릭 → AI 어시스턴트 모달 열림 / Click bottom-right <strong>floating button</strong> → AI assistant modal opens</li>
+<li>질문 입력 → AI 응답 확인 / Enter question → View AI response</li>
+</ol>
+
+<h4>💡 사용 팁 / Usage Tips</h4>
+<ul>
+<li><strong>즉석 질문</strong>: 별도의 AI 에이전트 페이지로 이동하지 않아도, 어디서든 플로팅 버튼으로 빠르게 AI에게 질문할 수 있습니다.  </li>
+</ul>
+<p>  Ask AI quick questions from anywhere via the floating button — no need to navigate to the AI Agents page.</p>
+
+<h3>28.6 타임존 Timezone</h3>
+
+<ul>
+<li>사용자별 타임존 설정 (기본: <code>Asia/Ho_Chi_Minh</code>) / Per-user timezone setting (default: <code>Asia/Ho_Chi_Minh</code>)</li>
+<li>캘린더, 오늘의 업무 등 시간 관련 기능에 자동 반영 / Auto-applied to calendar, today's work, etc.</li>
+</ul>
+
+<h3>28.7 자동 로그아웃 Auto Logout</h3>
+
+<ul>
+<li><strong>30분간 미활동</strong> 시 자동 로그아웃 / Auto logout after <strong>30 minutes</strong> of inactivity</li>
+<li>중요 작업 중에는 주기적으로 마우스/키보드 활동을 유지하세요 / Maintain periodic activity during important work</li>
+</ul>
+
+<h3>28.8 PWA (Progressive Web App)</h3>
+
+<ul>
+<li>모바일/데스크톱에서 <strong>앱으로 설치</strong> 가능 / <strong>Install as app</strong> on mobile/desktop</li>
+<li><strong>푸시 알림</strong> 지원 / <strong>Push notification</strong> support</li>
+</ul>
+
+<h4>💡 사용 팁 / Usage Tips</h4>
+<ul>
+<li><strong>모바일 설치</strong>: 스마트폰 브라우저에서 "홈 화면에 추가"를 하면 네이티브 앱처럼 빠르게 접근할 수 있습니다.  </li>
+</ul>
+<p>  Add to home screen on mobile browsers for native app-like quick access.</p>
+<ul>
+<li><strong>푸시 알림</strong>: PWA 설치 후 푸시 알림을 허용하면 중요한 업무 알림을 실시간으로 받을 수 있습니다.  </li>
+</ul>
+<p>  Enable push notifications after PWA installation to receive real-time work alerts.</p>
+
+<p>---</p>
+
+<p>&gt; <strong>End of Document / 문서 끝</strong> — AMB Management User Manual / 사용자 매뉴얼 v1.0.0</p>
+
+    </article>
+  </div>
+</body>
+</html>

@@ -1,0 +1,95 @@
+{
+  "title": "구독 관리",
+  "plan": {
+    "title": "구독 플랜",
+    "currentPlan": "현재 플랜",
+    "freePlan": "FREE",
+    "basicPlan": "BASIC",
+    "premiumPlan": "PREMIUM",
+    "upgrade": "업그레이드",
+    "cancel": "구독 해지",
+    "cancelConfirm": "정말 구독을 해지하시겠습니까?",
+    "cancelSuccess": "구독이 해지되었습니다.",
+    "status": "상태",
+    "billingCycle": "결제 주기",
+    "monthly": "월간",
+    "annual": "연간",
+    "userCount": "사용자 수",
+    "perUser": "/사용자/월",
+    "nextBilling": "다음 결제일",
+    "startDate": "시작일",
+    "noPlan": "활성 구독이 없습니다. FREE 플랜으로 시작하세요."
+  },
+  "token": {
+    "title": "토큰 지갑",
+    "totalBalance": "총 잔액",
+    "base": "기본 토큰",
+    "addon": "추가 토큰",
+    "referral": "추천 토큰",
+    "purchase": "토큰 충전",
+    "purchaseAmount": "토큰 수량",
+    "purchaseSuccess": "토큰 충전 결제 페이지가 생성되었습니다.",
+    "history": "토큰 이력",
+    "noHistory": "토큰 사용 이력이 없습니다.",
+    "credit": "충전",
+    "debit": "차감",
+    "reason": {
+      "ONETIME_GRANT": "일회성 지급",
+      "MONTHLY_GRANT": "월간 지급",
+      "ADDON_PURCHASE": "추가 구매",
+      "REFERRAL_REWARD": "추천 보상",
+      "AI_USAGE": "AI 사용",
+      "RESET": "월간 리셋",
+      "ADMIN_ADJUST": "관리자 조정",
+      "REFUND": "환불"
+    }
+  },
+  "storage": {
+    "title": "스토리지",
+    "usage": "사용량",
+    "totalQuota": "전체 용량",
+    "baseStorage": "기본 용량",
+    "addonStorage": "추가 용량",
+    "usedPercent": "사용률",
+    "purchase": "스토리지 추가",
+    "purchaseGb": "용량 (GB)",
+    "purchaseSuccess": "스토리지 추가 결제 페이지가 생성되었습니다.",
+    "warning": "스토리지 사용량이 100%를 초과했습니다. 추가 스토리지를 구매하세요.",
+    "blocked": "업로드가 차단되었습니다. 사용량이 120%를 초과했습니다. 추가 스토리지를 구매하세요."
+  },
+  "checkout": {
+    "title": "결제",
+    "processing": "결제 처리 중...",
+    "success": "결제가 완료되었습니다!",
+    "redirecting": "결제 페이지로 이동 중...",
+    "returnMessage": "구독이 업데이트되었습니다."
+  },
+  "pricing": {
+    "title": "가격 플랜",
+    "currentPlan": "현재 플랜",
+    "upgradeBtn": "{{plan}}으로 업그레이드",
+    "freeTier": "무료",
+    "contactUs": "문의",
+    "perUserMonth": "/사용자/월",
+    "tokenOnetime": "일회성 토큰",
+    "tokenMonthly": "월간 토큰/사용자",
+    "storageBase": "기본 스토리지",
+    "maxUsers": "최대 사용자",
+    "comingSoon": "준비 중"
+  },
+  "payment": {
+    "selectMethod": "결제 수단 선택",
+    "polar": "Polar (신용카드 / PayPal)",
+    "polarDesc": "글로벌 결제 게이트웨이",
+    "toss": "토스페이먼츠",
+    "tossDesc": "한국 결제 (카드 / 계좌이체)",
+    "megapay": "MegaPay (VNPAY)",
+    "megapayDesc": "베트남 결제 (QR / ATM / 전자지갑)",
+    "comingSoon": "준비 중"
+  },
+  "errors": {
+    "loadFailed": "구독 데이터 로드에 실패했습니다.",
+    "checkoutFailed": "결제 세션 생성에 실패했습니다.",
+    "cancelFailed": "구독 해지에 실패했습니다."
+  }
+}

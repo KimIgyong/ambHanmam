@@ -1,0 +1,102 @@
+{
+  "unit": {
+    "title": "Quản lý Unit",
+    "addNew": "Thêm Unit",
+    "addTeam": "Thêm tổ",
+    "editTitle": "Sửa Unit",
+    "createTitle": "Unit mới",
+    "deleteConfirm": "Bạn có chắc chắn muốn xóa Unit này?",
+    "deleteSuccess": "Đã xóa Unit.",
+    "saveSuccess": "Đã lưu Unit.",
+    "searchPlaceholder": "Tìm Unit...",
+    "noResults": "Không tìm thấy Unit.",
+    "name": "Tên Unit",
+    "nameLocal": "Tên địa phương",
+    "parent": "Unit cha",
+    "level": "Cấp độ",
+    "levelDepartment": "Unit",
+    "levelTeam": "Tổ",
+    "active": "Hoạt động",
+    "inactive": "Không hoạt động",
+    "sortOrder": "Thứ tự",
+    "members": "Thành viên",
+    "noMembers": "Chưa có thành viên."
+  },
+  "role": {
+    "assign": "Phân vai trò",
+    "assignTitle": "Phân công người dùng vào Unit",
+    "removeConfirm": "Bạn có chắc chắn muốn xóa người dùng này khỏi Unit?",
+    "MEMBER": "Thành viên",
+    "TEAM_LEAD": "Trưởng nhóm",
+    "UNIT_HEAD": "Trưởng Unit",
+    "primary": "Chính",
+    "startDate": "Ngày bắt đầu",
+    "endDate": "Ngày kết thúc",
+    "selectUser": "Chọn người dùng",
+    "selectUnit": "Chọn Unit",
+    "selectRole": "Chọn vai trò"
+  },
+  "visibility": {
+    "PRIVATE": "Riêng tư",
+    "SHARED": "Chia sẻ",
+    "CELL": "Cell",
+    "UNIT": "Unit",
+    "ENTITY": "Tổ chức",
+    "PUBLIC": "Công khai"
+  },
+  "permission": {
+    "VIEW": "Xem",
+    "COMMENT": "Bình luận",
+    "EDIT": "Chỉnh sửa",
+    "ADMIN": "Quản trị"
+  },
+  "workItem": {
+    "title": "Công việc của tôi",
+    "createTitle": "Công việc mới",
+    "type": {
+      "DOC": "Tài liệu",
+      "REPORT": "Báo cáo",
+      "TODO": "Việc cần làm",
+      "NOTE": "Ghi chú",
+      "EMAIL": "Email",
+      "ANALYSIS": "Phân tích"
+    },
+    "filter": {
+      "myItems": "Của tôi",
+      "shared": "Được chia sẻ",
+      "team": "Nhóm",
+      "all": "Tất cả"
+    }
+  },
+  "share": {
+    "title": "Chia sẻ",
+    "shareWith": "Chia sẻ với...",
+    "permission": "Quyền",
+    "expiresAt": "Hết hạn",
+    "noExpiry": "Không hết hạn",
+    "shareSuccess": "Đã chia sẻ.",
+    "unshareSuccess": "Đã hủy chia sẻ."
+  },
+  "comment": {
+    "title": "Bình luận",
+    "placeholder": "Viết bình luận...",
+    "send": "Gửi",
+    "edit": "Sửa",
+    "delete": "Xóa",
+    "reply": "Trả lời",
+    "edited": "đã sửa",
+    "deleteConfirm": "Bạn có chắc chắn muốn xóa bình luận này?",
+    "type": {
+      "COMMENT": "Bình luận",
+      "FEEDBACK": "Phản hồi",
+      "APPROVAL": "Phê duyệt",
+      "REQUEST": "Yêu cầu",
+      "MENTION": "Đề cập"
+    }
+  },
+  "teamDashboard": {
+    "title": "Bảng điều khiển nhóm",
+    "activity": "Hoạt động nhóm",
+    "noActivity": "Không có hoạt động gần đây."
+  }
+}

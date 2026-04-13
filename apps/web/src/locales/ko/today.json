@@ -1,0 +1,170 @@
+{
+  "title": "오늘",
+  "tabs": {
+    "my": "나의 오늘",
+    "team": "셀의 오늘",
+    "all": "모두의 오늘"
+  },
+  "summary": {
+    "todayDue": "오늘 마감",
+    "inProgress": "진행중",
+    "overdue": "지연",
+    "issues": "이슈",
+    "completedToday": "오늘 완료"
+  },
+  "sections": {
+    "overdue": "지연 항목",
+    "todayDue": "오늘 마감",
+    "inProgress": "진행중",
+    "calendar": "오늘 일정"
+  },
+  "empty": {
+    "todayDue": "오늘 마감 할일이 없습니다.",
+    "overdue": "지연 항목이 없습니다.",
+    "inProgress": "진행중인 할일이 없습니다.",
+    "noData": "표시할 데이터가 없습니다.",
+    "issues": "미해결 이슈가 없습니다.",
+    "calendar": "오늘 예정된 일정이 없습니다.",
+    "meetingNotes": "최근 미팅노트가 없습니다."
+  },
+  "viewAll": "전체 보기",
+  "all": {
+    "title": "모두의 오늘",
+    "totalMembers": "총 인원",
+    "cardView": "카드뷰",
+    "listView": "리스트뷰",
+    "filterByDept": "부서 필터",
+    "allDepts": "전체",
+    "todoCount": "할일",
+    "overdueCount": "지연",
+    "issueCount": "이슈",
+    "sendDm": "메시지",
+    "noMembers": "구성원이 없습니다.",
+    "hide": "Today에서 가리기",
+    "unhide": "Today에 표시",
+    "hidden": "가려짐",
+    "showAllIncludingHidden": "전체보기 (숨김포함)",
+    "showActiveOnly": "활성 멤버만"
+  },
+  "team": {
+    "title": "셀의 오늘",
+    "noMembers": "소속 셀 구성원이 없습니다.",
+    "unitLabel": "소속부서"
+  },
+  "ai": {
+    "generate": "AI코칭",
+    "generateMy": "AI코칭",
+    "generating": "분석 중...",
+    "save": "리포트 저장",
+    "saved": "리포트가 저장되었습니다",
+    "reportTitle": "리포트 제목",
+    "savedReports": "내 리포트",
+    "workReport": "업무 일지",
+    "regenerate": "재분석",
+    "noReports": "저장된 리포트가 없습니다",
+    "deleteConfirm": "이 리포트를 삭제하시겠습니까?",
+    "translate": "번역",
+    "translating": "번역 중...",
+    "sourceLang": "원문 언어",
+    "targetLang": "번역할 언어",
+    "translateResult": "번역 결과"
+  },
+  "close": "닫기",
+  "mission": {
+    "title": "오늘의 미션",
+    "prompt": "오늘의 미션을 작성해보세요",
+    "placeholder": "오늘 집중할 핵심 업무를 적어주세요...",
+    "save": "저장",
+    "edit": "수정",
+    "skip": "오늘은 넘기기",
+    "skipped": "오늘은 미션을 넘겼습니다",
+    "yesterdayCheck": "어제의 미션 달성도를 평가해주세요",
+    "checkScore": "달성도",
+    "checkTitle": "어제 미션 체크",
+    "uncheckedTitle": "미완료 미션 체크",
+    "lineStateDone": "완료",
+    "lineStateIncomplete": "미완료",
+    "lineStateNa": "해당없음",
+    "subChoiceMission": "오늘 미션으로",
+    "subChoiceTask": "Task 등록",
+    "doneBadge": "Task 완료로 저장됨",
+    "taskBadge": "Task로 등록됨",
+    "missionBadge": "오늘 미션으로 이어감",
+    "naBadge": "평가 제외",
+    "carryOverTitle": "오늘 미션으로 이어가기",
+    "progressEval": "평가 {{eval}}개",
+    "progressExclude": "제외 {{exclude}}개",
+    "saveCheck": "저장",
+    "remainHint": "{{count}}개 남음 — 미완료 항목의 후속 활동을 선택하세요",
+    "allEvaluated": "모든 항목이 평가되었습니다",
+    "subChoicePrompt": "계속:",
+    "changeChoice": "변경"
+  },
+  "history": {
+    "title": "History",
+    "backToToday": "Today로 돌아가기",
+    "backToCalendar": "달력",
+    "noSnapshot": "해당 날짜의 스냅샷이 없습니다.",
+    "stats": "이번 달 {{days}}일 기록 · 평균 달성도 {{avg}}%",
+    "weekView": "주간",
+    "monthView": "월간"
+  },
+  "snapshot": {
+    "readonly": "읽기 전용",
+    "todos": "할일",
+    "overdue": "지연",
+    "todayDue": "오늘 마감",
+    "inProgress": "진행중",
+    "scheduled": "예정",
+    "completed": "완료",
+    "issues": "이슈",
+    "issueTotal": "총",
+    "issueCount": "{{count}}건",
+    "issueResolved": "{{count}}건 해결",
+    "reported": "내가 작성",
+    "assigned": "내가 담당",
+    "issueTab": {
+      "open": "확인 필요",
+      "working": "작업 중",
+      "watching": "관계자"
+    },
+    "schedules": "스케줄",
+    "allDay": "종일",
+    "last4weeks": "최근 4주"
+  },
+  "memo": {
+    "title": "메모",
+    "placeholder": "메모를 추가하세요...",
+    "save": "저장",
+    "deleteConfirm": "이 메모를 삭제하시겠습니까?"
+  },
+  "attendance": {
+    "approve": "WFH 승인",
+    "reject": "거절 (결근)",
+    "approved": "WFH 승인됨",
+    "rejected": "WFH 거절됨 (결근 처리)",
+    "absent": "결근",
+    "pendingWfh": "승인 대기"
+  },
+  "sidebar": {
+    "notices": "공지사항",
+    "recentNotes": "최근 공유 노트",
+    "inProgressIssues": "진행 중 이슈",
+    "viewMore": "더보기",
+    "noNotices": "공지사항이 없습니다.",
+    "noNotes": "공유된 노트가 없습니다.",
+    "noIssues": "진행 중인 이슈가 없습니다."
+  },
+  "cell": {
+    "myCells": "내 셀",
+    "showAll": "모두 보기"
+  },
+  "org": {
+    "unitTab": "부서",
+    "cellTab": "셀",
+    "allUnits": "전체부서",
+    "allCells": "전체셀",
+    "manager": "관리자",
+    "members": "멤버"
+  }
+}

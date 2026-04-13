@@ -1,0 +1,58 @@
+# ============================================
+# AMB Management API - Staging Dockerfile
+# ============================================
+
+# Stage 1: Install dependencies
+FROM node:20-alpine AS deps
+
+WORKDIR /app
+
+COPY package.json package-lock.json ./
+COPY apps/api/package.json ./apps/api/
+COPY apps/web/package.json ./apps/web/
+COPY packages/types/package.json ./packages/types/
+COPY packages/common/package.json ./packages/common/
+
+RUN npm ci
+
+# Stage 2: Build
+FROM deps AS builder
+
+WORKDIR /app
+
+COPY . .
+
+RUN npx turbo run build --filter=@amb/api
+
+# Stage 3: Production
+FROM node:20-alpine AS production
+
+RUN apk add --no-cache python3 make g++
+
+WORKDIR /app
+
+COPY package.json package-lock.json ./
+COPY apps/api/package.json ./apps/api/
+COPY apps/web/package.json ./apps/web/
+COPY packages/types/package.json ./packages/types/
+COPY packages/common/package.json ./packages/common/
+
+RUN npm ci --omit=dev
+
+COPY --from=builder /app/apps/api/dist ./apps/api/dist
+
+WORKDIR /app/apps/api
+
+# Ensure uploads directory exists and is writable by node user
+RUN mkdir -p /app/apps/api/uploads && chown -R node:node /app/apps/api/uploads
+
+# Install su-exec for privilege de-escalation in entrypoint
+RUN apk add --no-cache su-exec
+
+# Entrypoint: fix volume permissions, then run as node
+COPY docker/staging/docker-entrypoint-api.sh /docker-entrypoint.sh
+RUN chmod +x /docker-entrypoint.sh
+
+EXPOSE 3019
+
+ENTRYPOINT ["/docker-entrypoint.sh"]

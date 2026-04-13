@@ -1,0 +1,196 @@
+{
+  "title": "Việc của tôi",
+  "addTodo": "Thêm việc",
+  "editTodo": "Sửa việc",
+  "deleteTodo": "Xóa việc",
+  "completeTodo": "Hoàn thành",
+  "reopenTodo": "Mở lại",
+  "overdue": "Quá hạn",
+  "todayTasks": "Việc cần làm hôm nay",
+  "overdueTasksTitle": "Việc quá hạn",
+  "noTodos": "Chưa có việc cần làm",
+  "noOverdue": "Không có việc quá hạn",
+  "visibility": {
+    "PRIVATE": "Riêng tư",
+    "CELL": "Cell",
+    "ENTITY": "Tất cả"
+  },
+  "columns": {
+    "todo": "Cần làm",
+    "inProgress": "Đang thực hiện",
+    "done": "Hoàn thành",
+    "scheduled": "Đã lên lịch",
+    "overdue": "Quá hạn",
+    "completed": "Hoàn thành",
+    "today": "Hôm nay",
+    "scheduledInProgress": "Mục đã lên lịch",
+    "noDueDate": "Không có hạn"
+  },
+  "datePicker": {
+    "today": "Hôm nay",
+    "prevDay": "Ngày trước",
+    "nextDay": "Ngày sau"
+  },
+  "tabs": {
+    "mine": "Của tôi",
+    "cell": "Cell",
+    "company": "Công ty"
+  },
+  "cell": {
+    "title": "Việc của Cell",
+    "noResults": "Không có việc của Cell",
+    "author": "Người tạo"
+  },
+  "company": {
+    "title": "Việc của công ty",
+    "noResults": "Không có việc của công ty"
+  },
+  "detail": {
+    "title": "Chi tiết việc",
+    "author": "Người tạo",
+    "description": "Mô tả",
+    "linkedIssue": "Vấn đề liên kết",
+    "participants": "Người tham gia",
+    "markComplete": "Hoàn thành"
+  },
+  "comments": {
+    "title": "Bình luận",
+    "placeholder": "Nhập bình luận...",
+    "submit": "Gửi",
+    "noComments": "Chưa có bình luận",
+    "deleteConfirm": "Bạn có chắc chắn muốn xóa bình luận này?",
+    "added": "Đã thêm bình luận thành công",
+    "deleted": "Đã xóa bình luận thành công"
+  },
+  "form": {
+    "title": "Tiêu đề",
+    "titlePlaceholder": "Nhập tiêu đề việc cần làm",
+    "description": "Mô tả",
+    "descriptionPlaceholder": "Nhập mô tả (tùy chọn)",
+    "status": "Trạng thái",
+    "dueDate": "Ngày dự kiến hoàn thành",
+    "startDate": "Ngày bắt đầu",
+    "startDatePlaceholder": "Để trống = bắt đầu ngay",
+    "dueDatePlaceholder": "Để trống = không có hạn",
+    "tags": "Thẻ",
+    "tagsPlaceholder": "Nhập thẻ phân cách bằng dấu phẩy",
+    "linkedIssue": "Vấn đề liên kết",
+    "selectIssue": "Chọn một vấn đề",
+    "noIssue": "Không có vấn đề",
+    "searchIssuePlaceholder": "Tìm kiếm vấn đề...",
+    "project": "Dự án",
+    "noProject": "Không có dự án",
+    "searchProjectPlaceholder": "Tìm kiếm dự án...",
+    "unassignedProject": "[Chưa chỉ định]",
+    "participants": "Người tham gia",
+    "participantsPlaceholder": "Tìm theo tên hoặc email",
+    "recurrence": "Lặp lại",
+    "noRecurrence": "Không lặp lại",
+    "recurrenceDay": "Ngày trong tuần",
+    "recurrenceDayOfMonth": "Ngày trong tháng",
+    "dueDateChangeNote": "Lý do thay đổi ngày hẹn",
+    "dueDateChangeNotePlaceholder": "Nhập lý do thay đổi",
+    "rating": "Đánh giá"
+  },
+  "recurrence": {
+    "label": "Lặp lại",
+    "DAILY": "Hàng ngày",
+    "WEEKLY": "Hàng tuần",
+    "MONTHLY": "Hàng tháng",
+    "YEARLY": "Hàng năm"
+  },
+  "weekdays": {
+    "0": "Chủ nhật",
+    "1": "Thứ hai",
+    "2": "Thứ ba",
+    "3": "Thứ tư",
+    "4": "Thứ năm",
+    "5": "Thứ sáu",
+    "6": "Thứ bảy"
+  },
+  "status": {
+    "SCHEDULED": "Đã lên lịch",
+    "IN_PROGRESS": "Đang thực hiện",
+    "COMPLETED": "Hoàn thành"
+  },
+  "computedStatus": {
+    "COMPLETED": "Hoàn thành",
+    "OVERDUE": "Quá hạn",
+    "DUE_TODAY": "Hôm nay",
+    "IN_PROGRESS": "Đang thực hiện",
+    "UPCOMING_SOON": "Sắp bắt đầu",
+    "UPCOMING": "Sắp tới"
+  },
+  "badge": {
+    "overdueDays": "D+{{n}}",
+    "dday": "D-Day",
+    "remainingDays": "D-{{n}}",
+    "startsInDays": "Bắt đầu sau {{n}} ngày"
+  },
+  "section": {
+    "overdue": "Quá hạn",
+    "dueToday": "Đến hạn hôm nay",
+    "inProgress": "Đang thực hiện",
+    "upcomingSoon": "Sắp bắt đầu",
+    "upcoming": "Sắp tới",
+    "completed": "Hoàn thành"
+  },
+  "deleteConfirm": {
+    "title": "Xóa việc",
+    "message": "Bạn có chắc chắn muốn xóa việc này?",
+    "confirm": "Xóa"
+  },
+  "completedAt": "Ngày kết thúc thực tế",
+  "startedAt": "Bắt đầu lúc",
+  "delayedDays": "Hoàn thành trễ {{days}} ngày",
+  "statusHistory": "Lịch sử thay đổi",
+  "statusChange": "{{from}} → {{to}}",
+  "noStatusLogs": "Chưa có lịch sử thay đổi",
+  "changeHistory": {
+    "dueDate": "Thay đổi ngày hẹn"
+  },
+  "filter": {
+    "searchPlaceholder": "Tìm theo tên hoặc tiêu đề...",
+    "allProjects": "Tất cả dự án",
+    "noProject": "Không có dự án",
+    "today": "Hôm nay",
+    "lastWeek": "Tuần qua",
+    "lastMonth": "Tháng qua",
+    "all": "Tất cả",
+    "customRange": "Tùy chọn"
+  },
+  "completedTodos": "Công việc đã hoàn thành",
+  "backToTodos": "Quay lại danh sách",
+  "noCompletedTodos": "Không có công việc đã hoàn thành",
+  "completed": {
+    "sortByCompletedAt": "Theo ngày hoàn thành",
+    "sortByDueDate": "Theo ngày hẹn",
+    "sortByTitle": "Theo tiêu đề",
+    "pageInfo": "{{current}} / {{total}}",
+    "perPage": "{{n}} mỗi trang"
+  },
+  "scope": {
+    "mine": "Của tôi",
+    "unit": "Phòng ban",
+    "cell": "Nhóm",
+    "all": "Tất cả"
+  },
+  "messages": {
+    "created": "Tạo việc thành công",
+    "updated": "Cập nhật việc thành công",
+    "deleted": "Xóa việc thành công",
+    "convertedToIssue": "Đã chuyển thành vấn đề"
+  },
+  "confirm": {
+    "complete": "Bạn có muốn hoàn thành công việc này không?",
+    "convertToIssue": "Bạn có muốn chuyển công việc này thành vấn đề không?"
+  },
+  "convertToIssue": "Chuyển thành vấn đề",
+  "kanban": {
+    "title": "Xem Kanban",
+    "dueToday": "Hôm nay / Quá hạn",
+    "inProgress": "Đang thực hiện",
+    "completed": "Hoàn thành",
+    "empty": "Không có mục nào"
+  }
+}

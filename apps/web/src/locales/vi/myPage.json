@@ -1,0 +1,119 @@
+{
+  "title": "Trang cá nhân",
+  "subtitle": "Quản lý hồ sơ và cài đặt tài khoản",
+  "profile": {
+    "title": "Thông tin cá nhân",
+    "email": "Email",
+    "name": "Họ tên",
+    "unit": "Unit",
+    "role": "Vai trò",
+    "companyEmail": "Email công ty",
+    "joinedAt": "Ngày tham gia",
+    "notSet": "Chưa thiết lập",
+    "phone": "Liên hệ khẩn cấp",
+    "editPhone": "Sửa số điện thoại",
+    "phonePlaceholder": "Nhập số điện thoại",
+    "profileImage": "Ảnh đại diện",
+    "uploadImage": "Đổi ảnh",
+    "deleteImage": "Xóa ảnh",
+    "updateSuccess": "Đã lưu thành công",
+    "updateFailed": "Lưu thất bại",
+    "editName": "Sửa tên",
+    "namePlaceholder": "Nhập tên",
+    "imageFormatError": "Chỉ chấp nhận PNG hoặc JPEG",
+    "imageSizeError": "Tệp phải nhỏ hơn 500KB",
+    "editCompanyEmail": "Sửa email công ty",
+    "companyEmailPlaceholder": "Nhập email công ty",
+    "readOnly": "Không thể thay đổi",
+    "masterOnly": "Chỉ master"
+  },
+  "quickLinks": {
+    "attendance": "Chấm công",
+    "leaveRequests": "Nghỉ phép",
+    "expenseRequests": "Chi phí"
+  },
+  "units": {
+    "title": "Phân công Unit",
+    "name": "Unit",
+    "role": "Vai trò",
+    "isPrimary": "Chính",
+    "entityName": "Tổ chức",
+    "noUnits": "Chưa được phân công Unit",
+    "roles": {
+      "MEMBER": "Thành viên",
+      "TEAM_LEAD": "Trưởng nhóm",
+      "UNIT_HEAD": "Trưởng Unit"
+    }
+  },
+  "cells": {
+    "title": "Phân công Cell",
+    "name": "Cell",
+    "entityName": "Tổ chức",
+    "noCells": "Chưa được phân công Cell"
+  },
+  "entities": {
+    "title": "Tổ chức trực thuộc",
+    "name": "Tên tổ chức",
+    "code": "Mã",
+    "country": "Quốc gia",
+    "role": "Vai trò",
+    "status": "Trạng thái",
+    "noEntities": "Chưa thuộc tổ chức nào"
+  },
+  "password": {
+    "title": "Đổi mật khẩu",
+    "currentPassword": "Mật khẩu hiện tại",
+    "newPassword": "Mật khẩu mới",
+    "confirmPassword": "Xác nhận mật khẩu mới",
+    "change": "Đổi mật khẩu",
+    "success": "Đổi mật khẩu thành công",
+    "mismatch": "Mật khẩu mới không khớp",
+    "minLength": "Mật khẩu phải có ít nhất 8 ký tự",
+    "currentRequired": "Vui lòng nhập mật khẩu hiện tại",
+    "failed": "Đổi mật khẩu thất bại"
+  },
+  "timezone": {
+    "title": "Múi giờ & Ngôn ngữ",
+    "timezoneLabel": "Múi giờ",
+    "localeLabel": "Ngôn ngữ hiển thị",
+    "save": "Lưu cài đặt",
+    "success": "Đã lưu cài đặt múi giờ",
+    "failed": "Lưu cài đặt thất bại",
+    "timezones": {
+      "Asia/Ho_Chi_Minh": "Việt Nam (UTC+7)",
+      "Asia/Seoul": "Hàn Quốc (UTC+9)",
+      "Asia/Tokyo": "Nhật Bản (UTC+9)",
+      "America/New_York": "New York (UTC-5)",
+      "Europe/London": "Luân Đôn (UTC+0)",
+      "UTC": "UTC"
+    },
+    "locales": {
+      "vi": "Tiếng Việt",
+      "ko": "Tiếng Hàn",
+      "en": "Tiếng Anh"
+    }
+  },
+  "leave": {
+    "title": "Số ngày phép",
+    "entitlement": "Được cấp",
+    "used": "Đã dùng",
+    "remaining": "Còn lại",
+    "carryForward": "Chuyển tiếp",
+    "yearsOfService": "{{years}} năm làm việc"
+  },
+  "expense": {
+    "title": "Đề nghị chi",
+    "register": "Tạo đề nghị chi",
+    "viewAll": "Xem tất cả",
+    "noRequests": "Chưa có đề nghị chi nào",
+    "status": "Trạng thái",
+    "amount": "Số tiền",
+    "requiredDate": "Ngày dự kiến"
+  },
+  "roles": {
+    "USER": "Người dùng",
+    "MANAGER": "Quản lý",
+    "ADMIN": "Quản trị viên",
+    "MASTER": "Master"
+  }
+}

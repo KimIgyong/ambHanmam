@@ -1,0 +1,81 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build
+dist/
+build/
+.turbo/
+*.tsbuildinfo
+
+# Environment
+.env
+.env.local
+.env.*.local
+env/backend/.env.development
+env/backend/.env.production
+env/frontend/.env.development
+env/frontend/.env.production
+env/portal-backend/.env.development
+env/portal-backend/.env.production
+env/portal-frontend/.env.development
+env/portal-frontend/.env.production
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Test
+coverage/
+
+# Docker
+docker/data/
+docker/postal/.env
+docker/staging/.env.staging
+
+# Secrets
+secrets/
+*.service-account*.json
+docs/**/ambmanagement-*.json
+
+# Reference docs
+reference/
+
+# Company docs (track markdown only, ignore binaries)
+docs/company/**/*.pptx
+docs/company/**/*.pdf
+docs/company/**/*.docx
+docs/company/**/*.doc
+docs/company/**/*.ai
+docs/company/**/*.psd
+docs/company/**/*.png
+docs/company/**/*.jpg
+docs/company/**/*.jpeg
+docs/company/**/*.ppt
+
+# Claude work logs (session conversation logs)
+docs/log/
+festive-fermi
+busy-noyce/
+condescending-bohr/
+focused-khorana/
+inspiring-allen/
+loving-shockley/
+nice-wozniak/
+temp/
+amoeba.pem

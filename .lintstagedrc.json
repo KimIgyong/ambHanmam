@@ -1,0 +1,8 @@
+{
+  "apps/api/src/**/*.ts": [
+    "eslint --fix"
+  ],
+  "apps/web/src/**/*.{ts,tsx}": [
+    "eslint --fix"
+  ]
+}

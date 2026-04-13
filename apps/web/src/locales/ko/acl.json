@@ -1,0 +1,102 @@
+{
+  "unit": {
+    "title": "Unit 관리",
+    "addNew": "Unit 추가",
+    "addTeam": "팀 추가",
+    "editTitle": "Unit 수정",
+    "createTitle": "새 Unit",
+    "deleteConfirm": "이 Unit을 삭제하시겠습니까?",
+    "deleteSuccess": "Unit이 삭제되었습니다.",
+    "saveSuccess": "Unit이 저장되었습니다.",
+    "searchPlaceholder": "Unit 검색...",
+    "noResults": "Unit이 없습니다.",
+    "name": "Unit명",
+    "nameLocal": "현지 이름",
+    "parent": "상위 Unit",
+    "level": "레벨",
+    "levelDepartment": "Unit",
+    "levelTeam": "팀",
+    "active": "활성",
+    "inactive": "비활성",
+    "sortOrder": "정렬순서",
+    "members": "구성원",
+    "noMembers": "배정된 구성원이 없습니다."
+  },
+  "role": {
+    "assign": "역할 배정",
+    "assignTitle": "사용자 Unit 배정",
+    "removeConfirm": "이 사용자를 Unit에서 제거하시겠습니까?",
+    "MEMBER": "멤버",
+    "TEAM_LEAD": "팀 리더",
+    "UNIT_HEAD": "Unit장",
+    "primary": "주 소속",
+    "startDate": "시작일",
+    "endDate": "종료일",
+    "selectUser": "사용자 선택",
+    "selectUnit": "Unit 선택",
+    "selectRole": "역할 선택"
+  },
+  "visibility": {
+    "PRIVATE": "비공개",
+    "SHARED": "공유",
+    "CELL": "셀",
+    "UNIT": "Unit",
+    "ENTITY": "조직",
+    "PUBLIC": "공개"
+  },
+  "permission": {
+    "VIEW": "보기",
+    "COMMENT": "댓글",
+    "EDIT": "편집",
+    "ADMIN": "관리"
+  },
+  "workItem": {
+    "title": "내 작업물",
+    "createTitle": "새 작업물",
+    "type": {
+      "DOC": "문서",
+      "REPORT": "보고서",
+      "TODO": "할일",
+      "NOTE": "노트",
+      "EMAIL": "이메일",
+      "ANALYSIS": "분석"
+    },
+    "filter": {
+      "myItems": "내 작업물",
+      "shared": "공유된 항목",
+      "team": "팀",
+      "all": "전체"
+    }
+  },
+  "share": {
+    "title": "공유",
+    "shareWith": "공유 대상...",
+    "permission": "권한",
+    "expiresAt": "만료일",
+    "noExpiry": "만료 없음",
+    "shareSuccess": "공유되었습니다.",
+    "unshareSuccess": "공유가 해제되었습니다."
+  },
+  "comment": {
+    "title": "댓글",
+    "placeholder": "댓글을 입력하세요...",
+    "send": "전송",
+    "edit": "수정",
+    "delete": "삭제",
+    "reply": "답글",
+    "edited": "수정됨",
+    "deleteConfirm": "이 댓글을 삭제하시겠습니까?",
+    "type": {
+      "COMMENT": "댓글",
+      "FEEDBACK": "피드백",
+      "APPROVAL": "승인",
+      "REQUEST": "요청",
+      "MENTION": "멘션"
+    }
+  },
+  "teamDashboard": {
+    "title": "팀 대시보드",
+    "activity": "팀 활동",
+    "noActivity": "최근 활동이 없습니다."
+  }
+}

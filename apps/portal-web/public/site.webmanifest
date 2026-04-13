@@ -1,0 +1,21 @@
+{
+  "name": "Ạ — AI Management Assistant",
+  "short_name": "Ạ",
+  "description": "AI-powered enterprise management platform by Amoeba Company",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563EB",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/amoeba-symbol.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "title": "Quản lý dự án",
+  "selectEntity": "Vui lòng chọn đơn vị để xem dự án.",
+  "menu": {
+    "proposals": "Đề xuất",
+    "projects": "Dự án"
+  },
+  "proposal": {
+    "list": "Danh sách đề xuất",
+    "new": "Đề xuất mới",
+    "detail": "Chi tiết đề xuất",
+    "create": "Tạo đề xuất",
+    "submit": "Gửi đề xuất",
+    "aiDraft": "Bản nháp AI",
+    "generateDraft": "Tạo bản nháp AI",
+    "generating": "Đang tạo bản nháp AI...",
+    "draftGenerated": "Bản nháp AI đã được tạo thành công",
+    "fillFromDraft": "Điền form từ bản nháp AI",
+    "title": "Tiêu đề đề xuất",
+    "briefDescription": "Mô tả ngắn",
+    "name": "Tên dự án",
+    "purpose": "Mục đích",
+    "goal": "Mục tiêu",
+    "summary": "Tóm tắt"
+  },
+  "project": {
+    "list": "Danh sách dự án",
+    "detail": "Chi tiết dự án",
+    "status": "Trạng thái",
+    "category": "Danh mục",
+    "priority": "Ưu tiên",
+    "proposer": "Người đề xuất",
+    "manager": "Quản lý",
+    "sponsor": "Nhà tài trợ",
+    "unit": "Unit",
+    "startDate": "Ngày bắt đầu",
+    "endDate": "Ngày kết thúc",
+    "budget": "Ngân sách",
+    "currency": "Tiền tệ",
+    "code": "Mã dự án",
+    "note": "Ghi chú",
+    "entity": "Đơn vị",
+    "issueCount": "Vấn đề",
+    "openIssueCount": "Vấn đề mở",
+    "memberCount": "Thành viên"
+  },
+  "status": {
+    "DRAFT": "Nháp",
+    "SUBMITTED": "Đã gửi",
+    "REVIEW": "Đang xem xét",
+    "APPROVED": "Đã duyệt",
+    "REJECTED": "Từ chối",
+    "IN_PROGRESS": "Đang thực hiện",
+    "ON_HOLD": "Tạm dừng",
+    "COMPLETED": "Hoàn thành",
+    "CANCELLED": "Đã hủy"
+  },
+  "category": {
+    "TECH_BPO": "Tech BPO",
+    "SI_DEV": "Phát triển SI",
+    "INTERNAL": "Nội bộ",
+    "R_AND_D": "R&D",
+    "MARKETING": "Marketing",
+    "OTHER": "Khác"
+  },
+  "priority": {
+    "LOW": "Thấp",
+    "MEDIUM": "Trung bình",
+    "HIGH": "Cao",
+    "URGENT": "Khẩn cấp"
+  },
+  "review": {
+    "title": "Đánh giá",
+    "history": "Lịch sử đánh giá",
+    "preAnalysis": "Phân tích trước",
+    "generateAnalysis": "Tạo phân tích AI",
+    "recommendation": "Khuyến nghị AI",
+    "getRecommendation": "Nhận khuyến nghị AI",
+    "approve": "Phê duyệt",
+    "reject": "Từ chối",
+    "hold": "Tạm dừng",
+    "comment": "Bình luận",
+    "step": "Bước",
+    "action": "Hành động",
+    "reviewer": "Người đánh giá",
+    "noReviews": "Chưa có lịch sử đánh giá",
+    "actionSuccess": "Hành động đánh giá đã hoàn thành",
+    "feasibilityScore": "Điểm khả thi",
+    "risks": "Rủi ro",
+    "strengths": "Điểm mạnh",
+    "weaknesses": "Điểm yếu"
+  },
+  "similar": {
+    "title": "Dự án tương tự",
+    "check": "Kiểm tra dự án tương tự",
+    "score": "Độ tương đồng",
+    "reason": "Lý do",
+    "noSimilar": "Không tìm thấy dự án tương tự",
+    "warning": "Phát hiện dự án tương tự!"
+  },
+  "ai": {
+    "draft": "Bản nháp AI",
+    "analysis": "Phân tích AI",
+    "recommendation": "Khuyến nghị",
+    "confidence": "Độ tin cậy",
+    "rationale": "Lý do"
+  },
+  "actions": {
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "delete": "Xóa",
+    "edit": "Sửa",
+    "back": "Quay lại",
+    "search": "Tìm kiếm dự án..."
+  },
+  "confirm": {
+    "delete": "Bạn có chắc muốn xóa dự án này?",
+    "submit": "Bạn có chắc muốn gửi đề xuất này để xem xét?"
+  },
+  "message": {
+    "created": "Dự án đã được tạo",
+    "updated": "Dự án đã được cập nhật",
+    "deleted": "Dự án đã được xóa",
+    "submitted": "Đề xuất đã được gửi"
+  },
+  "empty": {
+    "proposals": "Không có đề xuất",
+    "projects": "Không có dự án"
+  },
+  "sort": {
+    "latest": "Mới tạo nhất",
+    "mostIssues": "Nhiều vấn đề nhất",
+    "latestIssue": "Vấn đề mới nhất",
+    "createdDesc": "Mới nhất",
+    "dueDateDesc": "Hạn chót (Mới nhất)",
+    "dueDateAsc": "Hạn chót (Cũ nhất)",
+    "priorityAsc": "Ưu tiên cao nhất"
+  },
+  "filter": {
+    "all": "Tất cả",
+    "exclude": "loại trừ",
+    "status": "Trạng thái",
+    "category": "Danh mục",
+    "priority": "Ưu tiên",
+    "selectAll": "Chọn tất cả",
+    "deselectAll": "Bỏ chọn tất cả",
+    "selectedCount": "{{count}} đã chọn",
+    "statusFilter": "Bộ lọc trạng thái",
+    "typeFilter": "Bộ lọc loại"
+  },
+  "tabs": {
+    "overview": "Tổng quan",
+    "notes": "Ghi chú",
+    "issues": "Vấn đề",
+    "wbs": "WBS",
+    "kanban": "Kanban",
+    "gantt": "Gantt"
+  },
+  "kanban": {
+    "noIssues": "Không có vấn đề",
+    "column": {
+      "OPEN": "Mở",
+      "IN_PROGRESS": "Đang thực hiện",
+      "RESOLVED": "Đã giải quyết",
+      "CLOSED": "Đã đóng"
+    }
+  },
+  "gantt": {
+    "noDateIssues": "Vấn đề chưa có ngày",
+    "noDates": "Không có vấn đề nào có ngày bắt đầu/kết thúc",
+    "showAuthor": "Tác giả",
+    "showAssignee": "Người phụ trách"
+  },
+  "wbs": {
+    "tab": "WBS",
+    "epic": "Epic",
+    "component": "Component",
+    "unassigned": "Chưa phân loại",
+    "group": "Nhóm",
+    "addEpic": "Thêm Epic",
+    "addComponent": "Thêm Component",
+    "editEpic": "Sửa Epic",
+    "editComponent": "Sửa Component",
+    "deleteEpic": "Xóa Epic",
+    "deleteComponent": "Xóa Component",
+    "noEpics": "Không có epic",
+    "noComponents": "Không có component",
+    "noIssues": "Không có vấn đề",
+    "showClosed": "Hiện vấn đề đã đóng",
+    "showClosedGroup": "hiện {{count}} đã đóng",
+    "hideClosedGroup": "ẩn đã đóng",
+    "issues": "{{count}} vấn đề",
+    "progress": "Tiến độ",
+    "epicStatus": {
+      "PLANNED": "Đã lên kế hoạch",
+      "IN_PROGRESS": "Đang thực hiện",
+      "DONE": "Hoàn thành",
+      "CANCELLED": "Đã hủy"
+    },
+    "confirmDeleteEpic": "Xóa epic này? Các vấn đề con sẽ được chuyển sang chưa phân loại.",
+    "confirmDeleteComponent": "Xóa component này? Các vấn đề con sẽ được chuyển sang chưa phân loại.",
+    "epicCreated": "Đã tạo epic",
+    "epicUpdated": "Đã cập nhật epic",
+    "epicDeleted": "Đã xóa epic",
+    "issueGroupUpdated": "Đã cập nhật nhóm vấn đề",
+    "dragHint": "Kéo vấn đề để gán vào Epic/Component",
+    "componentCreated": "Đã tạo component",
+    "componentUpdated": "Đã cập nhật component",
+    "componentDeleted": "Đã xóa component",
+    "title": "Tiêu đề",
+    "description": "Mô tả",
+    "color": "Màu sắc",
+    "owner": "Người phụ trách",
+    "startDate": "Ngày bắt đầu",
+    "dueDate": "Ngày kết thúc",
+    "group": "Nhóm",
+    "groupNone": "Không có"
+  },
+  "issueList": {
+    "noIssues": "Không có vấn đề liên kết",
+    "totalCount": "Tổng {{count}}",
+    "pageInfo": "{{from}}-{{to}} / {{total}}",
+    "prev": "Trước",
+    "next": "Sau",
+    "importIssues": "Nhập Issue"
+  },
+  "member": {
+    "title": "Thành viên",
+    "add": "Thêm thành viên",
+    "role": "Vai trò",
+    "PM": "Quản lý dự án",
+    "LEAD": "Trưởng nhóm",
+    "MEMBER": "Thành viên",
+    "REVIEWER": "Người đánh giá",
+    "OBSERVER": "Quan sát viên",
+    "remove": "Xóa",
+    "added": "Đã thêm thành viên",
+    "removed": "Đã xóa thành viên",
+    "selectUser": "Chọn người dùng"
+  },
+  "client": {
+    "title": "Khách hàng được gán",
+    "add": "Thêm khách hàng",
+    "select": "Chọn khách hàng",
+    "added": "Đã gán khách hàng thành công",
+    "removed": "Đã hủy gán khách hàng",
+    "noClients": "Chưa có khách hàng nào được gán"  },
+  "notes": {
+    "title": "Ghi chú liên kết",
+    "empty": "Không có ghi chú liên kết",
+    "meetingNote": "Biên bản họp",
+    "memo": "Ghi nhớ"
+  },
+  "comments": {
+    "title": "Bình luận",
+    "placeholder": "Viết bình luận...",
+    "submit": "Gửi",
+    "empty": "Chưa có bình luận nào",
+    "deleteConfirm": "Xóa bình luận này?"  },
+  "scope": {
+    "mine": "Dự án của tôi",
+    "all": "Tất cả dự án"
+  }
+}

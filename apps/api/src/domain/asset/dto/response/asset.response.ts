@@ -1,0 +1,30 @@
+export interface AssetResponse {
+  assetId: string;
+  assetCode: string;
+  assetName: string;
+  assetCategory: string;
+  ownershipType: string;
+  unit: string | null;
+  managerId: string | null;
+  managerName: string | null;
+  location: string | null;
+  status: string;
+  manufacturer: string | null;
+  modelName: string | null;
+  serialNo: string | null;
+  purchaseDate: string | null;
+  vendor: string | null;
+  currency: string;
+  purchaseAmount: string | null;
+  depreciationYears: number | null;
+  residualValue: string | null;
+  quantity: number | null;
+  barcode: string | null;
+  rfidCode: string | null;
+  roomCapacity: number | null;
+  roomEquipments: string[] | null;
+  roomAvailableFrom: string | null;
+  roomAvailableTo: string | null;
+  createdAt: string;
+  updatedAt: string;
+}

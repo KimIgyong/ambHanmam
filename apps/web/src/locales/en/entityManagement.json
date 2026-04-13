@@ -1,0 +1,86 @@
+{
+  "title": "User Management",
+  "subtitle": "Manage user status, service subscriptions, and AI usage by entity",
+  "search": "Search by entity name, MASTER name, or email...",
+  "allStatus": "All Status",
+  "noEntities": "No entities registered",
+  "noMaster": "Not assigned",
+  "pagination": "Total {{total}} (Page {{page}} / {{totalPages}})",
+  "back": "Back to list",
+  "col": {
+    "no": "No.",
+    "entityCode": "Entity Code",
+    "entityName": "Entity Name",
+    "level": "Level",
+    "master": "MASTER",
+    "members": "Members",
+    "signupDate": "Signup Date",
+    "status": "Status"
+  },
+  "level": {
+    "ROOT": "HQ",
+    "SUBSIDIARY": "Subsidiary"
+  },
+  "tabs": {
+    "summary": "Summary",
+    "services": "Service Usage",
+    "aiUsage": "AI Usage"
+  },
+  "edit": "Edit",
+  "save": "Save",
+  "cancel": "Cancel",
+  "member": {
+    "name": "Name",
+    "email": "Email",
+    "role": "Role",
+    "status": "Status"
+  },
+  "summary": {
+    "basicInfo": "Basic Information",
+    "orgStructure": "Organization Structure",
+    "memberStatus": "Member Status",
+    "orgUnits": "Organization Units",
+    "entityCode": "Entity Code",
+    "entityName": "Entity Name",
+    "entityNameEn": "Entity Name (EN)",
+    "country": "Country",
+    "currency": "Currency",
+    "regNo": "Registration No.",
+    "representative": "Representative",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "parentEntity": "Parent Entity",
+    "isHq": "HQ",
+    "totalMembers": "members",
+    "units": "Units",
+    "cells": "Cells"
+  },
+  "service": {
+    "linkedClient": "Linked Client",
+    "noClient": "No linked client",
+    "subscriptions": "Subscriptions",
+    "noSubscriptions": "No active subscriptions",
+    "serviceName": "Service",
+    "plan": "Plan",
+    "period": "Period",
+    "price": "Price",
+    "users": "Users"
+  },
+  "aiUsage": {
+    "quota": "Quota Settings",
+    "noQuota": "No quota set",
+    "monthlyUsage": "Monthly Usage",
+    "dailyLimit": "Daily Limit",
+    "monthlyLimit": "Monthly Limit",
+    "actionOnExceed": "On Exceed",
+    "totalTokens": "Total Tokens",
+    "inputTokens": "Input Tokens",
+    "outputTokens": "Output Tokens",
+    "requests": "Requests",
+    "usage": "Usage",
+    "topUsers": "Top Users (This Month)",
+    "WARN": "Warn",
+    "BLOCK": "Block"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "title": "사용자 관리",
+  "subtitle": "법인별 사용자 현황 및 서비스 사용 정보를 관리합니다",
+  "search": "법인명, MASTER 이름 또는 이메일로 검색...",
+  "allStatus": "전체 상태",
+  "noEntities": "등록된 법인이 없습니다",
+  "noMaster": "미지정",
+  "pagination": "전체 {{total}}건 ({{page}} / {{totalPages}} 페이지)",
+  "back": "목록으로",
+  "col": {
+    "no": "No.",
+    "entityCode": "법인코드",
+    "entityName": "법인명",
+    "level": "유형",
+    "master": "MASTER",
+    "members": "멤버",
+    "signupDate": "등록일",
+    "status": "상태"
+  },
+  "level": {
+    "ROOT": "본사",
+    "SUBSIDIARY": "법인"
+  },
+  "tabs": {
+    "summary": "정보 요약",
+    "services": "서비스 사용현황",
+    "aiUsage": "AI 사용현황"
+  },
+  "edit": "수정",
+  "save": "저장",
+  "cancel": "취소",
+  "member": {
+    "name": "이름",
+    "email": "이메일",
+    "role": "역할",
+    "status": "상태"
+  },
+  "summary": {
+    "basicInfo": "기본 정보",
+    "orgStructure": "조직 구조",
+    "memberStatus": "멤버 현황",
+    "orgUnits": "조직 단위",
+    "entityCode": "법인코드",
+    "entityName": "법인명",
+    "entityNameEn": "법인명 (영문)",
+    "country": "국가",
+    "currency": "통화",
+    "regNo": "사업자등록번호",
+    "representative": "대표자",
+    "phone": "전화",
+    "email": "이메일",
+    "address": "주소",
+    "parentEntity": "상위 법인",
+    "isHq": "본사 여부",
+    "totalMembers": "명",
+    "units": "Unit",
+    "cells": "Cell"
+  },
+  "service": {
+    "linkedClient": "연결된 고객사",
+    "noClient": "연결된 고객사가 없습니다",
+    "subscriptions": "구독 서비스",
+    "noSubscriptions": "구독 중인 서비스가 없습니다",
+    "serviceName": "서비스",
+    "plan": "플랜",
+    "period": "기간",
+    "price": "가격",
+    "users": "사용자"
+  },
+  "aiUsage": {
+    "quota": "쿼터 설정",
+    "noQuota": "쿼터 미설정",
+    "monthlyUsage": "당월 사용량",
+    "dailyLimit": "일일 한도",
+    "monthlyLimit": "월간 한도",
+    "actionOnExceed": "초과 시",
+    "totalTokens": "총 토큰",
+    "inputTokens": "입력 토큰",
+    "outputTokens": "출력 토큰",
+    "requests": "요청 수",
+    "usage": "사용률",
+    "topUsers": "상위 사용자 (당월)",
+    "WARN": "경고",
+    "BLOCK": "차단"
+  }
+}

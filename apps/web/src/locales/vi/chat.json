@@ -1,0 +1,23 @@
+{
+  "newConversation": "Cuộc hội thoại mới",
+  "noConversations": "Không có cuộc hội thoại",
+  "noConversationsDesc": "Hãy bắt đầu cuộc hội thoại mới.",
+  "messageCount": "{{count}} tin nhắn",
+  "yesterday": "Hôm qua",
+  "daysAgo": "{{days}} ngày trước",
+  "aiAssistant": "Trợ lý AI {{name}}",
+  "emptyPrompt": "Hãy đặt câu hỏi cho trợ lý AI.",
+  "messagePlaceholder": "Nhập tin nhắn...",
+  "sendMessage": "Gửi tin nhắn",
+  "inputHint": "Shift + Enter để xuống dòng, Enter để gửi",
+  "errorOccurred": "Đã xảy ra lỗi: {{error}}",
+  "quotaExceeded": "⚠️ Hạn mức AI đã hết. Vui lòng nạp thêm tín dụng - báo cáo với quản trị viên.",
+  "startChat": "Bắt đầu trò chuyện",
+  "connectionTestFail": "Kiểm tra kết nối thất bại",
+  "continueResponse": "Tiếp tục",
+  "continuePrompt": "Vui lòng tiếp tục phản hồi từ chỗ bạn đã dừng lại.",
+  "copyMessage": "Sao chép",
+  "copiedToClipboard": "Đã sao chép!",
+  "downloadMd": "Tải xuống Markdown",
+  "downloadPdf": "Tải xuống PDF"
+}

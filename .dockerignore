@@ -1,0 +1,15 @@
+.git
+node_modules
+dist
+build
+.turbo
+*.tsbuildinfo
+docker/data
+docker/postal
+secrets
+reference
+coverage
+.DS_Store
+*.log
+.idea
+.vscode

@@ -1,0 +1,114 @@
+{
+  "title": "Partner Portal",
+  "login": {
+    "title": "Partner Portal Login",
+    "subtitle": "Manage your apps and services",
+    "partnerCode": "Partner Code",
+    "partnerCodePlaceholder": "Enter your partner code",
+    "partnerCodeRequired": "Please enter a partner code",
+    "email": "Email",
+    "password": "Password",
+    "submit": "Login",
+    "noAccount": "Have an invitation?",
+    "register": "Register"
+  },
+  "register": {
+    "title": "Register",
+    "subtitle": "Set up your account",
+    "invalidToken": "Invalid or expired invitation link",
+    "name": "Name",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "jobTitle": "Job Title",
+    "phone": "Phone",
+    "submit": "Register",
+    "hasAccount": "Already have an account?",
+    "login": "Login",
+    "passwordMismatch": "Passwords do not match"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "myApps": "My Apps",
+    "myPage": "My Page",
+    "logout": "Logout"
+  },
+  "dashboard": {
+    "welcome": "Hello, {{name}}",
+    "myApps": "My Apps",
+    "myAppsDesc": "Register and manage your custom apps",
+    "partnerInfo": "Partner Information",
+    "partnerName": "Partner Name",
+    "partnerCode": "Partner Code",
+    "role": "Role",
+    "email": "Email"
+  },
+  "myPage": {
+    "title": "My Page",
+    "name": "Name",
+    "email": "Email",
+    "partner": "Partner",
+    "jobTitle": "Job Title",
+    "changePassword": "Change Password",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmNewPassword": "Confirm New Password",
+    "save": "Save",
+    "passwordChanged": "Password changed successfully",
+    "passwordMismatch": "Passwords do not match"
+  },
+  "app": {
+    "title": "My Apps",
+    "create": "Register App",
+    "noApps": "No registered apps",
+    "noAppsDesc": "Register your first custom app",
+    "name": "App Name",
+    "code": "App Code",
+    "url": "App URL",
+    "description": "Description",
+    "category": "Category",
+    "authMode": "Auth Mode",
+    "openMode": "Open Mode",
+    "status": "Status",
+    "icon": "Icon",
+    "submit": "Submit for Review",
+    "save": "Save Draft",
+    "edit": "Edit",
+    "delete": "Delete",
+    "deleteConfirm": "Are you sure you want to delete this app?",
+    "submitConfirm": "Submit this app for review?",
+    "submitted": "App submitted for review",
+    "saved": "App saved",
+    "deleted": "App deleted",
+    "versions": "Versions",
+    "latestVersion": "Latest Version",
+    "categories": {
+      "PRODUCTIVITY": "Productivity",
+      "COMMUNICATION": "Communication",
+      "ANALYTICS": "Analytics",
+      "INTEGRATION": "Integration",
+      "UTILITY": "Utility",
+      "OTHER": "Other"
+    },
+    "authModes": {
+      "NONE": "None",
+      "SSO_JWT": "SSO (JWT)",
+      "API_KEY": "API Key",
+      "OAUTH2": "OAuth2"
+    },
+    "openModes": {
+      "IFRAME": "Iframe",
+      "NEW_TAB": "New Tab",
+      "POPUP": "Popup"
+    },
+    "statuses": {
+      "DRAFT": "Draft",
+      "SUBMITTED": "Submitted",
+      "IN_REVIEW": "In Review",
+      "APPROVED": "Approved",
+      "REJECTED": "Rejected",
+      "PUBLISHED": "Published",
+      "SUSPENDED": "Suspended",
+      "ARCHIVED": "Archived"
+    }
+  }
+}

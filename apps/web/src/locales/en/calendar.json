@@ -1,0 +1,138 @@
+{
+  "title": "Calendar",
+  "subtitle": "Manage your schedules on the calendar",
+  "newSchedule": "New Schedule",
+  "editSchedule": "Edit Schedule",
+  "deleteSchedule": "Delete Schedule",
+  "today": "Today",
+  "noSchedules": "No schedules",
+  "view": {
+    "month": "Month",
+    "week": "Week",
+    "day": "Day"
+  },
+  "category": {
+    "WORK": "Work",
+    "MEETING": "Meeting",
+    "PERSONAL": "Personal",
+    "PROJECT": "Project",
+    "HOLIDAY": "Holiday",
+    "ETC": "Other"
+  },
+  "visibility": {
+    "PRIVATE": "Only Me",
+    "SHARED": "Cell",
+    "UNIT": "Unit",
+    "ENTITY": "Everyone"
+  },
+  "priority": {
+    "LOW": "Low",
+    "NORMAL": "Normal",
+    "HIGH": "High",
+    "URGENT": "Urgent"
+  },
+  "recurrence": {
+    "NONE": "No repeat",
+    "DAILY": "Daily",
+    "WEEKLY": "Weekly",
+    "BIWEEKLY": "Biweekly",
+    "MONTHLY": "Monthly",
+    "YEARLY": "Yearly",
+    "CUSTOM": "Custom",
+    "RECURRING": "Recurring"
+  },
+  "recurrenceForm": {
+    "frequency": "Frequency",
+    "interval": "Interval",
+    "weekdays": "Weekdays",
+    "monthDay": "Day of month",
+    "endType": "End type",
+    "endDate": "End date",
+    "endCount": "Occurrences",
+    "endNever": "Never",
+    "endByDate": "By date",
+    "endByCount": "After occurrences"
+  },
+  "participant": {
+    "title": "Participants",
+    "add": "Add Participant",
+    "remove": "Remove Participant",
+    "response": "Response",
+    "comment": "Comment"
+  },
+  "response": {
+    "NONE": "No response",
+    "ACCEPTED": "Accepted",
+    "DECLINED": "Declined",
+    "TENTATIVE": "Tentative"
+  },
+  "reminder": {
+    "title": "Reminders",
+    "add": "Add Reminder",
+    "remove": "Remove Reminder",
+    "minutesBefore": "{{minutes}} min before",
+    "hoursBefore": "{{hours}} hr before",
+    "daysBefore": "{{days}} day(s) before"
+  },
+  "form": {
+    "title": "Title",
+    "titlePlaceholder": "Enter schedule title",
+    "description": "Description",
+    "descriptionPlaceholder": "Enter schedule description",
+    "category": "Category",
+    "startDate": "Start",
+    "endDate": "End",
+    "allDay": "All Day",
+    "location": "Location",
+    "locationPlaceholder": "Enter meeting URL if online",
+    "color": "Color",
+    "visibility": "Visibility",
+    "recurrence": "Repeat",
+    "priority": "Priority",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "deleteConfirm": {
+    "title": "Delete Schedule",
+    "message": "Are you sure you want to delete this schedule?",
+    "recurrenceMessage": "This is a recurring schedule. Delete all occurrences?",
+    "confirm": "Delete"
+  },
+  "exception": {
+    "title": "Recurrence Exception",
+    "cancel": "Cancel this occurrence",
+    "reschedule": "Reschedule",
+    "reason": "Reason"
+  },
+  "filter": {
+    "all": "All",
+    "my": "My Schedules",
+    "unit": "Unit",
+    "shared": "Shared"
+  },
+  "google": {
+    "connect": "Connect Google Calendar",
+    "disconnect": "Disconnect Google Calendar",
+    "sync": "Sync",
+    "synced": "Synced",
+    "notSynced": "Not synced",
+    "syncFailed": "Sync failed"
+  },
+  "weekdays": {
+    "SUN": "Sun",
+    "MON": "Mon",
+    "TUE": "Tue",
+    "WED": "Wed",
+    "THU": "Thu",
+    "FRI": "Fri",
+    "SAT": "Sat"
+  },
+  "error": {
+    "notFound": "Schedule not found",
+    "accessDenied": "Access denied",
+    "conflict": "Modified by another user. Please refresh and try again.",
+    "invalidDateRange": "End time cannot be before start time",
+    "syncFailed": "Google Calendar sync failed"
+  },
+  "collapse": "Collapse"
+}

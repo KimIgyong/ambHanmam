@@ -1,0 +1,72 @@
+{
+  "name": "amb-management",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AMB Management - 회사 업무 AI 에이전트 시스템",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "dev:api": "turbo run dev --filter=@amb/api",
+    "dev:web": "turbo run dev --filter=@amb/web",
+    "dev:portal": "turbo run dev --filter=@amb/portal-api --filter=@amb/portal-web",
+    "dev:portal-api": "turbo run dev --filter=@amb/portal-api",
+    "dev:portal-web": "turbo run dev --filter=@amb/portal-web",
+    "dev:mobile": "turbo run dev --filter=@amb/mobile",
+    "dev:all": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "lint:fix": "turbo run lint:fix",
+    "format": "prettier --write \"**/*.{ts,tsx,js,json,md}\"",
+    "test": "turbo run test",
+    "db:up": "docker-compose -f docker/docker-compose.dev.yml up -d",
+    "db:down": "docker-compose -f docker/docker-compose.dev.yml down",
+    "migration:run": "turbo run migration:run --filter=@amb/api",
+    "migration:generate": "turbo run migration:generate --filter=@amb/api",
+    "prepare": "husky || true"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@nestjs/testing": "^10.4.22",
+    "husky": "^9.1.7",
+    "jest": "^29.7.0",
+    "lint-staged": "^16.2.7",
+    "ts-jest": "^29.4.6",
+    "turbo": "^2.0.0",
+    "prettier": "^3.2.0",
+    "typescript": "^5.4.0",
+    "webpack": "5.97.1"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "overrides": {
+    "@tiptap/core": "3.20.0",
+    "@tiptap/pm": "3.20.0",
+    "@tiptap/extensions": "3.20.0",
+    "@tiptap/extension-bold": "3.20.0",
+    "@tiptap/extension-italic": "3.20.0",
+    "@tiptap/extension-strike": "3.20.0",
+    "@tiptap/extension-code": "3.20.0",
+    "@tiptap/extension-heading": "3.20.0",
+    "@tiptap/extension-paragraph": "3.20.0",
+    "@tiptap/extension-text": "3.20.0",
+    "@tiptap/extension-document": "3.20.0",
+    "@tiptap/extension-hard-break": "3.20.0",
+    "@tiptap/extension-horizontal-rule": "3.20.0",
+    "@tiptap/extension-blockquote": "3.20.0",
+    "@tiptap/extension-code-block": "3.20.0",
+    "@tiptap/extension-bullet-list": "3.20.0",
+    "@tiptap/extension-ordered-list": "3.20.0",
+    "@tiptap/extension-list-item": "3.20.0",
+    "@tiptap/extension-list": "3.20.0",
+    "@tiptap/extension-list-keymap": "3.20.0",
+    "@tiptap/extension-dropcursor": "3.20.0",
+    "@tiptap/extension-gapcursor": "3.20.0",
+    "@tiptap/extension-bubble-menu": "3.20.0",
+    "@tiptap/extension-floating-menu": "3.20.0"
+  },
+  "packageManager": "npm@10.0.0"
+}

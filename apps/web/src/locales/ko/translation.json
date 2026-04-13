@@ -1,0 +1,83 @@
+{
+  "panel": {
+    "title": "번역",
+    "original": "원문",
+    "translated": "번역됨",
+    "noTranslation": "이 문서의 {{lang}} 번역이 아직 없습니다.",
+    "noTranslationDesc": "AI가 번역을 생성하면 DB에 저장되어 다른 사용자도 바로 확인할 수 있습니다.",
+    "translateTo": "{{lang}}(으)로 번역하기",
+    "viewOriginal": "원문 보기",
+    "translating": "번역 생성 중...",
+    "staleWarning": "번역이 최신이 아닐 수 있습니다",
+    "locked": "번역이 잠겨 있습니다",
+    "aiTranslated": "AI 번역",
+    "humanEdited": "수정됨",
+    "editTranslation": "번역 수정",
+    "reTranslate": "재번역",
+    "history": "수정이력",
+    "translateAll": "전체 번역",
+    "translateAllProgress": "번역 중 ({{current}}/{{total}})",
+    "changeOriginalLang": "원본 언어 변경",
+    "originalLangLabel": "원문: {{lang}}"
+  },
+  "save": {
+    "title": "영문도 함께 저장할까요?",
+    "titleDynamic": "{{langs}} 번역도 함께 저장할까요?",
+    "description": "조직 구성원이 영어로도 확인할 수 있도록 AI가 영문 번역을 생성합니다.",
+    "descriptionDynamic": "조직 구성원이 다른 언어로도 확인할 수 있도록 AI가 {{langs}} 번역을 생성합니다.",
+    "selectTargetLangs": "번역 대상 언어",
+    "dontAskAgain": "다시 묻지 않기",
+    "no": "아니오, 원문만 저장",
+    "yes": "예, 번역도 저장",
+    "generating": "영문 번역 생성 중...",
+    "generatingLang": "{{lang}} 번역 생성 중... ({{current}}/{{total}})",
+    "generated": "영문 번역이 생성되었습니다",
+    "generatedAll": "{{count}}개 언어 번역이 생성되었습니다",
+    "saveAsIs": "이대로 저장",
+    "editAndSave": "수정 후 저장",
+    "saved": "원문 + 번역 저장 완료"
+  },
+  "edit": {
+    "title": "번역 수정",
+    "changeReason": "변경 사유 (선택)",
+    "changeReasonPlaceholder": "변경 사유를 입력하세요",
+    "save": "저장",
+    "cancel": "취소",
+    "saved": "번역이 수정되었습니다",
+    "lock": "번역 잠금",
+    "unlock": "번역 잠금 해제",
+    "locked": "잠김",
+    "unlocked": "잠금해제",
+    "lockedWarning": "이 번역은 잠겨 있습니다. 수정하려면 잠금을 해제하세요."
+  },
+  "history": {
+    "title": "번역 수정 이력",
+    "version": "버전 {{version}}",
+    "editedBy": "수정자",
+    "reason": "변경 사유",
+    "noHistory": "수정 이력이 없습니다"
+  },
+  "lang": {
+    "en": "영어",
+    "ko": "한국어",
+    "vi": "베트남어"
+  },
+  "glossary": {
+    "title": "도메인 용어집",
+    "addTerm": "용어 추가",
+    "editTerm": "용어 수정",
+    "deleteTerm": "용어 삭제",
+    "termEn": "영어 용어",
+    "termKo": "한국어",
+    "termVi": "베트남어",
+    "category": "카테고리",
+    "context": "설명/맥락",
+    "deleteConfirm": "이 용어를 삭제하시겠습니까?",
+    "noTerms": "등록된 용어가 없습니다"
+  },
+  "messages": {
+    "translateSuccess": "번역이 완료되었습니다",
+    "translateError": "번역 중 오류가 발생했습니다",
+    "savedToDb": "DB에 저장되었습니다. 다른 사용자도 확인할 수 있습니다."
+  }
+}

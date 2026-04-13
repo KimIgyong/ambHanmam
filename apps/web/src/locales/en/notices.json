@@ -1,0 +1,40 @@
+{
+  "title": "Notices",
+  "subtitle": "Check company news and announcements.",
+  "createNotice": "Create Notice",
+  "editNotice": "Edit Notice",
+  "noNotices": "No notices found.",
+  "pinned": "Pinned",
+  "new": "NEW",
+  "visibility": {
+    "PUBLIC": "Public",
+    "CELL": "Cell",
+    "UNIT": "Unit"
+  },
+  "form": {
+    "title": "Title",
+    "titlePlaceholder": "Enter notice title",
+    "content": "Content",
+    "visibility": "Visibility",
+    "unit": "Unit",
+    "pinned": "Pin to Top",
+    "attachments": "Attachments",
+    "addFile": "Add File",
+    "maxFileSize": "Max 10MB"
+  },
+  "detail": {
+    "author": "Author",
+    "createdAt": "Created",
+    "views": "Views",
+    "attachments": "Attachments"
+  },
+  "deleteConfirm": {
+    "title": "Delete Notice",
+    "message": "Are you sure you want to delete this notice?",
+    "confirm": "Delete"
+  },
+  "filter": {
+    "all": "All",
+    "pinned": "Pinned"
+  }
+}

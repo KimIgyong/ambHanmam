@@ -1,0 +1,21 @@
+{
+  "welcome": "Hello, {{name}}",
+  "welcomeDefault": "Hello",
+  "subtitle": "Start working with your AI specialist assistants.",
+  "startChat": "Start chatting",
+  "yesterdayCompleted": "Completed Yesterday",
+  "todayTasks": "Today's Tasks",
+  "announcements": "Announcements",
+  "recentTalk": "Recent Amoeba Talk",
+  "viewAll": "View All",
+  "comingSoon": "Coming Soon",
+  "noTasks": "No tasks",
+  "noAnnouncements": "No announcements",
+  "bankBalance": "Bank Balance",
+  "totalByCurrency": "Total by Currency",
+  "viewAccounting": "View Accounting",
+  "recentMeetingNotes": "Recent Meeting Notes",
+  "noMeetingNotes": "No recent meeting notes",
+  "recentIssues": "My Issues",
+  "noRecentIssues": "No active issues"
+}

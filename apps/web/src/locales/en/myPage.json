@@ -1,0 +1,119 @@
+{
+  "title": "My Page",
+  "subtitle": "Manage your profile and account settings",
+  "profile": {
+    "title": "Profile Information",
+    "email": "Email",
+    "name": "Name",
+    "unit": "Unit",
+    "role": "Role",
+    "companyEmail": "Company Email",
+    "joinedAt": "Joined Date",
+    "notSet": "Not set",
+    "phone": "Emergency Contact",
+    "editPhone": "Edit Phone",
+    "phonePlaceholder": "Enter phone number",
+    "profileImage": "Profile Photo",
+    "uploadImage": "Change Photo",
+    "deleteImage": "Delete Photo",
+    "updateSuccess": "Saved successfully",
+    "updateFailed": "Failed to save",
+    "editName": "Edit Name",
+    "namePlaceholder": "Enter your name",
+    "imageFormatError": "Only PNG or JPEG is allowed",
+    "imageSizeError": "File must be 500KB or less",
+    "editCompanyEmail": "Edit Company Email",
+    "companyEmailPlaceholder": "Enter company email",
+    "readOnly": "Read only",
+    "masterOnly": "Master only"
+  },
+  "quickLinks": {
+    "attendance": "Attendance",
+    "leaveRequests": "My Leave",
+    "expenseRequests": "Expense"
+  },
+  "units": {
+    "title": "Unit Assignment",
+    "name": "Unit",
+    "role": "Role",
+    "isPrimary": "Primary",
+    "entityName": "Organization",
+    "noUnits": "No unit assigned",
+    "roles": {
+      "MEMBER": "Member",
+      "TEAM_LEAD": "Team Lead",
+      "UNIT_HEAD": "Unit Head"
+    }
+  },
+  "cells": {
+    "title": "Cell Assignment",
+    "name": "Cell",
+    "entityName": "Organization",
+    "noCells": "No cell assigned"
+  },
+  "entities": {
+    "title": "Organization Membership",
+    "name": "Organization",
+    "code": "Code",
+    "country": "Country",
+    "role": "Role",
+    "status": "Status",
+    "noEntities": "No organization assigned"
+  },
+  "password": {
+    "title": "Change Password",
+    "currentPassword": "Current Password",
+    "newPassword": "New Password",
+    "confirmPassword": "Confirm New Password",
+    "change": "Change Password",
+    "success": "Password changed successfully",
+    "mismatch": "New passwords do not match",
+    "minLength": "Password must be at least 8 characters",
+    "currentRequired": "Current password is required",
+    "failed": "Password change failed"
+  },
+  "timezone": {
+    "title": "Timezone & Language",
+    "timezoneLabel": "Timezone",
+    "localeLabel": "Display Language",
+    "save": "Save Settings",
+    "success": "Timezone settings saved",
+    "failed": "Failed to save settings",
+    "timezones": {
+      "Asia/Ho_Chi_Minh": "Vietnam (UTC+7)",
+      "Asia/Seoul": "Korea (UTC+9)",
+      "Asia/Tokyo": "Japan (UTC+9)",
+      "America/New_York": "New York (UTC-5)",
+      "Europe/London": "London (UTC+0)",
+      "UTC": "UTC"
+    },
+    "locales": {
+      "vi": "Vietnamese",
+      "ko": "Korean",
+      "en": "English"
+    }
+  },
+  "leave": {
+    "title": "Leave Balance",
+    "entitlement": "Entitlement",
+    "used": "Used",
+    "remaining": "Remaining",
+    "carryForward": "Carry Forward",
+    "yearsOfService": "{{years}} year(s) of service"
+  },
+  "expense": {
+    "title": "Expense Requests",
+    "register": "New Expense Request",
+    "viewAll": "View All",
+    "noRequests": "No expense requests",
+    "status": "Status",
+    "amount": "Amount",
+    "requiredDate": "Due Date"
+  },
+  "roles": {
+    "USER": "User",
+    "MANAGER": "Manager",
+    "ADMIN": "Admin",
+    "MASTER": "Master"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "title": "Drive",
+  "subtitle": "Browse and search company documents from Google Drive.",
+  "registeredFolders": "Registered Folders",
+  "registerFolder": "Register Folder",
+  "unregisterFolder": "Unregister",
+  "search": "Search documents...",
+  "searchResults": "Search Results",
+  "noFiles": "No files in this folder.",
+  "noResults": "No search results found.",
+  "notConfigured": "Google Drive is not configured. Contact your administrator.",
+  "driveNotConfigured": {
+    "title": "Google Drive Setup Required",
+    "description": "To use Documents, please configure your entity's Google Drive settings.",
+    "goToSettings": "Configure Drive",
+    "contactAdmin": "Please ask your entity administrator (MASTER) to set up Google Drive."
+  },
+  "guideCard": {
+    "title": "Google Drive Integration Guide",
+    "description": "Follow the step-by-step guide for Drive registration and permission setup.",
+    "button": "Open Guide"
+  },
+  "download": "Download",
+  "preview": "Preview",
+  "openInDrive": "Open in Google Drive",
+  "fileInfo": {
+    "name": "Name",
+    "type": "Type",
+    "size": "Size",
+    "modified": "Modified",
+    "owner": "Owner"
+  },
+  "folderForm": {
+    "title": "Register Folder",
+    "folderId": "Google Drive Folder ID",
+    "folderIdPlaceholder": "Enter the folder ID from the Drive URL",
+    "folderName": "Display Name",
+    "folderNamePlaceholder": "e.g. Company Shared Documents",
+    "driveType": "Drive Type",
+    "shared": "Shared Drive",
+    "personal": "Personal Folder",
+    "description": "Description",
+    "descriptionPlaceholder": "Optional description",
+    "register": "Register"
+  },
+  "unregisterConfirm": {
+    "title": "Unregister Folder",
+    "message": "This will remove the folder from the document list. Files in Google Drive will not be affected.",
+    "confirm": "Unregister"
+  },
+  "breadcrumb": {
+    "root": "All Folders"
+  },
+  "upload": "Upload",
+  "uploading": "Uploading...",
+  "uploadSuccess": "File uploaded successfully.",
+  "uploadFailed": "Upload failed.",
+  "uploadSizeLimit": "Files must be 50MB or less.",
+  "sharedDrives": "Shared Drives",
+  "noSharedDrives": "No shared drives available.",
+  "noFolders": "No folders registered yet.",
+  "noFoldersDesc": "Register a Google Drive folder to start browsing documents.",
+  "loadMore": "Load More",
+  "newFolder": "New Folder",
+  "newFolderPrompt": "Enter new folder name",
+  "viewList": "List view",
+  "viewGrid": "Grid view",
+  "sort": {
+    "date": "By date",
+    "size": "By size",
+    "type": "By type",
+    "owner": "By owner"
+  }
+}

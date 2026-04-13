@@ -1,0 +1,88 @@
+{
+  "title": "Attendance",
+  "subtitle": "Manage your weekly attendance schedule.",
+  "filter": {
+    "all": "All",
+    "employee": "Employee",
+    "client": "Client"
+  },
+  "weekNavPrev": "Previous Week",
+  "weekNavNext": "Next Week",
+  "addSchedule": "Add Schedule",
+  "editSchedule": "Edit Schedule",
+  "bulkRegister": "Register Entire Week",
+  "bulkTitle": "Weekly Schedule Registration",
+  "noSchedule": "No schedule",
+  "registered": "Registered",
+  "type": {
+    "OFFICE": "Office",
+    "REMOTE": "Remote",
+    "OUTSIDE_WORK": "Outside Work",
+    "BUSINESS_TRIP": "Business Trip",
+    "EXTERNAL_SITE": "External Site",
+    "DAY_OFF": "Day Off",
+    "AM_HALF": "AM Half Day",
+    "PM_HALF": "PM Half Day",
+    "MENSTRUATION": "Menstruation Rest"
+  },
+  "form": {
+    "date": "Date",
+    "type": "Type",
+    "startTime": "Start Time",
+    "endTime": "End Time",
+    "autoCalculated": "Auto-calculated"
+  },
+  "deleteConfirm": {
+    "title": "Delete Schedule",
+    "message": "Are you sure you want to delete this schedule?",
+    "confirm": "Delete"
+  },
+  "dayNames": {
+    "mon": "Mon",
+    "tue": "Tue",
+    "wed": "Wed",
+    "thu": "Thu",
+    "fri": "Fri",
+    "sat": "Sat",
+    "sun": "Sun"
+  },
+  "applyTo": "Apply to",
+  "daysAlreadyRegistered": "{{count}} day(s) already have schedules. Overwrite?",
+  "selectDays": "Select days to apply",
+  "notEditable": "Not in registration period",
+  "weekOf": "{{start}} ~ {{end}}",
+  "memberManage": {
+    "button": "Manage Members",
+    "title": "Manage Attendance Members",
+    "desc": "Select members to display and drag to reorder.",
+    "visibleCount": "{{visible}}/{{total}} visible",
+    "show": "Show",
+    "hide": "Hide",
+    "save": "Save"
+  },
+  "amendment": {
+    "button": "Amend",
+    "title": "Amend Attendance",
+    "note": "Reason",
+    "notePlaceholder": "Enter the reason for amendment",
+    "history": "Amendment History",
+    "original": "Original",
+    "by": "Amended by",
+    "noHistory": "No amendment history",
+    "amended": "Amended"
+  },
+  "policy": {
+    "title": "Attendance Policy",
+    "subtitle": "Manage company attendance policies.",
+    "remotePolicy": "Remote Work Policy",
+    "remoteDefaultCount": "Monthly Default Allowance",
+    "remoteExtraCount": "Additional Allowance",
+    "remoteBlockOnExceed": "Block Remote When Exceeded",
+    "perMonth": "per month",
+    "leavePolicy": "Leave Policy",
+    "leavePolicyFuture": "(Coming soon)",
+    "leaveAutoDeduct": "Auto-deduct Leave",
+    "halfLeaveAutoDeduct": "Auto-deduct Half Day",
+    "saved": "Policy saved successfully."
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "title": "파트너 포털",
+  "login": {
+    "title": "파트너 포털 로그인",
+    "subtitle": "앱과 서비스를 관리하세요",
+    "partnerCode": "파트너 코드",
+    "partnerCodePlaceholder": "파트너 코드를 입력하세요",
+    "partnerCodeRequired": "파트너 코드를 입력해주세요",
+    "email": "이메일",
+    "password": "비밀번호",
+    "submit": "로그인",
+    "noAccount": "초대를 받으셨나요?",
+    "register": "회원가입"
+  },
+  "register": {
+    "title": "회원가입",
+    "subtitle": "계정을 설정하세요",
+    "invalidToken": "유효하지 않거나 만료된 초대 링크입니다",
+    "name": "이름",
+    "password": "비밀번호",
+    "confirmPassword": "비밀번호 확인",
+    "jobTitle": "직책",
+    "phone": "연락처",
+    "submit": "가입하기",
+    "hasAccount": "이미 계정이 있으신가요?",
+    "login": "로그인",
+    "passwordMismatch": "비밀번호가 일치하지 않습니다"
+  },
+  "nav": {
+    "dashboard": "대시보드",
+    "myApps": "내 앱",
+    "myPage": "마이페이지",
+    "logout": "로그아웃"
+  },
+  "dashboard": {
+    "welcome": "안녕하세요, {{name}}님",
+    "myApps": "내 앱",
+    "myAppsDesc": "커스텀 앱을 등록하고 관리하세요",
+    "partnerInfo": "파트너 정보",
+    "partnerName": "파트너명",
+    "partnerCode": "파트너 코드",
+    "role": "역할",
+    "email": "이메일"
+  },
+  "myPage": {
+    "title": "마이페이지",
+    "name": "이름",
+    "email": "이메일",
+    "partner": "파트너사",
+    "jobTitle": "직책",
+    "changePassword": "비밀번호 변경",
+    "currentPassword": "현재 비밀번호",
+    "newPassword": "새 비밀번호",
+    "confirmNewPassword": "새 비밀번호 확인",
+    "save": "저장",
+    "passwordChanged": "비밀번호가 변경되었습니다",
+    "passwordMismatch": "비밀번호가 일치하지 않습니다"
+  },
+  "app": {
+    "title": "내 앱",
+    "create": "앱 등록",
+    "noApps": "등록된 앱이 없습니다",
+    "noAppsDesc": "첫 번째 커스텀 앱을 등록하세요",
+    "name": "앱 이름",
+    "code": "앱 코드",
+    "url": "앱 URL",
+    "description": "설명",
+    "category": "카테고리",
+    "authMode": "인증 방식",
+    "openMode": "열기 방식",
+    "status": "상태",
+    "icon": "아이콘",
+    "submit": "심사 요청",
+    "save": "임시 저장",
+    "edit": "수정",
+    "delete": "삭제",
+    "deleteConfirm": "이 앱을 삭제하시겠습니까?",
+    "submitConfirm": "이 앱을 심사 요청하시겠습니까?",
+    "submitted": "앱이 심사 요청되었습니다",
+    "saved": "앱이 저장되었습니다",
+    "deleted": "앱이 삭제되었습니다",
+    "versions": "버전",
+    "latestVersion": "최신 버전",
+    "categories": {
+      "PRODUCTIVITY": "생산성",
+      "COMMUNICATION": "커뮤니케이션",
+      "ANALYTICS": "분석",
+      "INTEGRATION": "통합",
+      "UTILITY": "유틸리티",
+      "OTHER": "기타"
+    },
+    "authModes": {
+      "NONE": "없음",
+      "SSO_JWT": "SSO (JWT)",
+      "API_KEY": "API 키",
+      "OAUTH2": "OAuth2"
+    },
+    "openModes": {
+      "IFRAME": "Iframe",
+      "NEW_TAB": "새 탭",
+      "POPUP": "팝업"
+    },
+    "statuses": {
+      "DRAFT": "초안",
+      "SUBMITTED": "심사 요청",
+      "IN_REVIEW": "심사 중",
+      "APPROVED": "승인됨",
+      "REJECTED": "거절됨",
+      "PUBLISHED": "게시됨",
+      "SUSPENDED": "정지됨",
+      "ARCHIVED": "보관됨"
+    }
+  }
+}

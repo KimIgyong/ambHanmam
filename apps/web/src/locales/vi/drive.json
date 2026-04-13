@@ -1,0 +1,74 @@
+{
+  "title": "Drive",
+  "subtitle": "Duyệt và tìm kiếm tài liệu công ty từ Google Drive.",
+  "registeredFolders": "Thư mục đã đăng ký",
+  "registerFolder": "Đăng ký thư mục",
+  "unregisterFolder": "Hủy đăng ký",
+  "search": "Tìm kiếm tài liệu...",
+  "searchResults": "Kết quả tìm kiếm",
+  "noFiles": "Không có tệp trong thư mục này.",
+  "noResults": "Không tìm thấy kết quả.",
+  "notConfigured": "Google Drive chưa được cấu hình. Liên hệ quản trị viên.",
+  "driveNotConfigured": {
+    "title": "Cần thiết lập Google Drive",
+    "description": "Để sử dụng Tài liệu, vui lòng cấu hình Google Drive của pháp nhân.",
+    "goToSettings": "Cấu hình Drive",
+    "contactAdmin": "Vui lòng yêu cầu quản trị viên pháp nhân (MASTER) thiết lập Google Drive."
+  },
+  "guideCard": {
+    "title": "Hướng dẫn tích hợp Google Drive",
+    "description": "Xem hướng dẫn từng bước để đăng ký Drive và cấu hình quyền truy cập.",
+    "button": "Mở hướng dẫn"
+  },
+  "download": "Tải xuống",
+  "preview": "Xem trước",
+  "openInDrive": "Mở trong Google Drive",
+  "fileInfo": {
+    "name": "Tên",
+    "type": "Loại",
+    "size": "Kích thước",
+    "modified": "Ngày sửa",
+    "owner": "Chủ sở hữu"
+  },
+  "folderForm": {
+    "title": "Đăng ký thư mục",
+    "folderId": "ID thư mục Google Drive",
+    "folderIdPlaceholder": "Nhập ID thư mục từ URL Drive",
+    "folderName": "Tên hiển thị",
+    "folderNamePlaceholder": "VD: Tài liệu công ty",
+    "driveType": "Loại Drive",
+    "shared": "Drive chung",
+    "personal": "Thư mục cá nhân",
+    "description": "Mô tả",
+    "descriptionPlaceholder": "Tùy chọn",
+    "register": "Đăng ký"
+  },
+  "unregisterConfirm": {
+    "title": "Hủy đăng ký thư mục",
+    "message": "Thư mục sẽ bị xóa khỏi danh sách tài liệu. Các tệp trong Google Drive không bị ảnh hưởng.",
+    "confirm": "Hủy đăng ký"
+  },
+  "breadcrumb": {
+    "root": "Tất cả thư mục"
+  },
+  "upload": "Tải lên",
+  "uploading": "Đang tải lên...",
+  "uploadSuccess": "Tải lên tệp thành công.",
+  "uploadFailed": "Tải lên thất bại.",
+  "uploadSizeLimit": "Tệp phải nhỏ hơn 50MB.",
+  "sharedDrives": "Drive chia sẻ",
+  "noSharedDrives": "Không có drive chia sẻ nào.",
+  "noFolders": "Chưa có thư mục nào được đăng ký.",
+  "noFoldersDesc": "Đăng ký thư mục Google Drive để bắt đầu duyệt tài liệu.",
+  "loadMore": "Xem thêm",
+  "newFolder": "Thư mục mới",
+  "newFolderPrompt": "Nhập tên thư mục mới",
+  "viewList": "Dạng danh sách",
+  "viewGrid": "Dạng lưới",
+  "sort": {
+    "date": "Theo ngày",
+    "size": "Theo kích thước",
+    "type": "Theo loại",
+    "owner": "Theo chủ sở hữu"
+  }
+}
