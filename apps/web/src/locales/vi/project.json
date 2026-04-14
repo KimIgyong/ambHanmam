@@ -53,7 +53,9 @@
     "IN_PROGRESS": "Đang thực hiện",
     "ON_HOLD": "Tạm dừng",
     "COMPLETED": "Hoàn thành",
-    "CANCELLED": "Đã hủy"
+    "CANCELLED": "Đã hủy",
+    "ACTIVE": "Đang thực hiện",
+    "CLOSED": "Đã đóng"
   },
   "category": {
     "TECH_BPO": "Tech BPO",

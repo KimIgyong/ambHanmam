@@ -143,7 +143,7 @@ gh auth status
 
 # 1) 저장소 변수
 OWNER=KimIgyong
-REPO=ambManagement
+REPO=ambHanmam
 
 # 2) 브랜치 보호 여부 (true/false)
 gh api repos/$OWNER/$REPO/branches/main --jq '{name: .name, protected: .protected}'

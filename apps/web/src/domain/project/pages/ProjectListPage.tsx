@@ -9,22 +9,26 @@ import ProjectStatusBadge from '../components/ProjectStatusBadge';
 export default function ProjectListPage() {
   const { t } = useTranslation('project');
   const navigate = useNavigate();
-  const [statusFilter, setStatusFilter] = useState('');
+  const [statusFilter, setStatusFilter] = useState('ACTIVE');
   const [searchInput, setSearchInput] = useState('');
   const [sortBy, setSortBy] = useState('latest_issue');
   const [scope, setScope] = useState<'mine' | 'all'>('mine');
   const debouncedSearch = useDebounce(searchInput, 500);
 
+  const apiStatus = statusFilter && statusFilter !== 'ACTIVE' ? statusFilter : undefined;
   const { data: allProjects = [], isLoading } = useProjectList({
-    status: statusFilter || undefined,
+    status: apiStatus,
     search: debouncedSearch || undefined,
     sort: sortBy !== 'latest' ? sortBy : undefined,
     scope,
   });
 
-  // Active projects = APPROVED, IN_PROGRESS, ON_HOLD, COMPLETED
-  const activeStatuses = ['APPROVED', 'IN_PROGRESS', 'ON_HOLD', 'COMPLETED'];
-  const projects = allProjects.filter((p) => activeStatuses.includes(p.status));
+  const ACTIVE_STATUSES = ['APPROVED', 'IN_PROGRESS'];
+  const projects = statusFilter === 'ACTIVE'
+    ? allProjects.filter((p) => ACTIVE_STATUSES.includes(p.status))
+    : statusFilter
+      ? allProjects.filter((p) => p.status === statusFilter)
+      : allProjects;
 
   return (
     <div className="h-full overflow-auto p-4 md:p-6">
@@ -70,7 +74,8 @@ export default function ProjectListPage() {
           className="rounded-md border border-gray-300 px-3 py-2 text-sm"
         >
           <option value="">{t('filter.all')}</option>
-          {['APPROVED', 'IN_PROGRESS', 'ON_HOLD', 'COMPLETED'].map((s) => (
+          <option value="ACTIVE">{t('status.ACTIVE', { defaultValue: '진행중' })}</option>
+          {['ON_HOLD', 'COMPLETED', 'CLOSED', 'CANCELLED'].map((s) => (
             <option key={s} value={s}>{t(`status.${s}`)}</option>
           ))}
         </select>

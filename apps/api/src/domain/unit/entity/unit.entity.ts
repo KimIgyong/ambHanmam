@@ -36,6 +36,14 @@ export class UnitEntity {
   @Column({ name: 'unt_sort_order', type: 'int', default: 0 })
   untSortOrder: number;
 
+  /** 부서장 사용자 ID (hanmam tbl_org.LEADER_NO → UUID 매핑) */
+  @Column({ name: 'unt_leader_id', type: 'uuid', nullable: true })
+  untLeaderId: string | null;
+
+  /** 부서 설명/비고 (hanmam tbl_org.CONTENTS 매핑) */
+  @Column({ name: 'unt_description', type: 'text', nullable: true })
+  untDescription: string | null;
+
   @CreateDateColumn({ name: 'unt_created_at' })
   untCreatedAt: Date;
 

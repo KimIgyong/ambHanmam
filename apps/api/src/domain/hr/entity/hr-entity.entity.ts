@@ -96,6 +96,14 @@ export class HrEntityEntity {
   @Column({ name: 'ent_sort_order', type: 'int', default: 0 })
   entSortOrder: number;
 
+  /** 대표이사 사용자 ID (hanmam tbl_comp.CEO_USER_NO → UUID 매핑) */
+  @Column({ name: 'ent_ceo_user_id', type: 'uuid', nullable: true })
+  entCeoUserId: string | null;
+
+  /** 인건비 귀속 프로젝트 ID (hanmam tbl_comp.LABOR_PRJ_NO → UUID 매핑) */
+  @Column({ name: 'ent_labor_prj_id', type: 'uuid', nullable: true })
+  entLaborPrjId: string | null;
+
   // ── 초대 이메일 브랜딩 ──
 
   /** 초대 이메일 표시 법인명 (미설정 시 entNameEn → entName 순 사용) */

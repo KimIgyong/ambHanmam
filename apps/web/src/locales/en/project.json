@@ -53,7 +53,9 @@
     "IN_PROGRESS": "In Progress",
     "ON_HOLD": "On Hold",
     "COMPLETED": "Completed",
-    "CANCELLED": "Cancelled"
+    "CANCELLED": "Cancelled",
+    "ACTIVE": "In Progress",
+    "CLOSED": "Closed"
   },
   "category": {
     "TECH_BPO": "Tech BPO",

@@ -9,6 +9,7 @@ const STATUS_COLORS: Record<string, string> = {
   IN_PROGRESS: 'bg-indigo-100 text-indigo-700',
   ON_HOLD: 'bg-orange-100 text-orange-700',
   COMPLETED: 'bg-emerald-100 text-emerald-700',
+  CLOSED: 'bg-slate-200 text-slate-600',
   CANCELLED: 'bg-gray-200 text-gray-500',
 };
 
