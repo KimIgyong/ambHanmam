@@ -188,8 +188,8 @@ type: feat | fix | docs | style | refactor | test | chore | hotfix
 | 환경 | Web | API | Portal Web | Portal API | DB |
 |------|-----|-----|-----------|-----------|-----|
 | **개발** | http://localhost:5189 | http://localhost:3019 | http://localhost:5190 | http://localhost:3020 | localhost:5442 |
-| **스테이징** | https://stg-ama.amoeba.site | https://stg-ama.amoeba.site/api/v1 | https://stg-www.amoeba.site | https://stg-www.amoeba.site/api/v1 | Docker 내부 |
-| **프로덕션** | https://ama.amoeba.site | https://ama.amoeba.site/api/v1 | https://www.amoeba.site | https://www.amoeba.site/api/v1 | Docker 내부 |
+| **스테이징** | https://hm-stg.hanmam.kr | https://hm-stg.hanmam.kr/api/v1 | - | - | Docker 내부 |
+| **프로덕션** | 미정 | 미정 | 미정 | 미정 | 미정 |
 
 ### 배포
 
@@ -198,20 +198,20 @@ type: feat | fix | docs | style | refactor | test | chore | hotfix
 |------|---------|----------|
 | **개발** | `bash docker/dev/deploy-dev.sh` | 로컬 |
 | **스테이징** | `bash docker/staging/deploy-staging.sh` | 스테이징 서버 |
-| **프로덕션** | `bash docker/production/deploy-production.sh` | 프로덕션 서버 |
+| **프로덕션** | `bash docker/production/deploy-production.sh` | 프로덕션 서버 (미구성) |
 
 #### 환경별 배포 명령
 - **개발**: `bash docker/dev/deploy-dev.sh`
-- **스테이징**: `ssh amb-staging "cd ~/ambManagement && bash docker/staging/deploy-staging.sh"`
-- **프로덕션**: `ssh amb-production "cd ~/ambManagement && bash docker/production/deploy-production.sh"`
+- **스테이징**: `ssh -p 20002 fremd@172.16.30.159 "cd ~/ambHanmam && bash docker/staging/deploy-staging.sh"`
+- **프로덕션**: 미구성
 - **주의**: 각 환경의 배포 스크립트는 반드시 해당 서버에서 실행 (로컬 실행 시 로컬 Docker에 배포됨)
 - **금지**: `docker compose build` 직접 실행 금지 → 반드시 `deploy-*.sh` 스크립트를 통해 빌드 (`--env-file` 누락 방지)
 - **VITE 변수**: `VITE_*` 환경변수는 빌드 시점 인라인이므로 변경 시 이미지 재빌드 필수
 
 ### 스테이징 서버
-- **SSH**: `ssh amb-staging` (ambmanager@14.161.40.143)
-- **프로젝트 경로**: `~/ambManagement`
-- **Git**: `git@github.com:KimIgyong/ambManagement.git` (main)
+- **SSH**: `ssh -p 20002 fremd@172.16.30.159`
+- **프로젝트 경로**: `~/ambHanmam`
+- **Git**: `git@github.com:KimIgyong/ambHanmam.git` (main)
 
 ## 에러 코드 체계
 - E1xxx: 인증/인가
