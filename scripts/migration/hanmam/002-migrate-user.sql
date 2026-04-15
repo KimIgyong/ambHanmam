@@ -271,11 +271,11 @@ AND NULLIF(TRIM(t1.email), '') IS NOT NULL;
 -- ═══════════════════════════════════════════════════════════
 -- 4) COMP_NO → ent_id 매핑
 -- ═══════════════════════════════════════════════════════════
-UPDATE tmp_user SET ent_id = (SELECT ent_id FROM amb_hr_entities WHERE ent_code = 'SAEHA') WHERE comp_no = 1;
-UPDATE tmp_user SET ent_id = (SELECT ent_id FROM amb_hr_entities WHERE ent_code = 'DOSA')  WHERE comp_no = 3;
-UPDATE tmp_user SET ent_id = (SELECT ent_id FROM amb_hr_entities WHERE ent_code = 'BODA')  WHERE comp_no = 9;
--- COMP_NO=0 (admin 계정) → SAEHA로 배정
-UPDATE tmp_user SET ent_id = (SELECT ent_id FROM amb_hr_entities WHERE ent_code = 'SAEHA') WHERE comp_no = 0;
+UPDATE tmp_user SET ent_id = (SELECT ent_id FROM amb_hr_entities WHERE ent_code = 'KR01') WHERE comp_no = 1;
+UPDATE tmp_user SET ent_id = (SELECT ent_id FROM amb_hr_entities WHERE ent_code = 'GL01') WHERE comp_no = 3;
+UPDATE tmp_user SET ent_id = (SELECT ent_id FROM amb_hr_entities WHERE ent_code = 'KR01') WHERE comp_no = 9;
+-- COMP_NO=0 (admin 계정) → KR01로 배정
+UPDATE tmp_user SET ent_id = (SELECT ent_id FROM amb_hr_entities WHERE ent_code = 'KR01') WHERE comp_no = 0;
 
 -- ═══════════════════════════════════════════════════════════
 -- 5) amb_users INSERT (202건)
@@ -449,11 +449,11 @@ WHERE u.unt_id = om.map_target_pk
 -- ═══════════════════════════════════════════════════════════
 UPDATE amb_hr_entities
 SET ent_ceo_user_id = (SELECT new_usr_id FROM tmp_user WHERE user_no = 2)
-WHERE ent_code = 'SAEHA';
+WHERE ent_code = 'KR01';
 
 UPDATE amb_hr_entities
 SET ent_ceo_user_id = (SELECT new_usr_id FROM tmp_user WHERE user_no = 3)
-WHERE ent_code = 'DOSA';
+WHERE ent_code = 'GL01';
 
 -- ═══════════════════════════════════════════════════════════
 -- 12) amb_user_unit_roles 리더 역할 업데이트

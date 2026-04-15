@@ -437,11 +437,11 @@ ON CONFLICT (prj_no) DO NOTHING;
 -- ============================================================
 -- 3) COMP_PRJ_NO → ent_id 매핑
 -- ============================================================
-UPDATE tmp_prj SET ent_id = (SELECT ent_id FROM amb_hr_entities WHERE ent_code = 'SAEHA') WHERE comp_prj_no = 9361;
-UPDATE tmp_prj SET ent_id = (SELECT ent_id FROM amb_hr_entities WHERE ent_code = 'DOSA')  WHERE comp_prj_no = 9362;
-UPDATE tmp_prj SET ent_id = (SELECT ent_id FROM amb_hr_entities WHERE ent_code = 'BODA')  WHERE comp_prj_no = 14021;
--- 루트(prj_no=1)는 SAEHA로 기본 매핑
-UPDATE tmp_prj SET ent_id = (SELECT ent_id FROM amb_hr_entities WHERE ent_code = 'SAEHA') WHERE ent_id IS NULL;
+UPDATE tmp_prj SET ent_id = (SELECT ent_id FROM amb_hr_entities WHERE ent_code = 'KR01') WHERE comp_prj_no = 9361;
+UPDATE tmp_prj SET ent_id = (SELECT ent_id FROM amb_hr_entities WHERE ent_code = 'GL01') WHERE comp_prj_no = 9362;
+UPDATE tmp_prj SET ent_id = (SELECT ent_id FROM amb_hr_entities WHERE ent_code = 'KR01') WHERE comp_prj_no = 14021;
+-- 루트(prj_no=1)는 KR01로 기본 매핑
+UPDATE tmp_prj SET ent_id = (SELECT ent_id FROM amb_hr_entities WHERE ent_code = 'KR01') WHERE ent_id IS NULL;
 
 -- ============================================================
 -- 4) kms_projects INSERT (380건)

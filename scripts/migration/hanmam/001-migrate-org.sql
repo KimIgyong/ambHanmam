@@ -65,8 +65,8 @@ INSERT INTO tmp_org_map (org_no, up_org_no, comp_no, org_name, org_level, ord, l
   (481, 392, 3, '개발2팀', 3, '20203', 28, 'Y', '', 'N');
 
 -- 3) COMP_NO → ent_id 매핑
-UPDATE tmp_org_map SET ent_id = (SELECT ent_id FROM amb_hr_entities WHERE ent_code = 'SAEHA') WHERE comp_no = 1;
-UPDATE tmp_org_map SET ent_id = (SELECT ent_id FROM amb_hr_entities WHERE ent_code = 'DOSA')  WHERE comp_no = 3;
+UPDATE tmp_org_map SET ent_id = (SELECT ent_id FROM amb_hr_entities WHERE ent_code = 'KR01') WHERE comp_no = 1;
+UPDATE tmp_org_map SET ent_id = (SELECT ent_id FROM amb_hr_entities WHERE ent_code = 'GL01') WHERE comp_no = 3;
 
 -- 4) Level 2 (본부) INSERT → AMB unt_level=1 (Unit)
 INSERT INTO amb_units (unt_id, ent_id, unt_name, unt_parent_id, unt_level, unt_is_active, unt_sort_order, unt_description)
